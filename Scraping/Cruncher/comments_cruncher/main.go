@@ -21,19 +21,17 @@ TODO - move to parquet.
 */
 
 type SubmissionRaw struct {
-	Title      string      `json:"title"`
+	Body       string      `json:"body"`
 	CreatedUTC json.Number `json:"created_utc"`
-	Subreddit  string      `json:"subreddit"`
-	Domain     string      `json:"domain"`
 	Score      int32       `json:"score"`
+	ParentId   string      `json:"parent_id"`
 }
 
 type Submission struct {
-	Title     string `parquet:"name=title, type=BYTE_ARRAY, convertedtype=UTF8"`
-	Datetime  int64  `parquet:"name=dt, type=INT64, logicaltype=TIMESTAMP, logicaltype.isadjustedtoutc=true, logicaltype.unit=MILLIS"`
-	Subreddit string `parquet:"name=subreddit, type=BYTE_ARRAY, convertedtype=UTF8, encoding=PLAIN_DICTIONARY"`
-	Domain    string `parquet:"name=domain, type=BYTE_ARRAY, convertedtype=UTF8, encoding=PLAIN_DICTIONARY"`
-	Score     int32  `parquet:"name=score, type=INT32, convertedtype=UTF8"`
+	Body     string `parquet:"name=body, type=BYTE_ARRAY, convertedtype=UTF8"`
+	Datetime int64  `parquet:"name=dt, type=INT64, logicaltype=TIMESTAMP, logicaltype.isadjustedtoutc=true, logicaltype.unit=MILLIS"`
+	Score    int32  `parquet:"name=score, type=INT32, convertedtype=UTF8"`
+	ParentId string `parquet:"name=parent_id, type=BYTE_ARRAY, convertedtype=UTF8, encoding=PLAIN_DICTIONARY"`
 }
 
 func (s *SubmissionRaw) ToSubmission() Submission {
@@ -47,11 +45,10 @@ func (s *SubmissionRaw) ToSubmission() Submission {
 		timestamp = int64(timestamp2)
 	}
 	return Submission{
-		Title:     s.Title,
-		Datetime:  int64(1000 * timestamp),
-		Subreddit: s.Subreddit,
-		Domain:    s.Domain,
-		Score:     s.Score,
+		Body:     s.Body,
+		Datetime: int64(1000 * timestamp),
+		Score:    s.Score,
+		ParentId: s.ParentId,
 	}
 }
 
@@ -64,7 +61,7 @@ func main() {
 
 	// Parquet writer
 	writer := csv.NewWriter(file)
-	writer.Write([]string{"title", "dt", "subreddit", "domain", "score"})
+	writer.Write([]string{"body", "dt", "score", "parent_id"})
 	// writer, err := writer.NewParquetWriterFromWriter(file, new(Submission), 4)
 	// if err != nil {
 	// 	panic(err)
@@ -93,7 +90,7 @@ func main() {
 		}
 		submission := submissionRaw.ToSubmission()
 		// writer.Write(submission)
-		writer.Write([]string{submission.Title, strconv.FormatInt(submission.Datetime, 10), submission.Subreddit, submission.Domain, strconv.Itoa(int(submission.Score))})
+		writer.Write([]string{submission.Body, strconv.FormatInt(submission.Datetime, 10), strconv.Itoa(int(submission.Score)), submission.ParentId})
 	}
 
 	// if err = writer.WriteStop(); err != nil {

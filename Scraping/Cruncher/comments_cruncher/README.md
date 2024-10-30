@@ -6,3 +6,6 @@ https://dev.to/deadwin19/how-to-install-golang-on-wslwsl2-2880
 ## Building the cruncher application
 go build
 
+## Running the cruncher
+cat file.json | ./cruncher output.csv
+
