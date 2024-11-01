@@ -3,6 +3,8 @@ import csv
 import requests
 from bs4 import BeautifulSoup
 from googlenewsdecoder import new_decoderv1
+import re
+from datetime import datetime
 
 
 class newsScraper:
@@ -20,7 +22,6 @@ class newsScraper:
         # fetch rss feed from google news
         rss_url = f'https://news.google.com/rss/search?q={self.query}+site:{self.site}+after:{self.after}+before:{self.before}&hl=en-US&gl=US&ceid=US:en'
         feed = feedparser.parse(rss_url)
-        print(rss_url)
         # make csv file
         with open(self.csv_name, mode='w', newline='', encoding='utf-8') as file:
             writer = csv.writer(file, quoting = csv.QUOTE_ALL)
@@ -45,7 +46,6 @@ class newsScraper:
                 print("Nothing Found!")
 
 
-    # decode google news links
     def decode_url(self, url):
         try:
             decoded_url = new_decoderv1(url, interval=5)
@@ -57,7 +57,6 @@ class newsScraper:
             return f"error decoding url" 
         
 
-    # scrape article content from link
     def scrape_article_content(self, link):
         try:
             response = requests.get(link)
@@ -73,7 +72,52 @@ class newsScraper:
         except Exception as e:
             return f"error scraping article content"
 
+
+
         
 if __name__ == "__main__":
-    scraper = newsScraper(query='GME', after='2021-01-01', before='2021-03-01', site='bbc.com', max_articles=10)
+   
+    # scraper = newsScraper(query='GME', after='2021-01-01', before='2021-03-01', site='bbc.com', max_articles=10)
+    # scraper.scrape_google_news_feed()
+    # scraper = newsScraper(query='GME', after='2021-03-01', before='2021-05-01', site='bbc.com', max_articles=10)
+    # scraper.scrape_google_news_feed()
+    # scraper = newsScraper(query='GME', after='2021-05-01', before='2021-07-01', site='bbc.com', max_articles=10)
+    # scraper.scrape_google_news_feed()
+
+    # get user input for variables
+    def validate_date(date_text):
+        try:
+            datetime.strptime(date_text, '%Y-%m-%d')
+            return True
+        except ValueError:
+            return False
+
+    query = input("Enter the search query: ").strip()
+    while not query:
+        print("Search query cannot be empty.")
+        query = input("Enter the search query: ").strip()
+
+    after = input("Enter the start date (YYYY-MM-DD): ").strip()
+    while not validate_date(after):
+        print("Invalid date format. Please enter the date in YYYY-MM-DD format.")
+        after = input("Enter the start date (YYYY-MM-DD): ").strip()
+
+    before = input("Enter the end date (YYYY-MM-DD): ").strip()
+    while not validate_date(before):
+        print("Invalid date format. Please enter the date in YYYY-MM-DD format.")
+        before = input("Enter the end date (YYYY-MM-DD): ").strip()
+
+    site = input("Enter the site to search: ").strip()
+    while not site:
+        print("Site cannot be empty.")
+        site = input("Enter the site to search: ").strip()
+
+    max_articles = input("Enter the maximum number of articles to retrieve: ").strip()
+    while not max_articles.isdigit() or int(max_articles) <= 0:
+        print("Please enter a valid positive integer for the maximum number of articles.")
+        max_articles = input("Enter the maximum number of articles to retrieve: ").strip()
+    max_articles = int(max_articles)
+
+
+    scraper = newsScraper(query, after, before, site, max_articles)
     scraper.scrape_google_news_feed()
