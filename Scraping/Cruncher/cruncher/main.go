@@ -3,6 +3,8 @@ package main
 import (
 	"bufio"
 	"os"
+
+	"github.com/xitongsys/parquet-go-source/local"
 )
 
 /*
@@ -23,8 +25,9 @@ func main() {
 	// Reddit processes (submissions/comments)
 	if cmd[:6] == "reddit" {
 		// Next arg is output file
-		outputFilename := os.Args[1]
-		file, err := os.Create(outputFilename)
+		outputFilename := os.Args[2]
+		// file, err := os.Create(outputFilename)
+		file, err := local.NewLocalFileWriter(outputFilename)
 		if err != nil {
 			panic("error creating output file: " + err.Error())
 		}
@@ -36,12 +39,12 @@ func main() {
 
 		// Start process
 		if cmd == "reddit-submissions" {
-			err = ProcessRedditSubmissions(scanner, file)
+			err = ProcessRedditSubmissionsParquet(scanner, file, 10)
 			if err != nil {
 				panic("error processing reddit submissions: " + err.Error())
 			}
 		} else if cmd == "reddit-comments" {
-			err = ProcessRedditComments(scanner, file)
+			err = ProcessRedditCommentsParquet(scanner, file, 10)
 			if err != nil {
 				panic("error processing reddit comments: " + err.Error())
 			}

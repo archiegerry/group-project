@@ -9,6 +9,15 @@ import (
 	"os"
 	"strconv"
 	"strings"
+
+	"github.com/apache/arrow/go/arrow"
+	"github.com/apache/arrow/go/arrow/array"
+	"github.com/apache/arrow/go/arrow/memory"
+
+	// "github.com/apache/arrow/go/parquet/pqarrow"
+
+	"github.com/xitongsys/parquet-go/source"
+	"github.com/xitongsys/parquet-go/writer"
 )
 
 type RedditSubmissionRaw struct {
@@ -16,31 +25,34 @@ type RedditSubmissionRaw struct {
 	CreatedUTC json.Number `json:"created_utc"`
 	Subreddit  string      `json:"subreddit"`
 	Domain     string      `json:"domain"`
-	Score      int32       `json:"score"`
+	Score      int64       `json:"score"`
 	PostId     string      `json:"id"`
 }
 
 type RedditCommentRaw struct {
 	Body       string      `json:"body"`
 	CreatedUTC json.Number `json:"created_utc"`
-	Score      int32       `json:"score"`
-	ParentId   string      `json:"parent_id"`
+	Score      int64       `json:"score"`
+
+	// If it's a string, use parent_id.split("_")[-1], otherwise use permalink.split("/")[4]
+	ParentId  interface{} `json:"parent_id"`
+	Permalink string      `json:"permalink"`
 }
 
 type RedditSubmission struct {
 	Title     string `parquet:"name=title, type=BYTE_ARRAY, convertedtype=UTF8"`
-	Datetime  int64  `parquet:"name=dt, type=INT64, logicaltype=TIMESTAMP, logicaltype.isadjustedtoutc=true, logicaltype.unit=MILLIS"`
 	Subreddit string `parquet:"name=subreddit, type=BYTE_ARRAY, convertedtype=UTF8, encoding=PLAIN_DICTIONARY"`
 	Domain    string `parquet:"name=domain, type=BYTE_ARRAY, convertedtype=UTF8, encoding=PLAIN_DICTIONARY"`
-	Score     int32  `parquet:"name=score, type=INT32, convertedtype=UTF8"`
 	PostId    string `parquet:"name=id, type=BYTE_ARRAY, convertedtype=UTF8, encoding=PLAIN_DICTIONARY"`
+	Datetime  int64  `parquet:"name=dt, type=INT64, logicaltype=TIMESTAMP, logicaltype.isadjustedtoutc=true, logicaltype.unit=MILLIS"`
+	Score     int64  `parquet:"name=score, type=INT32, convertedtype=UTF8"`
 }
 
 type RedditComment struct {
 	Body     string `parquet:"name=body, type=BYTE_ARRAY, convertedtype=UTF8"`
-	Datetime int64  `parquet:"name=dt, type=INT64, logicaltype=TIMESTAMP, logicaltype.isadjustedtoutc=true, logicaltype.unit=MILLIS"`
-	Score    int32  `parquet:"name=score, type=INT32, convertedtype=UTF8"`
 	ParentId string `parquet:"name=parent_id, type=BYTE_ARRAY, convertedtype=UTF8, encoding=PLAIN_DICTIONARY"`
+	Datetime int64  `parquet:"name=dt, type=INT64, logicaltype=TIMESTAMP, logicaltype.isadjustedtoutc=true, logicaltype.unit=MILLIS"`
+	Score    int64  `parquet:"name=score, type=INT32, convertedtype=UTF8"`
 }
 
 func (s *RedditSubmissionRaw) ToSubmission() RedditSubmission {
@@ -73,11 +85,21 @@ func (s *RedditCommentRaw) ToComment() RedditComment {
 		}
 		timestamp = int64(timestamp2)
 	}
+	parentId := ""
+	permalinkParts := strings.Split(parentId, "/")
+	if len(permalinkParts) > 4 {
+		parentId = permalinkParts[4]
+	} else {
+		switch v := s.ParentId.(type) {
+		case string:
+			parentId = strings.Split(v, "_")[1]
+		}
+	}
 	return RedditComment{
 		Body:     s.Body,
 		Datetime: int64(1000 * timestamp),
 		Score:    s.Score,
-		ParentId: s.ParentId,
+		ParentId: parentId,
 	}
 }
 
@@ -103,10 +125,105 @@ func ProcessRedditSubmissions(scanner *bufio.Scanner, output *os.File) error {
 			return fmt.Errorf("error parsing line: " + string(line) + ", " + err.Error())
 		}
 		submission := submissionRaw.ToSubmission()
-		// writer.Write(submission)
 		writer.Write([]string{submission.Title, strconv.FormatInt(submission.Datetime, 10), submission.Subreddit, submission.Domain, strconv.Itoa(int(submission.Score)), submission.PostId})
 	}
 	writer.Flush()
+	output.Close()
+
+	// Check for errors that may have occurred during scanning
+	if err := scanner.Err(); err != nil {
+		return fmt.Errorf("error reading from stdin: " + err.Error())
+	}
+	log.Println("Done.")
+	return nil
+}
+
+// Read input json stream and output to parquet file, have to manually write columns
+func ProcessRedditSubmissionsParquet(scanner *bufio.Scanner, output source.ParquetFile, minScore int64) error {
+	// Create parquet writer
+	// Initialize column builders
+	pool := memory.NewGoAllocator()
+	stringBuilders := make([]*array.StringBuilder, 4)
+	for i := range stringBuilders {
+		stringBuilders[i] = array.NewStringBuilder(pool)
+	}
+	intBuilders := make([]*array.Int64Builder, 2)
+	for i := range intBuilders {
+		intBuilders[i] = array.NewInt64Builder(pool)
+	}
+
+	// Define the schema for Arrow
+	fields := []arrow.Field{
+		{Name: "title", Type: arrow.BinaryTypes.String},
+		{Name: "subreddit", Type: arrow.BinaryTypes.String},
+		{Name: "domain", Type: arrow.BinaryTypes.String},
+		{Name: "id", Type: arrow.BinaryTypes.String},
+		// Epoch milliseconds
+		{Name: "dt", Type: arrow.PrimitiveTypes.Int64},
+		{Name: "score", Type: arrow.PrimitiveTypes.Int64},
+	}
+	schema := arrow.NewSchema(fields, nil)
+
+	// Initialize the Parquet writer
+	arrowWriter, err := writer.NewArrowWriter(schema, output, 1)
+	if err != nil {
+		return err
+	}
+
+	currentRowCount := int64(0)
+	// Flush to file
+	flush := func() {
+		// Convert builders to Arrow arrays
+		columns := make([]array.Interface, len(stringBuilders)+len(intBuilders))
+		for i, builder := range stringBuilders {
+			columns[i] = builder.NewArray()
+		}
+		for i, builder := range intBuilders {
+			columns[i+len(stringBuilders)] = builder.NewArray()
+		}
+
+		// Create a new record batch from the arrays
+		record := array.NewRecord(schema, columns, currentRowCount)
+		defer record.Release()
+
+		// Write the record batch to the Parquet file
+		if err := arrowWriter.WriteArrow(record); err != nil {
+			log.Fatal(err)
+		}
+	}
+
+	// Loop through each line from stdin
+	var submissionRaw RedditSubmissionRaw
+	i := 0
+	for scanner.Scan() {
+		line := scanner.Bytes()
+		submissionRaw = RedditSubmissionRaw{}
+		err = json.Unmarshal(line, &submissionRaw)
+		if err != nil {
+			return fmt.Errorf("error parsing line: " + string(line) + ", " + err.Error())
+		}
+		if submissionRaw.Score < minScore {
+			continue
+		}
+		s := submissionRaw.ToSubmission()
+		// Add to builders
+		stringBuilders[0].Append(s.Title)
+		stringBuilders[1].Append(s.Subreddit)
+		stringBuilders[2].Append(s.Domain)
+		stringBuilders[3].Append(s.PostId)
+		intBuilders[0].Append(s.Datetime)
+		intBuilders[1].Append(s.Score)
+
+		// Flush at interval
+		i += 1
+		if i%4096 == 0 {
+			log.Println(i)
+			flush()
+		}
+
+	}
+	flush()
+	arrowWriter.WriteStop()
 	output.Close()
 
 	// Check for errors that may have occurred during scanning
@@ -142,6 +259,98 @@ func ProcessRedditComments(scanner *bufio.Scanner, output *os.File) error {
 		writer.Write([]string{comment.Body, strconv.FormatInt(comment.Datetime, 10), strconv.Itoa(int(comment.Score)), comment.ParentId})
 	}
 	writer.Flush()
+	output.Close()
+
+	// Check for errors that may have occurred during scanning
+	if err := scanner.Err(); err != nil {
+		return fmt.Errorf("error reading from stdin: " + err.Error())
+	}
+	log.Println("Done.")
+	return nil
+}
+
+// Read input json stream and output to parquet file, have to manually write columns
+func ProcessRedditCommentsParquet(scanner *bufio.Scanner, output source.ParquetFile, minScore int64) error {
+	// Create parquet writer
+	// Initialize column builders
+	pool := memory.NewGoAllocator()
+	stringBuilders := make([]*array.StringBuilder, 2)
+	for i := range stringBuilders {
+		stringBuilders[i] = array.NewStringBuilder(pool)
+	}
+	intBuilders := make([]*array.Int64Builder, 2)
+	for i := range intBuilders {
+		intBuilders[i] = array.NewInt64Builder(pool)
+	}
+
+	// Define the schema for Arrow
+	fields := []arrow.Field{
+		{Name: "body", Type: arrow.BinaryTypes.String},
+		{Name: "parent_id", Type: arrow.BinaryTypes.String},
+		// Epoch milliseconds
+		{Name: "dt", Type: arrow.PrimitiveTypes.Int64},
+		{Name: "score", Type: arrow.PrimitiveTypes.Int64},
+	}
+	schema := arrow.NewSchema(fields, nil)
+
+	// Initialize the Parquet writer
+	arrowWriter, err := writer.NewArrowWriter(schema, output, 1)
+	if err != nil {
+		return err
+	}
+
+	currentRowCount := int64(0)
+	// Flush to file
+	flush := func() {
+		// Convert builders to Arrow arrays
+		columns := make([]array.Interface, len(stringBuilders)+len(intBuilders))
+		for i, builder := range stringBuilders {
+			columns[i] = builder.NewArray()
+		}
+		for i, builder := range intBuilders {
+			columns[i+len(stringBuilders)] = builder.NewArray()
+		}
+
+		// Create a new record batch from the arrays
+		record := array.NewRecord(schema, columns, currentRowCount)
+		defer record.Release()
+
+		// Write the record batch to the Parquet file
+		if err := arrowWriter.WriteArrow(record); err != nil {
+			log.Fatal(err)
+		}
+	}
+
+	// Loop through each line from stdin
+	var commentRaw RedditCommentRaw
+	i := 0
+	for scanner.Scan() {
+		line := scanner.Bytes()
+		commentRaw = RedditCommentRaw{}
+		err = json.Unmarshal(line, &commentRaw)
+		if err != nil {
+			return fmt.Errorf("error parsing line: " + string(line) + ", " + err.Error())
+		}
+		if commentRaw.Score < minScore {
+			continue
+		}
+		c := commentRaw.ToComment()
+		// Add to builders
+		stringBuilders[0].Append(c.Body)
+		stringBuilders[1].Append(c.ParentId)
+		intBuilders[0].Append(c.Datetime)
+		intBuilders[1].Append(c.Score)
+
+		// Flush at interval
+		i += 1
+		if i%4096 == 0 {
+			log.Println(i)
+			flush()
+		}
+
+	}
+	flush()
+	arrowWriter.WriteStop()
 	output.Close()
 
 	// Check for errors that may have occurred during scanning

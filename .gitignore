@@ -1,0 +1,7 @@
+.env
+Scraping/Cruncher/cruncher/cruncher
+cruncher.exe
+*.parquet
+.DS_Store
+*.pyc
+__pycache__
