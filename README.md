@@ -7,7 +7,11 @@ Code repository for our COMP5530M Group Project
 ```
 python3 -m pip install -r requirements.txt
 ```
+(You will likely have to create a venv which this step should be done in)
+
 3. Put the .env file into the Scripts directory.
+
+(Ensure the '.' preceding 'env' is there when downloaded from Google Drive as Chrome removes it by default)
 
 ## Scripts
 Run all scripts from the main directory, i.e. python3 Scripts/script_name.py
