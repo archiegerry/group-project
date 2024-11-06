@@ -9,3 +9,7 @@ scikit-learn==1.5.0
 scipy==1.14.0
 tqdm==4.66.4
 matplotlib==3.9.0
+
+feedparser==6.0.11
+googlenewsdecoder==0.1.6
+requests==2.32.3

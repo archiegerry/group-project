@@ -7,6 +7,7 @@
     pip install feedparser requests beautifulsoup4 googlenewsdecoder
 
   
+(have added them to requirements.txt so not necessarily necessary)
 - May also need to install `setuptools`
 
 
