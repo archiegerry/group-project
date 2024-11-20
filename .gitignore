@@ -5,3 +5,4 @@ cruncher.exe
 .DS_Store
 *.pyc
 __pycache__
+crunch-venv
