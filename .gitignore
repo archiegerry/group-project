@@ -1,8 +1,9 @@
 .env
 Scraping/Cruncher/cruncher/cruncher
 cruncher.exe
-*.parquet
 .DS_Store
+Scraping/Cruncher/cruncher/*.parquet
 *.pyc
 __pycache__
 crunch-venv
+working/*
