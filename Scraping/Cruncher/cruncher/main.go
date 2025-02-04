@@ -14,8 +14,7 @@ Script to convert reddit jsonl streams into a csv file for processing.
 To use:
 zstdcat wallstreetbets_submissions.zst | ./cruncher reddit-submissions output.csv
 zstdcat wallstreetbets_comments.zst | ./cruncher reddit-comments output.csv
-
-TODO - write to parquet instead of csv.
+zstdcat Abbott_Lab_Articles.zst | ./cruncher news-articles output.csv
 
 */
 
