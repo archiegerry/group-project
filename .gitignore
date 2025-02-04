@@ -7,3 +7,4 @@ Scraping/Cruncher/cruncher/*.parquet
 __pycache__
 crunch-venv
 working/*
+Scraping/Cruncher/cruncher/sample/*

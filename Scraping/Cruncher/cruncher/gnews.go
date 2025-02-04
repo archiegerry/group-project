@@ -82,7 +82,7 @@ func ProcessNewsArticles(scanner *bufio.Scanner, output *os.File) error {
 			return fmt.Errorf("error parsing line: " + string(line) + ", " + err.Error())
 		}
 		article := articleRaw.ToArticle()
-		writer.Write([]string{article.Title, article.Description, article.Body, article.Url, strconv.FormatInt(article.DateTime, 10), article.Domain})
+		writer.Write([]string{article.Title, article.Description, article.Body, article.Url, article.DateTime, article.Domain})
 	}
 	writer.Flush()
 	output.Close()
