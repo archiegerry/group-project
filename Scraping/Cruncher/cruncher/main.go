@@ -51,8 +51,28 @@ func main() {
 		} else {
 			panic("invalid reddit command: " + cmd + ", expected reddit-submissions or reddit-comments")
 		}
+	} else if cmd == "news-articles" {
+		// Next arg is output file
+		outputFilename := os.Args[2]
+		// file, err := os.Create(outputFilename)
+		file, err := local.NewLocalFileWriter(outputFilename)
+		if err != nil {
+			panic("error creating output file: " + err.Error())
+		}
+
+		// Read json stream from stdin (use zstdcat |)
+		scanner := bufio.NewScanner(os.Stdin)
+		buf := make([]byte, 16*1024*1024)
+		scanner.Buffer(buf, cap(buf))
+
+		// Start process
+		err = ProcessNewsArticlesParquet(scanner, file, 10)
+		if err != nil {
+			panic("error processing news articles: " + err.Error())
+		}
+
 	} else {
-		panic("invalid command: " + cmd + ", expected reddit-submissions or reddit-comments")
+		panic("invalid command: " + cmd + ", expected reddit-submissions, reddit-comments, or news-articles")
 	}
 
 }
