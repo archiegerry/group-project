@@ -15,6 +15,10 @@ To use:
 zstdcat wallstreetbets_submissions.zst | ./cruncher reddit-submissions output.csv
 zstdcat wallstreetbets_comments.zst | ./cruncher reddit-comments output.csv
 
+OR 
+
+
+
 TODO - write to parquet instead of csv.
 
 */
