@@ -6,13 +6,20 @@ import sys
 # read in stock tickers from csv file
 def read_tickers(path):
     tickers_df = pd.read_csv(path)
-    tickers = tickers_df[['symbol', 'security', 'search_terms']]
+    # separate search terms into list split by '/'
+    tickers_df['search_terms'] = tickers_df['search_terms'].apply(
+        lambda x: [term.strip().lower() for term in str(x).split('/')] if isinstance(x, str) else []
+    )
+    # if security is not already in search terms, add it
+    tickers_df['search_terms'] = tickers_df.apply(
+        lambda x: list(set(x['search_terms'] + [x['security'].strip().lower()])), axis=1
+    )
+    tickers = tickers_df[['symbol','search_terms']]
     return tickers
-
 
 # read in reddit submission parquet file as dataframe
 def read_reddit_parq(path):
-    df = pd.read_parquet(path)
+    df = pd.read_parquet(path) 
     df['text'] = df['title'].fillna('') + " " + df['body'].fillna('')  
     return df['text'].tolist()
 
@@ -44,16 +51,11 @@ def count_tickers(texts, tickers):
         # iterate through each ticker
         for _, row in tickers.iterrows():
             total_count = 0
-            symbol, security, search_terms = row['symbol'], row['security'], row['search_terms']
+            symbol, search_terms = row['symbol'], row['search_terms']
 
-            # Check for security name
-            if security and pd.notna(security):
-                total_count += len(re.findall(rf'\b{re.escape(security.lower())}\b', text_lower))
-                                
             # Check for additional search terms
-            if search_terms and pd.notna(search_terms):
-                terms_list = search_terms.lower().split('/')  # Convert to lowercase & split
-                for term in terms_list:
+            if search_terms:
+                for term in search_terms:
                     if term.strip():  
                         total_count += len(re.findall(rf'\b{re.escape(term.strip())}\b', text_lower))
 
