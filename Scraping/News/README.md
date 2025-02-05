@@ -10,9 +10,3 @@ Downloads all the news articles from gnews
 Uploads to S3
   
 
-## news.ipynb
-  
-Exploratory notebook
-  
-  
-
