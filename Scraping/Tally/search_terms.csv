@@ -1,504 +1,504 @@
 symbol,search_terms
-MMM,"['MMM', 'MMMs', ""MMM's"", '$MMM', '$Mmm', '$MMMs', ""$MMM's"", '3M', '3Ms', ""3M's"", '3M', '3Ms', ""3M's""]"
-AOS,"['AOS', 'AOSs', ""AOS's"", '$AOS', '$Aos', '$AOSs', ""$AOS's"", 'A. O. Smith', 'A. O. Smiths', ""A. O. Smith's"", 'A O Smith', 'A O Smiths', ""A O Smith's"", 'A.O. Smith', 'A.O. Smiths', ""A.O. Smith's"", 'AO Smith', 'AO Smiths', ""AO Smith's""]"
-ABT,"['ABT', 'ABTs', ""ABT's"", '$ABT', '$Abt', '$ABTs', ""$ABT's"", 'Abbott Laboratories', 'Abbott Laboratories']"
-ABBV,"['ABBV', 'ABBVs', ""ABBV's"", '$ABBV', '$Abbv', '$ABBVs', ""$ABBV's"", 'AbbVie', 'AbbVies', ""AbbVie's"", 'AbbVie', 'AbbVies', ""AbbVie's""]"
-ACN,"['ACN', 'ACNs', ""ACN's"", '$ACN', '$Acn', '$ACNs', ""$ACN's"", 'Accenture', 'Accentures', ""Accenture's"", 'Accenture', 'Accentures', ""Accenture's""]"
-ADBE,"['ADBE', 'ADBEs', ""ADBE's"", '$ADBE', '$Adbe', '$ADBEs', ""$ADBE's"", 'Adobe Inc.', 'Adobe Inc.s', ""Adobe Inc.'s"", 'Adobe', 'Adobes', ""Adobe's""]"
-AMD,"['AMD', 'AMDs', ""AMD's"", '$AMD', '$Amd', '$AMDs', ""$AMD's"", 'Advanced Micro Devices', 'Advanced Micro Devices', 'AMD', 'AMDs', ""AMD's""]"
-AES,"['AES', 'AESs', ""AES's"", '$AES', '$Aes', '$AESs', ""$AES's"", 'AES Corporation', 'AES Corporations', ""AES Corporation's"", 'AES', 'AESs', ""AES's""]"
-AFL,"['AFL', 'AFLs', ""AFL's"", '$AFL', '$Afl', '$AFLs', ""$AFL's"", 'Aflac', 'Aflacs', ""Aflac's"", 'Aflac', 'Aflacs', ""Aflac's""]"
-A,"['A', 'As', ""A's"", '$A', '$A', '$As', ""$A's"", 'Agilent Technologies', 'Agilent', 'Agilents', ""Agilent's""]"
-APD,"['APD', 'APDs', ""APD's"", '$APD', '$Apd', '$APDs', ""$APD's"", 'Air Products', 'Air Products']"
-ABNB,"['ABNB', 'ABNBs', ""ABNB's"", '$ABNB', '$Abnb', '$ABNBs', ""$ABNB's"", 'Airbnb', 'Airbnbs', ""Airbnb's"", 'Airbnb', 'Airbnbs', ""Airbnb's""]"
-AKAM,"['AKAM', 'AKAMs', ""AKAM's"", '$AKAM', '$Akam', '$AKAMs', ""$AKAM's"", 'Akamai Technologies', 'Akamai', 'Akamais', ""Akamai's""]"
-ALB,"['ALB', 'ALBs', ""ALB's"", '$ALB', '$Alb', '$ALBs', ""$ALB's"", 'Albemarle Corporation', 'Albemarle Corporations', ""Albemarle Corporation's"", 'Albemarle', 'Albemarles', ""Albemarle's""]"
-ARE,"['ARE', 'AREs', ""ARE's"", '$ARE', '$Are', '$AREs', ""$ARE's"", 'Alexandria Real Estate Equities', 'Alexandria Real Estate', 'Alexandria Real Estates', ""Alexandria Real Estate's""]"
-ALGN,"['ALGN', 'ALGNs', ""ALGN's"", '$ALGN', '$Algn', '$ALGNs', ""$ALGN's"", 'Align Technology', 'Align Technologys', ""Align Technology's"", 'Align Technology', 'Align Technologys', ""Align Technology's""]"
-ALLE,"['ALLE', 'ALLEs', ""ALLE's"", '$ALLE', '$Alle', '$ALLEs', ""$ALLE's"", 'Allegion', 'Allegions', ""Allegion's"", 'Allegion', 'Allegions', ""Allegion's""]"
-LNT,"['LNT', 'LNTs', ""LNT's"", '$LNT', '$Lnt', '$LNTs', ""$LNT's"", 'Alliant Energy', 'Alliant Energys', ""Alliant Energy's"", 'Alliant Energy', 'Alliant Energys', ""Alliant Energy's""]"
-ALL,"['ALL', 'ALLs', ""ALL's"", '$ALL', '$All', '$ALLs', ""$ALL's"", 'Allstate', 'Allstates', ""Allstate's"", 'Allstate', 'Allstates', ""Allstate's""]"
-GOOGL,"['GOOGL', 'GOOGLs', ""GOOGL's"", '$GOOGL', '$Googl', '$GOOGLs', ""$GOOGL's"", 'Alphabet Inc. (Class A)', 'Alphabet Inc. (Class A)s', ""Alphabet Inc. (Class A)'s"", 'Alphabet', 'Alphabets', ""Alphabet's"", 'Google', 'Googles', ""Google's""]"
-GOOG,"['GOOG', 'GOOGs', ""GOOG's"", '$GOOG', '$Goog', '$GOOGs', ""$GOOG's"", 'Alphabet Inc. (Class C)', 'Alphabet Inc. (Class C)s', ""Alphabet Inc. (Class C)'s"", 'Alphabet', 'Alphabets', ""Alphabet's"", 'Google', 'Googles', ""Google's""]"
-MO,"['MO', 'MOs', ""MO's"", '$MO', '$Mo', '$MOs', ""$MO's"", 'Altria', 'Altrias', ""Altria's"", 'Altria', 'Altrias', ""Altria's""]"
-AMZN,"['AMZN', 'AMZNs', ""AMZN's"", '$AMZN', '$Amzn', '$AMZNs', ""$AMZN's"", 'Amazon', 'Amazons', ""Amazon's"", 'Amazon', 'Amazons', ""Amazon's""]"
-AMCR,"['AMCR', 'AMCRs', ""AMCR's"", '$AMCR', '$Amcr', '$AMCRs', ""$AMCR's"", 'Amcor', 'Amcors', ""Amcor's"", 'Amcor', 'Amcors', ""Amcor's""]"
-AMTM,"['AMTM', 'AMTMs', ""AMTM's"", '$AMTM', '$Amtm', '$AMTMs', ""$AMTM's"", 'Amentum', 'Amentums', ""Amentum's"", 'Amentum', 'Amentums', ""Amentum's""]"
-AEE,"['AEE', 'AEEs', ""AEE's"", '$AEE', '$Aee', '$AEEs', ""$AEE's"", 'Ameren', 'Amerens', ""Ameren's"", 'Ameren', 'Amerens', ""Ameren's""]"
-AEP,"['AEP', 'AEPs', ""AEP's"", '$AEP', '$Aep', '$AEPs', ""$AEP's"", 'American Electric Power', 'American Electric Powers', ""American Electric Power's"", 'American Electric Power', 'American Electric Powers', ""American Electric Power's""]"
-AXP,"['AXP', 'AXPs', ""AXP's"", '$AXP', '$Axp', '$AXPs', ""$AXP's"", 'American Express', 'American Express']"
-AIG,"['AIG', 'AIGs', ""AIG's"", '$AIG', '$Aig', '$AIGs', ""$AIG's"", 'American International Group', 'American International Groups', ""American International Group's"", 'American International', 'American Internationals', ""American International's""]"
-AMT,"['AMT', 'AMTs', ""AMT's"", '$AMT', '$Amt', '$AMTs', ""$AMT's"", 'American Tower', 'American Towers', ""American Tower's"", 'American Tower', 'American Towers', ""American Tower's""]"
-AWK,"['AWK', 'AWKs', ""AWK's"", '$AWK', '$Awk', '$AWKs', ""$AWK's"", 'American Water Works', 'American Water Works']"
-AMP,"['AMP', 'AMPs', ""AMP's"", '$AMP', '$Amp', '$AMPs', ""$AMP's"", 'Ameriprise Financial', 'Ameriprise Financials', ""Ameriprise Financial's"", 'Ameriprise Financial', 'Ameriprise Financials', ""Ameriprise Financial's""]"
-AME,"['AME', 'AMEs', ""AME's"", '$AME', '$Ame', '$AMEs', ""$AME's"", 'Ametek', 'Ameteks', ""Ametek's"", 'Ametek', 'Ameteks', ""Ametek's""]"
-AMGN,"['AMGN', 'AMGNs', ""AMGN's"", '$AMGN', '$Amgn', '$AMGNs', ""$AMGN's"", 'Amgen', 'Amgens', ""Amgen's"", 'Amgen', 'Amgens', ""Amgen's""]"
-APH,"['APH', 'APHs', ""APH's"", '$APH', '$Aph', '$APHs', ""$APH's"", 'Amphenol', 'Amphenols', ""Amphenol's"", 'Amphenol', 'Amphenols', ""Amphenol's""]"
-ADI,"['ADI', 'ADIs', ""ADI's"", '$ADI', '$Adi', '$ADIs', ""$ADI's"", 'Analog Devices']"
-ANSS,"['ANSS', 'ANSSs', ""ANSS's"", '$ANSS', '$Anss', '$ANSSs', ""$ANSS's"", 'Ansys', 'Ansys']"
-AON,"['AON', 'AONs', ""AON's"", '$AON', '$Aon', '$AONs', ""$AON's"", 'Aon', 'Aons', ""Aon's"", 'Aon', 'Aons', ""Aon's""]"
-APA,"['APA', 'APAs', ""APA's"", '$APA', '$Apa', '$APAs', ""$APA's"", 'APA Corporation', 'APA Corporations', ""APA Corporation's"", 'APA', 'APAs', ""APA's""]"
-AAPL,"['AAPL', 'AAPLs', ""AAPL's"", '$AAPL', '$Aapl', '$AAPLs', ""$AAPL's"", 'Apple Inc.', 'Apple Inc.s', ""Apple Inc.'s"", 'Apple', 'Apples', ""Apple's""]"
-AMAT,"['AMAT', 'AMATs', ""AMAT's"", '$AMAT', '$Amat', '$AMATs', ""$AMAT's"", 'Applied Materials', 'Applied Materials']"
-APTV,"['APTV', 'APTVs', ""APTV's"", '$APTV', '$Aptv', '$APTVs', ""$APTV's"", 'Aptiv', 'Aptivs', ""Aptiv's"", 'Aptiv', 'Aptivs', ""Aptiv's""]"
-ACGL,"['ACGL', 'ACGLs', ""ACGL's"", '$ACGL', '$Acgl', '$ACGLs', ""$ACGL's"", 'Arch Capital Group', 'Arch Capital Groups', ""Arch Capital Group's"", 'Arch Capital', 'Arch Capitals', ""Arch Capital's""]"
-ADM,"['ADM', 'ADMs', ""ADM's"", '$ADM', '$Adm', '$ADMs', ""$ADM's"", 'Archer Daniels Midland', 'Archer Daniels Midlands', ""Archer Daniels Midland's"", 'Archer Daniels Midland', 'Archer Daniels Midlands', ""Archer Daniels Midland's""]"
-ANET,"['ANET', 'ANETs', ""ANET's"", '$ANET', '$Anet', '$ANETs', ""$ANET's"", 'Arista Networks', 'Arista Networks']"
-AJG,"['AJG', 'AJGs', ""AJG's"", '$AJG', '$Ajg', '$AJGs', ""$AJG's"", 'Arthur J. Gallagher & Co.', 'Arthur J. Gallagher & Co.s', ""Arthur J. Gallagher & Co.'s"", 'Arthur J Gallagher', 'Arthur J Gallaghers', ""Arthur J Gallagher's""]"
-AIZ,"['AIZ', 'AIZs', ""AIZ's"", '$AIZ', '$Aiz', '$AIZs', ""$AIZ's"", 'Assurant', 'Assurants', ""Assurant's"", 'Assurant', 'Assurants', ""Assurant's""]"
-T,"['T', 'Ts', ""T's"", '$T', '$T', '$Ts', ""$T's"", 'AT&T', 'AT&Ts', ""AT&T's"", 'AT&T', 'AT&Ts', ""AT&T's""]"
-ATO,"['ATO', 'ATOs', ""ATO's"", '$ATO', '$Ato', '$ATOs', ""$ATO's"", 'Atmos Energy', 'Atmos Energys', ""Atmos Energy's"", 'Atmos']"
-ADSK,"['ADSK', 'ADSKs', ""ADSK's"", '$ADSK', '$Adsk', '$ADSKs', ""$ADSK's"", 'Autodesk', 'Autodesks', ""Autodesk's"", 'Autodesk', 'Autodesks', ""Autodesk's""]"
-ADP,"['ADP', 'ADPs', ""ADP's"", '$ADP', '$Adp', '$ADPs', ""$ADP's"", 'Automatic Data Processing', 'Automatic Data Processings', ""Automatic Data Processing's"", 'Automatic Data Processing', 'Automatic Data Processings', ""Automatic Data Processing's""]"
-AZO,"['AZO', 'AZOs', ""AZO's"", '$AZO', '$Azo', '$AZOs', ""$AZO's"", 'AutoZone', 'AutoZones', ""AutoZone's"", 'AutoZone', 'AutoZones', ""AutoZone's""]"
-AVB,"['AVB', 'AVBs', ""AVB's"", '$AVB', '$Avb', '$AVBs', ""$AVB's"", 'AvalonBay Communities', 'AvalonBay Communities', 'AvalonBay', 'AvalonBays', ""AvalonBay's""]"
-AVY,"['AVY', 'AVYs', ""AVY's"", '$AVY', '$Avy', '$AVYs', ""$AVY's"", 'Avery Dennison', 'Avery Dennisons', ""Avery Dennison's"", 'Avery Dennison', 'Avery Dennisons', ""Avery Dennison's""]"
-AXON,"['AXON', 'AXONs', ""AXON's"", '$AXON', '$Axon', '$AXONs', ""$AXON's"", 'Axon Enterprise', 'Axon Enterprises', ""Axon Enterprise's"", 'Axon Enterprise', 'Axon Enterprises', ""Axon Enterprise's"", 'Axon', 'Axons', ""Axon's""]"
-BKR,"['BKR', 'BKRs', ""BKR's"", '$BKR', '$Bkr', '$BKRs', ""$BKR's"", 'Baker Hughes', 'Baker Hughes']"
-BALL,"['BALL', 'BALLs', ""BALL's"", '$BALL', '$Ball', '$BALLs', ""$BALL's"", 'Ball Corporation', 'Ball Corporations', ""Ball Corporation's""]"
-BAC,"['BAC', 'BACs', ""BAC's"", '$BAC', '$Bac', '$BACs', ""$BAC's"", 'Bank of America', 'Bank of Americas', ""Bank of America's"", 'Bank of America', 'Bank of Americas', ""Bank of America's"", 'BofA', 'BofAs', ""BofA's""]"
-BAX,"['BAX', 'BAXs', ""BAX's"", '$BAX', '$Bax', '$BAXs', ""$BAX's"", 'Baxter International', 'Baxter Internationals', ""Baxter International's"", 'Baxter International', 'Baxter Internationals', ""Baxter International's""]"
-BDX,"['BDX', 'BDXs', ""BDX's"", '$BDX', '$Bdx', '$BDXs', ""$BDX's"", 'Becton Dickinson', 'Becton Dickinsons', ""Becton Dickinson's"", 'Becton Dickinson', 'Becton Dickinsons', ""Becton Dickinson's""]"
-BRK.B,"['BRK.B', 'BRK.Bs', ""BRK.B's"", '$BRK.B', '$Brk.b', '$BRK.Bs', ""$BRK.B's"", 'Berkshire Hathaway', 'Berkshire Hathaways', ""Berkshire Hathaway's"", 'Berkshire', 'Berkshires', ""Berkshire's""]"
-BBY,"['BBY', 'BBYs', ""BBY's"", '$BBY', '$Bby', '$BBYs', ""$BBY's"", 'Best Buy', 'Best Buys', ""Best Buy's"", 'Best Buy', 'Best Buys', ""Best Buy's""]"
-TECH,"['TECH', 'TECHs', ""TECH's"", '$TECH', '$Tech', '$TECHs', ""$TECH's"", 'Bio-Techne', 'Bio-Technes', ""Bio-Techne's"", 'Bio Techne', 'Bio Technes', ""Bio Techne's""]"
-BIIB,"['BIIB', 'BIIBs', ""BIIB's"", '$BIIB', '$Biib', '$BIIBs', ""$BIIB's"", 'Biogen', 'Biogens', ""Biogen's"", 'Biogen', 'Biogens', ""Biogen's""]"
-BLK,"['BLK', 'BLKs', ""BLK's"", '$BLK', '$Blk', '$BLKs', ""$BLK's"", 'BlackRock', 'BlackRocks', ""BlackRock's"", 'BlackRock', 'BlackRocks', ""BlackRock's""]"
-BX,"['BX', 'BXs', ""BX's"", '$BX', '$Bx', '$BXs', ""$BX's"", 'Blackstone Inc.', 'Blackstone Inc.s', ""Blackstone Inc.'s"", 'Blackstone', 'Blackstones', ""Blackstone's""]"
-BK,"['BK', 'BKs', ""BK's"", '$BK', '$Bk', '$BKs', ""$BK's"", 'BNY Mellon', 'BNY Mellons', ""BNY Mellon's"", 'BNY Mellon', 'BNY Mellons', ""BNY Mellon's""]"
-BA,"['BA', 'BAs', ""BA's"", '$BA', '$Ba', '$BAs', ""$BA's"", 'Boeing', 'Boeings', ""Boeing's"", 'Boeing', 'Boeings', ""Boeing's""]"
-BKNG,"['BKNG', 'BKNGs', ""BKNG's"", '$BKNG', '$Bkng', '$BKNGs', ""$BKNG's"", 'Booking Holdings', 'Booking.com', 'Booking.coms', ""Booking.com's""]"
-BWA,"['BWA', 'BWAs', ""BWA's"", '$BWA', '$Bwa', '$BWAs', ""$BWA's"", 'BorgWarner', 'BorgWarners', ""BorgWarner's"", 'BorgWarner', 'BorgWarners', ""BorgWarner's""]"
-BSX,"['BSX', 'BSXs', ""BSX's"", '$BSX', '$Bsx', '$BSXs', ""$BSX's"", 'Boston Scientific', 'Boston Scientifics', ""Boston Scientific's"", 'Boston Scientific', 'Boston Scientifics', ""Boston Scientific's""]"
-BMY,"['BMY', 'BMYs', ""BMY's"", '$BMY', '$Bmy', '$BMYs', ""$BMY's"", 'Bristol Myers Squibb', 'Bristol Myers Squibbs', ""Bristol Myers Squibb's"", 'Bristol Myers Squibb', 'Bristol Myers Squibbs', ""Bristol Myers Squibb's""]"
-AVGO,"['AVGO', 'AVGOs', ""AVGO's"", '$AVGO', '$Avgo', '$AVGOs', ""$AVGO's"", 'Broadcom', 'Broadcoms', ""Broadcom's"", 'Broadcom', 'Broadcoms', ""Broadcom's""]"
-BR,"['BR', 'BRs', ""BR's"", '$BR', '$Br', '$BRs', ""$BR's"", 'Broadridge Financial Solutions', 'Broadridge Financial Solutions']"
-BRO,"['BRO', 'BROs', ""BRO's"", '$BRO', '$Bro', '$BROs', ""$BRO's"", 'Brown & Brown', 'Brown & Browns', ""Brown & Brown's"", 'Brown & Brown', 'Brown & Browns', ""Brown & Brown's""]"
-BF.B,"['BF.B', 'BF.Bs', ""BF.B's"", '$BF.B', '$Bf.b', '$BF.Bs', ""$BF.B's"", 'Brown–Forman', 'Brown–Formans', ""Brown–Forman's"", 'Brown Forman', 'Brown Formans', ""Brown Forman's""]"
-BLDR,"['BLDR', 'BLDRs', ""BLDR's"", '$BLDR', '$Bldr', '$BLDRs', ""$BLDR's"", 'Builders FirstSource', 'Builders FirstSources', ""Builders FirstSource's"", 'Builders FirstSource', 'Builders FirstSources', ""Builders FirstSource's""]"
-BG,"['BG', 'BGs', ""BG's"", '$BG', '$Bg', '$BGs', ""$BG's"", 'Bunge Global', 'Bunge Globals', ""Bunge Global's"", 'Bunge Global', 'Bunge Globals', ""Bunge Global's""]"
-BXP,"['BXP', 'BXPs', ""BXP's"", '$BXP', '$Bxp', '$BXPs', ""$BXP's"", 'BXP, Inc.', 'BXP, Inc.s', ""BXP, Inc.'s"", 'BXP', 'BXPs', ""BXP's""]"
-CHRW,"['CHRW', 'CHRWs', ""CHRW's"", '$CHRW', '$Chrw', '$CHRWs', ""$CHRW's"", 'C.H. Robinson', 'C.H. Robinsons', ""C.H. Robinson's"", 'C.H. Robinson', 'C.H. Robinsons', ""C.H. Robinson's""]"
-CDNS,"['CDNS', 'CDNSs', ""CDNS's"", '$CDNS', '$Cdns', '$CDNSs', ""$CDNS's"", 'Cadence Design Systems', 'Cadence Design Systems']"
-CZR,"['CZR', 'CZRs', ""CZR's"", '$CZR', '$Czr', '$CZRs', ""$CZR's"", 'Caesars Entertainment', 'Caesars Entertainments', ""Caesars Entertainment's"", 'Caesars Entertainment', 'Caesars Entertainments', ""Caesars Entertainment's""]"
-CPT,"['CPT', 'CPTs', ""CPT's"", '$CPT', '$Cpt', '$CPTs', ""$CPT's"", 'Camden Property Trust', 'Camden Property Trusts', ""Camden Property Trust's"", 'Camden Property Trust', 'Camden Property Trusts', ""Camden Property Trust's""]"
-CPB,"['CPB', 'CPBs', ""CPB's"", '$CPB', '$Cpb', '$CPBs', ""$CPB's"", 'Campbell Soup Company', 'Campbell Soup Companys', ""Campbell Soup Company's"", 'Campbell Soup', 'Campbell Soups', ""Campbell Soup's""]"
-COF,"['COF', 'COFs', ""COF's"", '$COF', '$Cof', '$COFs', ""$COF's"", 'Capital One', 'Capital Ones', ""Capital One's"", 'Capital One', 'Capital Ones', ""Capital One's""]"
-CAH,"['CAH', 'CAHs', ""CAH's"", '$CAH', '$Cah', '$CAHs', ""$CAH's"", 'Cardinal Health', 'Cardinal Healths', ""Cardinal Health's"", 'Cardinal Health', 'Cardinal Healths', ""Cardinal Health's""]"
-KMX,"['KMX', 'KMXs', ""KMX's"", '$KMX', '$Kmx', '$KMXs', ""$KMX's"", 'CarMax', 'CarMaxs', ""CarMax's"", 'CarMax', 'CarMaxs', ""CarMax's""]"
-CCL,"['CCL', 'CCLs', ""CCL's"", '$CCL', '$Ccl', '$CCLs', ""$CCL's"", 'Carnival', 'Carnivals', ""Carnival's"", 'Carnival', 'Carnivals', ""Carnival's""]"
-CARR,"['CARR', 'CARRs', ""CARR's"", '$CARR', '$Carr', '$CARRs', ""$CARR's"", 'Carrier Global', 'Carrier Globals', ""Carrier Global's"", 'Carrier Global', 'Carrier Globals', ""Carrier Global's""]"
-CAT,"['CAT', 'CATs', ""CAT's"", '$CAT', '$Cat', '$CATs', ""$CAT's"", 'Caterpillar Inc.', 'Caterpillar Inc.s', ""Caterpillar Inc.'s"", 'Caterpillar', 'Caterpillars', ""Caterpillar's""]"
-CBOE,"['CBOE', 'CBOEs', ""CBOE's"", '$CBOE', '$Cboe', '$CBOEs', ""$CBOE's"", 'Cboe Global Markets', 'Cboe Global Markets', 'Cboe', 'Cboes', ""Cboe's""]"
-CBRE,"['CBRE', 'CBREs', ""CBRE's"", '$CBRE', '$Cbre', '$CBREs', ""$CBRE's"", 'CBRE Group', 'CBRE Groups', ""CBRE Group's"", 'CBRE', 'CBREs', ""CBRE's""]"
-CDW,"['CDW', 'CDWs', ""CDW's"", '$CDW', '$Cdw', '$CDWs', ""$CDW's"", 'CDW', 'CDWs', ""CDW's"", 'CDW', 'CDWs', ""CDW's""]"
-CE,"['CE', 'CEs', ""CE's"", '$CE', '$Ce', '$CEs', ""$CE's"", 'Celanese', 'Celaneses', ""Celanese's"", 'Celanese', 'Celaneses', ""Celanese's""]"
-COR,"['COR', 'CORs', ""COR's"", '$COR', '$Cor', '$CORs', ""$COR's"", 'Cencora', 'Cencoras', ""Cencora's"", 'Cencora', 'Cencoras', ""Cencora's""]"
-CNC,"['CNC', 'CNCs', ""CNC's"", '$CNC', '$Cnc', '$CNCs', ""$CNC's"", 'Centene Corporation', 'Centene Corporations', ""Centene Corporation's"", 'Centene', 'Centenes', ""Centene's""]"
-CNP,"['CNP', 'CNPs', ""CNP's"", '$CNP', '$Cnp', '$CNPs', ""$CNP's"", 'CenterPoint Energy', 'CenterPoint Energys', ""CenterPoint Energy's"", 'CenterPoint', 'CenterPoints', ""CenterPoint's""]"
-CF,"['CF', 'CFs', ""CF's"", '$CF', '$Cf', '$CFs', ""$CF's"", 'CF Industries', 'CF Industries']"
-CRL,"['CRL', 'CRLs', ""CRL's"", '$CRL', '$Crl', '$CRLs', ""$CRL's"", 'Charles River Laboratories', 'Charles River', 'Charles Rivers', ""Charles River's""]"
-SCHW,"['SCHW', 'SCHWs', ""SCHW's"", '$SCHW', '$Schw', '$SCHWs', ""$SCHW's"", 'Charles Schwab Corporation', 'Charles Schwab Corporations', ""Charles Schwab Corporation's"", 'Schwab', 'Schwabs', ""Schwab's""]"
-CHTR,"['CHTR', 'CHTRs', ""CHTR's"", '$CHTR', '$Chtr', '$CHTRs', ""$CHTR's"", 'Charter Communications', 'Charter Communications']"
-CVX,"['CVX', 'CVXs', ""CVX's"", '$CVX', '$Cvx', '$CVXs', ""$CVX's"", 'Chevron Corporation', 'Chevron Corporations', ""Chevron Corporation's"", 'Chevron', 'Chevrons', ""Chevron's""]"
-CMG,"['CMG', 'CMGs', ""CMG's"", '$CMG', '$Cmg', '$CMGs', ""$CMG's"", 'Chipotle Mexican Grill', 'Chipotle Mexican Grills', ""Chipotle Mexican Grill's"", 'Chipotle', 'Chipotles', ""Chipotle's""]"
-CB,"['CB', 'CBs', ""CB's"", '$CB', '$Cb', '$CBs', ""$CB's"", 'Chubb Limited', 'Chubb Limiteds', ""Chubb Limited's"", 'Chubb', 'Chubbs', ""Chubb's""]"
-CHD,"['CHD', 'CHDs', ""CHD's"", '$CHD', '$Chd', '$CHDs', ""$CHD's"", 'Church & Dwight', 'Church & Dwights', ""Church & Dwight's"", 'Church Dwight', 'Church Dwights', ""Church Dwight's""]"
-CI,"['CI', 'CIs', ""CI's"", '$CI', '$Ci', '$CIs', ""$CI's"", 'Cigna', 'Cignas', ""Cigna's"", 'Cigna', 'Cignas', ""Cigna's""]"
-CINF,"['CINF', 'CINFs', ""CINF's"", '$CINF', '$Cinf', '$CINFs', ""$CINF's"", 'Cincinnati Financial', 'Cincinnati Financials', ""Cincinnati Financial's"", 'Cincinnati Financial', 'Cincinnati Financials', ""Cincinnati Financial's""]"
-CTAS,"['CTAS', 'CTASs', ""CTAS's"", '$CTAS', '$Ctas', '$CTASs', ""$CTAS's"", 'Cintas', 'Cintas']"
-CSCO,"['CSCO', 'CSCOs', ""CSCO's"", '$CSCO', '$Csco', '$CSCOs', ""$CSCO's"", 'Cisco', 'Ciscos', ""Cisco's"", 'Cisco', 'Ciscos', ""Cisco's""]"
-C,"['C', 'Cs', ""C's"", '$C', '$C', '$Cs', ""$C's"", 'Citigroup', 'Citigroups', ""Citigroup's"", 'Citigroup', 'Citigroups', ""Citigroup's""]"
-CFG,"['CFG', 'CFGs', ""CFG's"", '$CFG', '$Cfg', '$CFGs', ""$CFG's"", 'Citizens Financial Group', 'Citizens Financial Groups', ""Citizens Financial Group's"", 'Citizens Financial', 'Citizens Financials', ""Citizens Financial's""]"
-CLX,"['CLX', 'CLXs', ""CLX's"", '$CLX', '$Clx', '$CLXs', ""$CLX's"", 'Clorox', 'Cloroxs', ""Clorox's"", 'Clorox', 'Cloroxs', ""Clorox's""]"
-CME,"['CME', 'CMEs', ""CME's"", '$CME', '$Cme', '$CMEs', ""$CME's"", 'CME Group', 'CME Groups', ""CME Group's"", 'CME', 'CMEs', ""CME's""]"
-CMS,"['CMS', 'CMSs', ""CMS's"", '$CMS', '$Cms', '$CMSs', ""$CMS's"", 'CMS Energy', 'CMS Energys', ""CMS Energy's"", 'CMS Energy', 'CMS Energys', ""CMS Energy's""]"
-KO,"['KO', 'KOs', ""KO's"", '$KO', '$Ko', '$KOs', ""$KO's"", 'Coca-Cola Company (The)', 'Coca-Cola Company (The)s', ""Coca-Cola Company (The)'s"", 'Coca Cola', 'Coca Colas', ""Coca Cola's""]"
-CTSH,"['CTSH', 'CTSHs', ""CTSH's"", '$CTSH', '$Ctsh', '$CTSHs', ""$CTSH's"", 'Cognizant', 'Cognizants', ""Cognizant's"", 'Cognizant', 'Cognizants', ""Cognizant's""]"
-CL,"['CL', 'CLs', ""CL's"", '$CL', '$Cl', '$CLs', ""$CL's"", 'Colgate-Palmolive', 'Colgate-Palmolives', ""Colgate-Palmolive's"", 'Colgate', 'Colgates', ""Colgate's"", 'Palmolive', 'Palmolives', ""Palmolive's""]"
-CMCSA,"['CMCSA', 'CMCSAs', ""CMCSA's"", '$CMCSA', '$Cmcsa', '$CMCSAs', ""$CMCSA's"", 'Comcast', 'Comcasts', ""Comcast's"", 'Comcast', 'Comcasts', ""Comcast's""]"
-CAG,"['CAG', 'CAGs', ""CAG's"", '$CAG', '$Cag', '$CAGs', ""$CAG's"", 'Conagra Brands', 'Conagra', 'Conagras', ""Conagra's""]"
-COP,"['COP', 'COPs', ""COP's"", '$COP', '$Cop', '$COPs', ""$COP's"", 'ConocoPhillips', 'ConocoPhillips']"
-ED,"['ED', 'EDs', ""ED's"", '$ED', '$Ed', '$EDs', ""$ED's"", 'Consolidated Edison', 'Consolidated Edisons', ""Consolidated Edison's"", 'Consolidated Edison', 'Consolidated Edisons', ""Consolidated Edison's""]"
-STZ,"['STZ', 'STZs', ""STZ's"", '$STZ', '$Stz', '$STZs', ""$STZ's"", 'Constellation Brands', 'Constellation Brands']"
-CEG,"['CEG', 'CEGs', ""CEG's"", '$CEG', '$Ceg', '$CEGs', ""$CEG's"", 'Constellation Energy', 'Constellation Energys', ""Constellation Energy's"", 'Constellation Energy', 'Constellation Energys', ""Constellation Energy's""]"
-COO,"['COO', 'COOs', ""COO's"", '$COO', '$Coo', '$COOs', ""$COO's"", 'Cooper Companies (The)', 'Cooper Companies (The)s', ""Cooper Companies (The)'s"", 'Cooper', 'Coopers', ""Cooper's""]"
-CPRT,"['CPRT', 'CPRTs', ""CPRT's"", '$CPRT', '$Cprt', '$CPRTs', ""$CPRT's"", 'Copart', 'Coparts', ""Copart's"", 'Copart', 'Coparts', ""Copart's""]"
-GLW,"['GLW', 'GLWs', ""GLW's"", '$GLW', '$Glw', '$GLWs', ""$GLW's"", 'Corning Inc.', 'Corning Inc.s', ""Corning Inc.'s"", 'Corning', 'Cornings', ""Corning's""]"
-CPAY,"['CPAY', 'CPAYs', ""CPAY's"", '$CPAY', '$Cpay', '$CPAYs', ""$CPAY's"", 'Corpay', 'Corpays', ""Corpay's"", 'Corpay', 'Corpays', ""Corpay's""]"
-CTVA,"['CTVA', 'CTVAs', ""CTVA's"", '$CTVA', '$Ctva', '$CTVAs', ""$CTVA's"", 'Corteva', 'Cortevas', ""Corteva's"", 'Corteva', 'Cortevas', ""Corteva's""]"
-CSGP,"['CSGP', 'CSGPs', ""CSGP's"", '$CSGP', '$Csgp', '$CSGPs', ""$CSGP's"", 'CoStar Group', 'CoStar Groups', ""CoStar Group's"", 'CoStar', 'CoStars', ""CoStar's""]"
-COST,"['COST', 'COSTs', ""COST's"", '$COST', '$Cost', '$COSTs', ""$COST's"", 'Costco', 'Costcos', ""Costco's"", 'Costco', 'Costcos', ""Costco's""]"
-CTRA,"['CTRA', 'CTRAs', ""CTRA's"", '$CTRA', '$Ctra', '$CTRAs', ""$CTRA's"", 'Coterra', 'Coterras', ""Coterra's"", 'Coterra', 'Coterras', ""Coterra's""]"
-CRWD,"['CRWD', 'CRWDs', ""CRWD's"", '$CRWD', '$Crwd', '$CRWDs', ""$CRWD's"", 'CrowdStrike', 'CrowdStrikes', ""CrowdStrike's"", 'CrowdStrike', 'CrowdStrikes', ""CrowdStrike's""]"
-CCI,"['CCI', 'CCIs', ""CCI's"", '$CCI', '$Cci', '$CCIs', ""$CCI's"", 'Crown Castle', 'Crown Castles', ""Crown Castle's"", 'Crown Castle', 'Crown Castles', ""Crown Castle's""]"
-CSX,"['CSX', 'CSXs', ""CSX's"", '$CSX', '$Csx', '$CSXs', ""$CSX's"", 'CSX Corporation', 'CSX Corporations', ""CSX Corporation's"", 'CSX', 'CSXs', ""CSX's""]"
-CMI,"['CMI', 'CMIs', ""CMI's"", '$CMI', '$Cmi', '$CMIs', ""$CMI's"", 'Cummins', 'Cummins']"
-CVS,"['CVS', 'CVSs', ""CVS's"", '$CVS', '$Cvs', '$CVSs', ""$CVS's"", 'CVS Health', 'CVS Healths', ""CVS Health's"", 'CVS Health', 'CVS Healths', ""CVS Health's""]"
-DHR,"['DHR', 'DHRs', ""DHR's"", '$DHR', '$Dhr', '$DHRs', ""$DHR's"", 'Danaher Corporation', 'Danaher Corporations', ""Danaher Corporation's"", 'Danaher', 'Danahers', ""Danaher's""]"
-DRI,"['DRI', 'DRIs', ""DRI's"", '$DRI', '$Dri', '$DRIs', ""$DRI's"", 'Darden Restaurants', 'Darden Restaurants']"
-DVA,"['DVA', 'DVAs', ""DVA's"", '$DVA', '$Dva', '$DVAs', ""$DVA's"", 'DaVita', 'DaVitas', ""DaVita's"", 'DaVita', 'DaVitas', ""DaVita's""]"
-DAY,"['DAY', 'DAYs', ""DAY's"", '$DAY', '$Day', '$DAYs', ""$DAY's"", 'Dayforce', 'Dayforces', ""Dayforce's"", 'Dayforce', 'Dayforces', ""Dayforce's""]"
-DECK,"['DECK', 'DECKs', ""DECK's"", '$DECK', '$Deck', '$DECKs', ""$DECK's"", 'Deckers Brands', 'Deckers', 'Ugg', 'Uggs', ""Ugg's""]"
-DE,"['DE', 'DEs', ""DE's"", '$DE', '$De', '$DEs', ""$DE's"", 'Deere & Company', 'Deere & Companys', ""Deere & Company's"", 'Deere', 'Deeres', ""Deere's""]"
-DELL,"['DELL', 'DELLs', ""DELL's"", '$DELL', '$Dell', '$DELLs', ""$DELL's"", 'Dell Technologies', 'Dell Technologies']"
-DAL,"['DAL', 'DALs', ""DAL's"", '$DAL', '$Dal', '$DALs', ""$DAL's"", 'Delta Air Lines', 'Delta Air Lines', 'Delta Air', 'Delta Airs', ""Delta Air's""]"
-DVN,"['DVN', 'DVNs', ""DVN's"", '$DVN', '$Dvn', '$DVNs', ""$DVN's"", 'Devon Energy', 'Devon Energys', ""Devon Energy's"", 'Devon Energy', 'Devon Energys', ""Devon Energy's""]"
-DXCM,"['DXCM', 'DXCMs', ""DXCM's"", '$DXCM', '$Dxcm', '$DXCMs', ""$DXCM's"", 'Dexcom', 'Dexcoms', ""Dexcom's"", 'Dexcom', 'Dexcoms', ""Dexcom's""]"
-FANG,"['FANG', 'FANGs', ""FANG's"", '$FANG', '$Fang', '$FANGs', ""$FANG's"", 'Diamondback Energy', 'Diamondback Energys', ""Diamondback Energy's"", 'Diamondback Energy', 'Diamondback Energys', ""Diamondback Energy's""]"
-DLR,"['DLR', 'DLRs', ""DLR's"", '$DLR', '$Dlr', '$DLRs', ""$DLR's"", 'Digital Realty', 'Digital Realtys', ""Digital Realty's"", 'Digital Realty', 'Digital Realtys', ""Digital Realty's""]"
-DFS,"['DFS', 'DFSs', ""DFS's"", '$DFS', '$Dfs', '$DFSs', ""$DFS's"", 'Discover Financial', 'Discover Financials', ""Discover Financial's"", 'Discover Financial', 'Discover Financials', ""Discover Financial's""]"
-DG,"['DG', 'DGs', ""DG's"", '$DG', '$Dg', '$DGs', ""$DG's"", 'Dollar General', 'Dollar Generals', ""Dollar General's"", 'Dollar General', 'Dollar Generals', ""Dollar General's""]"
-DLTR,"['DLTR', 'DLTRs', ""DLTR's"", '$DLTR', '$Dltr', '$DLTRs', ""$DLTR's"", 'Dollar Tree', 'Dollar Trees', ""Dollar Tree's"", 'Dollar Tree', 'Dollar Trees', ""Dollar Tree's""]"
-D,"['D', 'Ds', ""D's"", '$D', '$D', '$Ds', ""$D's"", 'Dominion Energy', 'Dominion Energys', ""Dominion Energy's"", 'Dominion Energy', 'Dominion Energys', ""Dominion Energy's""]"
-DPZ,"['DPZ', 'DPZs', ""DPZ's"", '$DPZ', '$Dpz', '$DPZs', ""$DPZ's"", ""Domino's"", 'Dominos']"
-DOV,"['DOV', 'DOVs', ""DOV's"", '$DOV', '$Dov', '$DOVs', ""$DOV's"", 'Dover Corporation', 'Dover Corporations', ""Dover Corporation's"", 'Dover', 'Dovers', ""Dover's""]"
-DOW,"['DOW', 'DOWs', ""DOW's"", '$DOW', '$Dow', '$DOWs', ""$DOW's"", 'Dow Inc.', 'Dow Inc.s', ""Dow Inc.'s"", 'Dow', 'Dows', ""Dow's""]"
-DHI,"['DHI', 'DHIs', ""DHI's"", '$DHI', '$Dhi', '$DHIs', ""$DHI's"", 'D. R. Horton', 'D. R. Hortons', ""D. R. Horton's"", 'D R Horton', 'D R Hortons', ""D R Horton's""]"
-DTE,"['DTE', 'DTEs', ""DTE's"", '$DTE', '$Dte', '$DTEs', ""$DTE's"", 'DTE Energy', 'DTE Energys', ""DTE Energy's"", 'DTE Energy', 'DTE Energys', ""DTE Energy's""]"
-DUK,"['DUK', 'DUKs', ""DUK's"", '$DUK', '$Duk', '$DUKs', ""$DUK's"", 'Duke Energy', 'Duke Energys', ""Duke Energy's"", 'Duke Energy', 'Duke Energys', ""Duke Energy's""]"
-DD,"['DD', 'DDs', ""DD's"", '$DD', '$Dd', '$DDs', ""$DD's"", 'DuPont', 'DuPonts', ""DuPont's"", 'DuPont', 'DuPonts', ""DuPont's""]"
-EMN,"['EMN', 'EMNs', ""EMN's"", '$EMN', '$Emn', '$EMNs', ""$EMN's"", 'Eastman Chemical Company', 'Eastman Chemical Companys', ""Eastman Chemical Company's"", 'Eastman Chemical', 'Eastman Chemicals', ""Eastman Chemical's""]"
-ETN,"['ETN', 'ETNs', ""ETN's"", '$ETN', '$Etn', '$ETNs', ""$ETN's"", 'Eaton Corporation', 'Eaton Corporations', ""Eaton Corporation's"", 'Eaton', 'Eatons', ""Eaton's""]"
-EBAY,"['EBAY', 'EBAYs', ""EBAY's"", '$EBAY', '$Ebay', '$EBAYs', ""$EBAY's"", 'eBay', 'eBays', ""eBay's"", 'eBay', 'eBays', ""eBay's""]"
-ECL,"['ECL', 'ECLs', ""ECL's"", '$ECL', '$Ecl', '$ECLs', ""$ECL's"", 'Ecolab', 'Ecolabs', ""Ecolab's"", 'Ecolab', 'Ecolabs', ""Ecolab's""]"
-EIX,"['EIX', 'EIXs', ""EIX's"", '$EIX', '$Eix', '$EIXs', ""$EIX's"", 'Edison International', 'Edison Internationals', ""Edison International's"", 'Edison International', 'Edison Internationals', ""Edison International's""]"
-EW,"['EW', 'EWs', ""EW's"", '$EW', '$Ew', '$EWs', ""$EW's"", 'Edwards Lifesciences', 'Edwards Lifesciences']"
-EA,"['EA', 'EAs', ""EA's"", '$EA', '$Ea', '$EAs', ""$EA's"", 'Electronic Arts', 'Electronic Arts']"
-ELV,"['ELV', 'ELVs', ""ELV's"", '$ELV', '$Elv', '$ELVs', ""$ELV's"", 'Elevance Health', 'Elevance Healths', ""Elevance Health's"", 'Elevance Health', 'Elevance Healths', ""Elevance Health's""]"
-EMR,"['EMR', 'EMRs', ""EMR's"", '$EMR', '$Emr', '$EMRs', ""$EMR's"", 'Emerson Electric', 'Emerson Electrics', ""Emerson Electric's"", 'Emerson Electric', 'Emerson Electrics', ""Emerson Electric's""]"
-ENPH,"['ENPH', 'ENPHs', ""ENPH's"", '$ENPH', '$Enph', '$ENPHs', ""$ENPH's"", 'Enphase Energy', 'Enphase Energys', ""Enphase Energy's"", 'Enphase Energy', 'Enphase Energys', ""Enphase Energy's""]"
-ETR,"['ETR', 'ETRs', ""ETR's"", '$ETR', '$Etr', '$ETRs', ""$ETR's"", 'Entergy', 'Entergys', ""Entergy's"", 'Entergy', 'Entergys', ""Entergy's""]"
-EOG,"['EOG', 'EOGs', ""EOG's"", '$EOG', '$Eog', '$EOGs', ""$EOG's"", 'EOG Resources', 'EOG Resources']"
-EPAM,"['EPAM', 'EPAMs', ""EPAM's"", '$EPAM', '$Epam', '$EPAMs', ""$EPAM's"", 'EPAM Systems', 'EPAM Systems']"
-EQT,"['EQT', 'EQTs', ""EQT's"", '$EQT', '$Eqt', '$EQTs', ""$EQT's"", 'EQT Corporation', 'EQT Corporations', ""EQT Corporation's"", 'EQT', 'EQTs', ""EQT's""]"
-EFX,"['EFX', 'EFXs', ""EFX's"", '$EFX', '$Efx', '$EFXs', ""$EFX's"", 'Equifax', 'Equifaxs', ""Equifax's"", 'Equifax', 'Equifaxs', ""Equifax's""]"
-EQIX,"['EQIX', 'EQIXs', ""EQIX's"", '$EQIX', '$Eqix', '$EQIXs', ""$EQIX's"", 'Equinix', 'Equinixs', ""Equinix's"", 'Equinix', 'Equinixs', ""Equinix's""]"
-EQR,"['EQR', 'EQRs', ""EQR's"", '$EQR', '$Eqr', '$EQRs', ""$EQR's"", 'Equity Residential', 'Equity Residentials', ""Equity Residential's"", 'Equity Residential', 'Equity Residentials', ""Equity Residential's""]"
-ERIE,"['ERIE', 'ERIEs', ""ERIE's"", '$ERIE', '$Erie', '$ERIEs', ""$ERIE's"", 'Erie Indemnity', 'Erie Indemnitys', ""Erie Indemnity's"", 'Erie Indemnity', 'Erie Indemnitys', ""Erie Indemnity's""]"
-ESS,"['ESS', 'ESSs', ""ESS's"", '$ESS', '$Ess', '$ESSs', ""$ESS's"", 'Essex Property Trust', 'Essex Property Trusts', ""Essex Property Trust's"", 'Essex Property Trust', 'Essex Property Trusts', ""Essex Property Trust's""]"
-EL,"['EL', 'ELs', ""EL's"", '$EL', '$El', '$ELs', ""$EL's"", 'Estée Lauder Companies (The)', 'Estée Lauder Companies (The)s', ""Estée Lauder Companies (The)'s"", 'Estee Lauder', 'Estee Lauders', ""Estee Lauder's""]"
-EG,"['EG', 'EGs', ""EG's"", '$EG', '$Eg', '$EGs', ""$EG's"", 'Everest Group', 'Everest Groups', ""Everest Group's"", 'Everest', 'Everests', ""Everest's""]"
-EVRG,"['EVRG', 'EVRGs', ""EVRG's"", '$EVRG', '$Evrg', '$EVRGs', ""$EVRG's"", 'Evergy', 'Evergys', ""Evergy's"", 'Evergy', 'Evergys', ""Evergy's""]"
-ES,"['ES', 'ESs', ""ES's"", '$ES', '$Es', '$ESs', ""$ES's"", 'Eversource Energy', 'Eversource Energys', ""Eversource Energy's"", 'Eversource Energy', 'Eversource Energys', ""Eversource Energy's""]"
-EXC,"['EXC', 'EXCs', ""EXC's"", '$EXC', '$Exc', '$EXCs', ""$EXC's"", 'Exelon', 'Exelons', ""Exelon's"", 'Exelon', 'Exelons', ""Exelon's""]"
-EXPE,"['EXPE', 'EXPEs', ""EXPE's"", '$EXPE', '$Expe', '$EXPEs', ""$EXPE's"", 'Expedia Group', 'Expedia Groups', ""Expedia Group's"", 'Expedia', 'Expedias', ""Expedia's""]"
-EXPD,"['EXPD', 'EXPDs', ""EXPD's"", '$EXPD', '$Expd', '$EXPDs', ""$EXPD's"", 'Expeditors International', 'Expeditors Internationals', ""Expeditors International's"", 'Expeditors International', 'Expeditors Internationals', ""Expeditors International's""]"
-EXR,"['EXR', 'EXRs', ""EXR's"", '$EXR', '$Exr', '$EXRs', ""$EXR's"", 'Extra Space Storage', 'Extra Space Storages', ""Extra Space Storage's"", 'Extra Space Storage', 'Extra Space Storages', ""Extra Space Storage's""]"
-XOM,"['XOM', 'XOMs', ""XOM's"", '$XOM', '$Xom', '$XOMs', ""$XOM's"", 'ExxonMobil', 'ExxonMobils', ""ExxonMobil's"", 'ExxonMobil', 'ExxonMobils', ""ExxonMobil's""]"
-FFIV,"['FFIV', 'FFIVs', ""FFIV's"", '$FFIV', '$Ffiv', '$FFIVs', ""$FFIV's"", 'F5, Inc.', 'F5, Inc.s', ""F5, Inc.'s"", 'F5', 'F5s', ""F5's""]"
-FDS,"['FDS', 'FDSs', ""FDS's"", '$FDS', '$Fds', '$FDSs', ""$FDS's"", 'FactSet', 'FactSets', ""FactSet's"", 'FactSet', 'FactSets', ""FactSet's""]"
-FICO,"['FICO', 'FICOs', ""FICO's"", '$FICO', '$Fico', '$FICOs', ""$FICO's"", 'Fair Isaac', 'Fair Isaacs', ""Fair Isaac's"", 'Fair Isaac', 'Fair Isaacs', ""Fair Isaac's""]"
-FAST,"['FAST', 'FASTs', ""FAST's"", '$FAST', '$Fast', '$FASTs', ""$FAST's"", 'Fastenal', 'Fastenals', ""Fastenal's"", 'Fastenal', 'Fastenals', ""Fastenal's""]"
-FRT,"['FRT', 'FRTs', ""FRT's"", '$FRT', '$Frt', '$FRTs', ""$FRT's"", 'Federal Realty Investment Trust', 'Federal Realty Investment Trusts', ""Federal Realty Investment Trust's""]"
-FDX,"['FDX', 'FDXs', ""FDX's"", '$FDX', '$Fdx', '$FDXs', ""$FDX's"", 'FedEx', 'FedExs', ""FedEx's"", 'FedEx', 'FedExs', ""FedEx's""]"
-FIS,"['FIS', 'FISs', ""FIS's"", '$FIS', '$Fis', '$FISs', ""$FIS's"", 'Fidelity National Information Services', 'FIS', 'FISs', ""FIS's""]"
-FITB,"['FITB', 'FITBs', ""FITB's"", '$FITB', '$Fitb', '$FITBs', ""$FITB's"", 'Fifth Third Bancorp', 'Fifth Third Bancorps', ""Fifth Third Bancorp's"", 'Fifth Third Bancorp', 'Fifth Third Bancorps', ""Fifth Third Bancorp's""]"
-FSLR,"['FSLR', 'FSLRs', ""FSLR's"", '$FSLR', '$Fslr', '$FSLRs', ""$FSLR's"", 'First Solar', 'First Solars', ""First Solar's"", 'First Solar', 'First Solars', ""First Solar's""]"
-FE,"['FE', 'FEs', ""FE's"", '$FE', '$Fe', '$FEs', ""$FE's"", 'FirstEnergy', 'FirstEnergys', ""FirstEnergy's"", 'FirstEnergy', 'FirstEnergys', ""FirstEnergy's""]"
-FI,"['FI', 'FIs', ""FI's"", '$FI', '$Fi', '$FIs', ""$FI's"", 'Fiserv', 'Fiservs', ""Fiserv's"", 'Fiserv', 'Fiservs', ""Fiserv's""]"
-FMC,"['FMC', 'FMCs', ""FMC's"", '$FMC', '$Fmc', '$FMCs', ""$FMC's"", 'FMC Corporation', 'FMC Corporations', ""FMC Corporation's"", 'FMC', 'FMCs', ""FMC's""]"
-F,"['F', 'Fs', ""F's"", '$F', '$F', '$Fs', ""$F's"", 'Ford Motor Company', 'Ford Motor Companys', ""Ford Motor Company's"", 'Ford Motor', 'Ford Motors', ""Ford Motor's""]"
-FTNT,"['FTNT', 'FTNTs', ""FTNT's"", '$FTNT', '$Ftnt', '$FTNTs', ""$FTNT's"", 'Fortinet', 'Fortinets', ""Fortinet's"", 'Fortinet', 'Fortinets', ""Fortinet's""]"
-FTV,"['FTV', 'FTVs', ""FTV's"", '$FTV', '$Ftv', '$FTVs', ""$FTV's"", 'Fortive', 'Fortives', ""Fortive's"", 'Fortive', 'Fortives', ""Fortive's""]"
-FOXA,"['FOXA', 'FOXAs', ""FOXA's"", '$FOXA', '$Foxa', '$FOXAs', ""$FOXA's"", 'Fox Corporation (Class A)', 'Fox Corporation (Class A)s', ""Fox Corporation (Class A)'s"", 'Fox', 'Foxs', ""Fox's""]"
-FOX,"['FOX', 'FOXs', ""FOX's"", '$FOX', '$Fox', '$FOXs', ""$FOX's"", 'Fox Corporation (Class B)', 'Fox Corporation (Class B)s', ""Fox Corporation (Class B)'s"", 'Fox', 'Foxs', ""Fox's""]"
-BEN,"['BEN', 'BENs', ""BEN's"", '$BEN', '$Ben', '$BENs', ""$BEN's"", 'Franklin Resources', 'Franklin Resources']"
-FCX,"['FCX', 'FCXs', ""FCX's"", '$FCX', '$Fcx', '$FCXs', ""$FCX's"", 'Freeport-McMoRan', 'Freeport-McMoRans', ""Freeport-McMoRan's"", 'Freeport McMoRan', 'Freeport McMoRans', ""Freeport McMoRan's""]"
-GRMN,"['GRMN', 'GRMNs', ""GRMN's"", '$GRMN', '$Grmn', '$GRMNs', ""$GRMN's"", 'Garmin', 'Garmins', ""Garmin's"", 'Garmin', 'Garmins', ""Garmin's""]"
-IT,"['IT', 'ITs', ""IT's"", '$IT', '$It', '$ITs', ""$IT's"", 'Gartner', 'Gartners', ""Gartner's"", 'Gartner', 'Gartners', ""Gartner's""]"
-GE,"['GE', 'GEs', ""GE's"", '$GE', '$Ge', '$GEs', ""$GE's"", 'GE Aerospace', 'GE Aerospaces', ""GE Aerospace's"", 'General Electric', 'General Electrics', ""General Electric's""]"
-GEHC,"['GEHC', 'GEHCs', ""GEHC's"", '$GEHC', '$Gehc', '$GEHCs', ""$GEHC's"", 'GE HealthCare', 'GE HealthCares', ""GE HealthCare's"", 'GE', 'GEs', ""GE's"", 'General Electric', 'General Electrics', ""General Electric's""]"
-GEV,"['GEV', 'GEVs', ""GEV's"", '$GEV', '$Gev', '$GEVs', ""$GEV's"", 'GE Vernova', 'GE Vernovas', ""GE Vernova's"", 'GE', 'GEs', ""GE's"", 'General Electric', 'General Electrics', ""General Electric's""]"
-GEN,"['GEN', 'GENs', ""GEN's"", '$GEN', '$Gen', '$GENs', ""$GEN's"", 'Gen Digital', 'Gen Digitals', ""Gen Digital's"", 'Gen Digital', 'Gen Digitals', ""Gen Digital's""]"
-GNRC,"['GNRC', 'GNRCs', ""GNRC's"", '$GNRC', '$Gnrc', '$GNRCs', ""$GNRC's"", 'Generac', 'Generacs', ""Generac's"", 'Generac', 'Generacs', ""Generac's""]"
-GD,"['GD', 'GDs', ""GD's"", '$GD', '$Gd', '$GDs', ""$GD's"", 'General Dynamics', 'General Dynamics']"
-GIS,"['GIS', 'GISs', ""GIS's"", '$GIS', '$Gis', '$GISs', ""$GIS's"", 'General Mills', 'General Mills']"
-GM,"['GM', 'GMs', ""GM's"", '$GM', '$Gm', '$GMs', ""$GM's"", 'General Motors', 'General Motors']"
-GPC,"['GPC', 'GPCs', ""GPC's"", '$GPC', '$Gpc', '$GPCs', ""$GPC's"", 'Genuine Parts Company', 'Genuine Parts Companys', ""Genuine Parts Company's"", 'Genuine Parts']"
-GILD,"['GILD', 'GILDs', ""GILD's"", '$GILD', '$Gild', '$GILDs', ""$GILD's"", 'Gilead Sciences', 'Gilead Sciences']"
-GPN,"['GPN', 'GPNs', ""GPN's"", '$GPN', '$Gpn', '$GPNs', ""$GPN's"", 'Global Payments', 'Global Payments']"
-GL,"['GL', 'GLs', ""GL's"", '$GL', '$Gl', '$GLs', ""$GL's"", 'Globe Life', 'Globe Lifes', ""Globe Life's"", 'Globe Life', 'Globe Lifes', ""Globe Life's""]"
-GDDY,"['GDDY', 'GDDYs', ""GDDY's"", '$GDDY', '$Gddy', '$GDDYs', ""$GDDY's"", 'GoDaddy', 'GoDaddys', ""GoDaddy's"", 'GoDaddy', 'GoDaddys', ""GoDaddy's""]"
-GS,"['GS', 'GSs', ""GS's"", '$GS', '$Gs', '$GSs', ""$GS's"", 'Goldman Sachs', 'Goldman Sachs']"
-HAL,"['HAL', 'HALs', ""HAL's"", '$HAL', '$Hal', '$HALs', ""$HAL's"", 'Halliburton', 'Halliburtons', ""Halliburton's"", 'Halliburton', 'Halliburtons', ""Halliburton's""]"
-HIG,"['HIG', 'HIGs', ""HIG's"", '$HIG', '$Hig', '$HIGs', ""$HIG's"", 'Hartford (The)', 'Hartford (The)s', ""Hartford (The)'s"", 'Hartford', 'Hartfords', ""Hartford's""]"
-HAS,"['HAS', 'HASs', ""HAS's"", '$HAS', '$Has', '$HASs', ""$HAS's"", 'Hasbro', 'Hasbros', ""Hasbro's"", 'Hasbro', 'Hasbros', ""Hasbro's""]"
-HCA,"['HCA', 'HCAs', ""HCA's"", '$HCA', '$Hca', '$HCAs', ""$HCA's"", 'HCA Healthcare', 'HCA Healthcares', ""HCA Healthcare's"", 'HCA Healthcare', 'HCA Healthcares', ""HCA Healthcare's""]"
-DOC,"['DOC', 'DOCs', ""DOC's"", '$DOC', '$Doc', '$DOCs', ""$DOC's"", 'Healthpeak Properties', 'Healthpeak Properties']"
-HSIC,"['HSIC', 'HSICs', ""HSIC's"", '$HSIC', '$Hsic', '$HSICs', ""$HSIC's"", 'Henry Schein', 'Henry Scheins', ""Henry Schein's"", 'Henry Schein', 'Henry Scheins', ""Henry Schein's""]"
-HSY,"['HSY', 'HSYs', ""HSY's"", '$HSY', '$Hsy', '$HSYs', ""$HSY's"", 'Hershey Company (The)', 'Hershey Company (The)s', ""Hershey Company (The)'s"", 'Hershey', 'Hersheys', ""Hershey's""]"
-HES,"['HES', 'HESs', ""HES's"", '$HES', '$Hes', '$HESs', ""$HES's"", 'Hess Corporation', 'Hess Corporations', ""Hess Corporation's"", 'Hess']"
-HPE,"['HPE', 'HPEs', ""HPE's"", '$HPE', '$Hpe', '$HPEs', ""$HPE's"", 'Hewlett Packard Enterprise', 'Hewlett Packard Enterprises', ""Hewlett Packard Enterprise's"", 'HP', 'HPs', ""HP's"", 'Hewlett Packard', 'Hewlett Packards', ""Hewlett Packard's""]"
-HLT,"['HLT', 'HLTs', ""HLT's"", '$HLT', '$Hlt', '$HLTs', ""$HLT's"", 'Hilton Worldwide', 'Hilton Worldwides', ""Hilton Worldwide's"", 'Hilton Worldwide', 'Hilton Worldwides', ""Hilton Worldwide's""]"
-HOLX,"['HOLX', 'HOLXs', ""HOLX's"", '$HOLX', '$Holx', '$HOLXs', ""$HOLX's"", 'Hologic', 'Hologics', ""Hologic's"", 'Hologic', 'Hologics', ""Hologic's""]"
-HD,"['HD', 'HDs', ""HD's"", '$HD', '$Hd', '$HDs', ""$HD's"", 'Home Depot (The)', 'Home Depot (The)s', ""Home Depot (The)'s"", 'Home Depot', 'Home Depots', ""Home Depot's""]"
-HON,"['HON', 'HONs', ""HON's"", '$HON', '$Hon', '$HONs', ""$HON's"", 'Honeywell', 'Honeywells', ""Honeywell's"", 'Honeywell', 'Honeywells', ""Honeywell's""]"
-HRL,"['HRL', 'HRLs', ""HRL's"", '$HRL', '$Hrl', '$HRLs', ""$HRL's"", 'Hormel Foods', 'Hormel Foods']"
-HST,"['HST', 'HSTs', ""HST's"", '$HST', '$Hst', '$HSTs', ""$HST's"", 'Host Hotels & Resorts', 'Host Hotels Resorts']"
-HWM,"['HWM', 'HWMs', ""HWM's"", '$HWM', '$Hwm', '$HWMs', ""$HWM's"", 'Howmet Aerospace', 'Howmet Aerospaces', ""Howmet Aerospace's"", 'Howmet Aerospace', 'Howmet Aerospaces', ""Howmet Aerospace's""]"
-HPQ,"['HPQ', 'HPQs', ""HPQ's"", '$HPQ', '$Hpq', '$HPQs', ""$HPQ's"", 'HP Inc.', 'HP Inc.s', ""HP Inc.'s"", 'HP', 'HPs', ""HP's"", 'Hewlett Packard', 'Hewlett Packards', ""Hewlett Packard's""]"
-HUBB,"['HUBB', 'HUBBs', ""HUBB's"", '$HUBB', '$Hubb', '$HUBBs', ""$HUBB's"", 'Hubbell Incorporated', 'Hubbell Incorporateds', ""Hubbell Incorporated's"", 'Hubbell', 'Hubbells', ""Hubbell's""]"
-HUM,"['HUM', 'HUMs', ""HUM's"", '$HUM', '$Hum', '$HUMs', ""$HUM's"", 'Humana', 'Humanas', ""Humana's"", 'Humana', 'Humanas', ""Humana's""]"
-HBAN,"['HBAN', 'HBANs', ""HBAN's"", '$HBAN', '$Hban', '$HBANs', ""$HBAN's"", 'Huntington Bancshares', 'Huntington Bancshares']"
-HII,"['HII', 'HIIs', ""HII's"", '$HII', '$Hii', '$HIIs', ""$HII's"", 'Huntington Ingalls Industries', 'Huntington Ingalls']"
-IBM,"['IBM', 'IBMs', ""IBM's"", '$IBM', '$Ibm', '$IBMs', ""$IBM's"", 'IBM', 'IBMs', ""IBM's"", 'IBM', 'IBMs', ""IBM's""]"
-IEX,"['IEX', 'IEXs', ""IEX's"", '$IEX', '$Iex', '$IEXs', ""$IEX's"", 'IDEX Corporation', 'IDEX Corporations', ""IDEX Corporation's"", 'IDEX', 'IDEXs', ""IDEX's""]"
-IDXX,"['IDXX', 'IDXXs', ""IDXX's"", '$IDXX', '$Idxx', '$IDXXs', ""$IDXX's"", 'Idexx Laboratories', 'Idexx', 'Idexxs', ""Idexx's""]"
-ITW,"['ITW', 'ITWs', ""ITW's"", '$ITW', '$Itw', '$ITWs', ""$ITW's"", 'Illinois Tool Works', 'Illinois Tool Works']"
-INCY,"['INCY', 'INCYs', ""INCY's"", '$INCY', '$Incy', '$INCYs', ""$INCY's"", 'Incyte', 'Incytes', ""Incyte's"", 'Incyte', 'Incytes', ""Incyte's""]"
-IR,"['IR', 'IRs', ""IR's"", '$IR', '$Ir', '$IRs', ""$IR's"", 'Ingersoll Rand', 'Ingersoll Rands', ""Ingersoll Rand's"", 'Ingersoll Rand', 'Ingersoll Rands', ""Ingersoll Rand's""]"
-PODD,"['PODD', 'PODDs', ""PODD's"", '$PODD', '$Podd', '$PODDs', ""$PODD's"", 'Insulet Corporation', 'Insulet Corporations', ""Insulet Corporation's"", 'Insulet', 'Insulets', ""Insulet's""]"
-INTC,"['INTC', 'INTCs', ""INTC's"", '$INTC', '$Intc', '$INTCs', ""$INTC's"", 'Intel', 'Intels', ""Intel's"", 'Intel', 'Intels', ""Intel's""]"
-ICE,"['ICE', 'ICEs', ""ICE's"", '$ICE', '$Ice', '$ICEs', ""$ICE's"", 'Intercontinental Exchange', 'Intercontinental Exchanges', ""Intercontinental Exchange's"", 'Intercontinental Exchange', 'Intercontinental Exchanges', ""Intercontinental Exchange's""]"
-IFF,"['IFF', 'IFFs', ""IFF's"", '$IFF', '$Iff', '$IFFs', ""$IFF's"", 'International Flavors & Fragrances', 'International Flavors Fragrances']"
-IP,"['IP', 'IPs', ""IP's"", '$IP', '$Ip', '$IPs', ""$IP's"", 'International Paper', 'International Papers', ""International Paper's"", 'International Paper', 'International Papers', ""International Paper's""]"
-IPG,"['IPG', 'IPGs', ""IPG's"", '$IPG', '$Ipg', '$IPGs', ""$IPG's"", 'Interpublic Group of Companies (The)', 'Interpublic Group of Companies (The)s', ""Interpublic Group of Companies (The)'s"", 'Interpublic', 'Interpublics', ""Interpublic's""]"
-INTU,"['INTU', 'INTUs', ""INTU's"", '$INTU', '$Intu', '$INTUs', ""$INTU's"", 'Intuit', 'Intuits', ""Intuit's"", 'Intuit', 'Intuits', ""Intuit's""]"
-ISRG,"['ISRG', 'ISRGs', ""ISRG's"", '$ISRG', '$Isrg', '$ISRGs', ""$ISRG's"", 'Intuitive Surgical', 'Intuitive Surgicals', ""Intuitive Surgical's"", 'Intuitive Surgical', 'Intuitive Surgicals', ""Intuitive Surgical's""]"
-IVZ,"['IVZ', 'IVZs', ""IVZ's"", '$IVZ', '$Ivz', '$IVZs', ""$IVZ's"", 'Invesco', 'Invescos', ""Invesco's"", 'Invesco', 'Invescos', ""Invesco's""]"
-INVH,"['INVH', 'INVHs', ""INVH's"", '$INVH', '$Invh', '$INVHs', ""$INVH's"", 'Invitation Homes', 'Invitation Homes']"
-IQV,"['IQV', 'IQVs', ""IQV's"", '$IQV', '$Iqv', '$IQVs', ""$IQV's"", 'IQVIA', 'IQVIAs', ""IQVIA's"", 'IQVIA', 'IQVIAs', ""IQVIA's""]"
-IRM,"['IRM', 'IRMs', ""IRM's"", '$IRM', '$Irm', '$IRMs', ""$IRM's"", 'Iron Mountain', 'Iron Mountains', ""Iron Mountain's"", 'Iron Mountain', 'Iron Mountains', ""Iron Mountain's""]"
-JBHT,"['JBHT', 'JBHTs', ""JBHT's"", '$JBHT', '$Jbht', '$JBHTs', ""$JBHT's"", 'J.B. Hunt', 'J.B. Hunts', ""J.B. Hunt's"", 'JB Hunt', 'JB Hunts', ""JB Hunt's""]"
-JBL,"['JBL', 'JBLs', ""JBL's"", '$JBL', '$Jbl', '$JBLs', ""$JBL's"", 'Jabil', 'Jabils', ""Jabil's"", 'Jabil', 'Jabils', ""Jabil's""]"
-JKHY,"['JKHY', 'JKHYs', ""JKHY's"", '$JKHY', '$Jkhy', '$JKHYs', ""$JKHY's"", 'Jack Henry & Associates', 'Jack Henry Associates']"
-J,"['J', 'Js', ""J's"", '$J', '$J', '$Js', ""$J's"", 'Jacobs Solutions', 'Jacobs Solutions']"
-JNJ,"['JNJ', 'JNJs', ""JNJ's"", '$JNJ', '$Jnj', '$JNJs', ""$JNJ's"", 'Johnson & Johnson', 'Johnson & Johnsons', ""Johnson & Johnson's"", 'Johnson & Johnson', 'Johnson & Johnsons', ""Johnson & Johnson's""]"
-JCI,"['JCI', 'JCIs', ""JCI's"", '$JCI', '$Jci', '$JCIs', ""$JCI's"", 'Johnson Controls', 'Johnson Controls']"
-JPM,"['JPM', 'JPMs', ""JPM's"", '$JPM', '$Jpm', '$JPMs', ""$JPM's"", 'JPMorgan Chase', 'JPMorgan Chases', ""JPMorgan Chase's"", 'JPMorgan', 'JPMorgans', ""JPMorgan's""]"
-JNPR,"['JNPR', 'JNPRs', ""JNPR's"", '$JNPR', '$Jnpr', '$JNPRs', ""$JNPR's"", 'Juniper Networks', 'Juniper Networks']"
-K,"['K', 'Ks', ""K's"", '$K', '$K', '$Ks', ""$K's"", 'Kellanova', 'Kellanovas', ""Kellanova's"", 'Kellanova', 'Kellanovas', ""Kellanova's""]"
-KVUE,"['KVUE', 'KVUEs', ""KVUE's"", '$KVUE', '$Kvue', '$KVUEs', ""$KVUE's"", 'Kenvue', 'Kenvues', ""Kenvue's"", 'Kenvue', 'Kenvues', ""Kenvue's""]"
-KDP,"['KDP', 'KDPs', ""KDP's"", '$KDP', '$Kdp', '$KDPs', ""$KDP's"", 'Keurig Dr Pepper', 'Keurig Dr Peppers', ""Keurig Dr Pepper's"", 'Dr Pepper', 'Dr Peppers', ""Dr Pepper's""]"
-KEY,"['KEY', 'KEYs', ""KEY's"", '$KEY', '$Key', '$KEYs', ""$KEY's"", 'KeyCorp', 'KeyCorps', ""KeyCorp's"", 'KeyCorp', 'KeyCorps', ""KeyCorp's""]"
-KEYS,"['KEYS', 'KEYSs', ""KEYS's"", '$KEYS', '$Keys', '$KEYSs', ""$KEYS's"", 'Keysight Technologies', 'Keysight', 'Keysights', ""Keysight's""]"
-KMB,"['KMB', 'KMBs', ""KMB's"", '$KMB', '$Kmb', '$KMBs', ""$KMB's"", 'Kimberly-Clark', 'Kimberly-Clarks', ""Kimberly-Clark's"", 'Kimberly Clark', 'Kimberly Clarks', ""Kimberly Clark's""]"
-KIM,"['KIM', 'KIMs', ""KIM's"", '$KIM', '$Kim', '$KIMs', ""$KIM's"", 'Kimco Realty', 'Kimco Realtys', ""Kimco Realty's"", 'Kimco Realty', 'Kimco Realtys', ""Kimco Realty's""]"
-KMI,"['KMI', 'KMIs', ""KMI's"", '$KMI', '$Kmi', '$KMIs', ""$KMI's"", 'Kinder Morgan', 'Kinder Morgans', ""Kinder Morgan's"", 'Kinder Morgan', 'Kinder Morgans', ""Kinder Morgan's""]"
-KKR,"['KKR', 'KKRs', ""KKR's"", '$KKR', '$Kkr', '$KKRs', ""$KKR's"", 'KKR', 'KKRs', ""KKR's"", 'KKR', 'KKRs', ""KKR's""]"
-KLAC,"['KLAC', 'KLACs', ""KLAC's"", '$KLAC', '$Klac', '$KLACs', ""$KLAC's"", 'KLA Corporation', 'KLA Corporations', ""KLA Corporation's"", 'KLA', 'KLAs', ""KLA's""]"
-KHC,"['KHC', 'KHCs', ""KHC's"", '$KHC', '$Khc', '$KHCs', ""$KHC's"", 'Kraft Heinz', 'Kraft Heinzs', ""Kraft Heinz's"", 'Kraft', 'Krafts', ""Kraft's"", 'Heinz', 'Heinzs', ""Heinz's""]"
-KR,"['KR', 'KRs', ""KR's"", '$KR', '$Kr', '$KRs', ""$KR's"", 'Kroger', 'Krogers', ""Kroger's"", 'Kroger', 'Krogers', ""Kroger's""]"
-LHX,"['LHX', 'LHXs', ""LHX's"", '$LHX', '$Lhx', '$LHXs', ""$LHX's"", 'L3Harris', 'L3Harris']"
-LH,"['LH', 'LHs', ""LH's"", '$LH', '$Lh', '$LHs', ""$LH's"", 'LabCorp', 'LabCorps', ""LabCorp's"", 'LabCorp', 'LabCorps', ""LabCorp's""]"
-LRCX,"['LRCX', 'LRCXs', ""LRCX's"", '$LRCX', '$Lrcx', '$LRCXs', ""$LRCX's"", 'Lam Research', 'Lam Researchs', ""Lam Research's"", 'Lam Research', 'Lam Researchs', ""Lam Research's""]"
-LW,"['LW', 'LWs', ""LW's"", '$LW', '$Lw', '$LWs', ""$LW's"", 'Lamb Weston', 'Lamb Westons', ""Lamb Weston's"", 'Lamb Weston', 'Lamb Westons', ""Lamb Weston's""]"
-LVS,"['LVS', 'LVSs', ""LVS's"", '$LVS', '$Lvs', '$LVSs', ""$LVS's"", 'Las Vegas Sands', 'Las Vegas Sands']"
-LDOS,"['LDOS', 'LDOSs', ""LDOS's"", '$LDOS', '$Ldos', '$LDOSs', ""$LDOS's"", 'Leidos', 'Leidos']"
-LEN,"['LEN', 'LENs', ""LEN's"", '$LEN', '$Len', '$LENs', ""$LEN's"", 'Lennar', 'Lennars', ""Lennar's"", 'Lennar', 'Lennars', ""Lennar's""]"
-LLY,"['LLY', 'LLYs', ""LLY's"", '$LLY', '$Lly', '$LLYs', ""$LLY's"", 'Lilly (Eli)', 'Lilly (Eli)s', ""Lilly (Eli)'s""]"
-LIN,"['LIN', 'LINs', ""LIN's"", '$LIN', '$Lin', '$LINs', ""$LIN's"", 'Linde plc', 'Linde plcs', ""Linde plc's"", 'Linde', 'Lindes', ""Linde's""]"
-LYV,"['LYV', 'LYVs', ""LYV's"", '$LYV', '$Lyv', '$LYVs', ""$LYV's"", 'Live Nation Entertainment', 'Live Nation Entertainments', ""Live Nation Entertainment's"", 'Live Nation', 'Live Nations', ""Live Nation's""]"
-LKQ,"['LKQ', 'LKQs', ""LKQ's"", '$LKQ', '$Lkq', '$LKQs', ""$LKQ's"", 'LKQ Corporation', 'LKQ Corporations', ""LKQ Corporation's"", 'LKQ', 'LKQs', ""LKQ's""]"
-LMT,"['LMT', 'LMTs', ""LMT's"", '$LMT', '$Lmt', '$LMTs', ""$LMT's"", 'Lockheed Martin', 'Lockheed Martins', ""Lockheed Martin's"", 'Lockheed Martin', 'Lockheed Martins', ""Lockheed Martin's""]"
-L,"['L', 'Ls', ""L's"", '$L', '$L', '$Ls', ""$L's"", 'Loews Corporation', 'Loews Corporations', ""Loews Corporation's"", 'Loews']"
-LOW,"['LOW', 'LOWs', ""LOW's"", '$LOW', '$Low', '$LOWs', ""$LOW's"", ""Lowe's"", 'Lowes']"
-LULU,"['LULU', 'LULUs', ""LULU's"", '$LULU', '$Lulu', '$LULUs', ""$LULU's"", 'Lululemon Athletica', 'Lululemon Athleticas', ""Lululemon Athletica's"", 'Lululemon', 'Lululemons', ""Lululemon's""]"
-LYB,"['LYB', 'LYBs', ""LYB's"", '$LYB', '$Lyb', '$LYBs', ""$LYB's"", 'LyondellBasell', 'LyondellBasells', ""LyondellBasell's"", 'Lyondell Basell', 'Lyondell Basells', ""Lyondell Basell's""]"
-MTB,"['MTB', 'MTBs', ""MTB's"", '$MTB', '$Mtb', '$MTBs', ""$MTB's"", 'M&T Bank', 'M&T Banks', ""M&T Bank's"", 'M&T Bank', 'M&T Banks', ""M&T Bank's""]"
-MPC,"['MPC', 'MPCs', ""MPC's"", '$MPC', '$Mpc', '$MPCs', ""$MPC's"", 'Marathon Petroleum', 'Marathon Petroleums', ""Marathon Petroleum's"", 'Marathon Petroleum', 'Marathon Petroleums', ""Marathon Petroleum's""]"
-MKTX,"['MKTX', 'MKTXs', ""MKTX's"", '$MKTX', '$Mktx', '$MKTXs', ""$MKTX's"", 'MarketAxess', 'MarketAxess']"
-MAR,"['MAR', 'MARs', ""MAR's"", '$MAR', '$Mar', '$MARs', ""$MAR's"", 'Marriott International', 'Marriott Internationals', ""Marriott International's"", 'Marriott International', 'Marriott Internationals', ""Marriott International's""]"
-MMC,"['MMC', 'MMCs', ""MMC's"", '$MMC', '$Mmc', '$MMCs', ""$MMC's"", 'Marsh McLennan', 'Marsh McLennans', ""Marsh McLennan's"", 'Marsh McLennan', 'Marsh McLennans', ""Marsh McLennan's""]"
-MLM,"['MLM', 'MLMs', ""MLM's"", '$MLM', '$Mlm', '$MLMs', ""$MLM's"", 'Martin Marietta Materials', 'Martin Marietta', 'Martin Mariettas', ""Martin Marietta's""]"
-MAS,"['MAS', 'MASs', ""MAS's"", '$MAS', '$Mas', '$MASs', ""$MAS's"", 'Masco', 'Mascos', ""Masco's"", 'Masco', 'Mascos', ""Masco's""]"
-MA,"['MA', 'MAs', ""MA's"", '$MA', '$Ma', '$MAs', ""$MA's"", 'Mastercard', 'Mastercards', ""Mastercard's"", 'Mastercard', 'Mastercards', ""Mastercard's""]"
-MTCH,"['MTCH', 'MTCHs', ""MTCH's"", '$MTCH', '$Mtch', '$MTCHs', ""$MTCH's"", 'Match Group', 'Match Groups', ""Match Group's"", 'Match', 'Matchs', ""Match's""]"
-MKC,"['MKC', 'MKCs', ""MKC's"", '$MKC', '$Mkc', '$MKCs', ""$MKC's"", 'McCormick & Company', 'McCormick & Companys', ""McCormick & Company's"", 'McCormick', 'McCormicks', ""McCormick's""]"
-MCD,"['MCD', 'MCDs', ""MCD's"", '$MCD', '$Mcd', '$MCDs', ""$MCD's"", ""McDonald's"", 'McDonalds']"
-MCK,"['MCK', 'MCKs', ""MCK's"", '$MCK', '$Mck', '$MCKs', ""$MCK's"", 'McKesson Corporation', 'McKesson Corporations', ""McKesson Corporation's"", 'McKesson', 'McKessons', ""McKesson's""]"
-MDT,"['MDT', 'MDTs', ""MDT's"", '$MDT', '$Mdt', '$MDTs', ""$MDT's"", 'Medtronic', 'Medtronics', ""Medtronic's"", 'Medtronic', 'Medtronics', ""Medtronic's""]"
-MRK,"['MRK', 'MRKs', ""MRK's"", '$MRK', '$Mrk', '$MRKs', ""$MRK's"", 'Merck & Co.', 'Merck & Co.s', ""Merck & Co.'s"", 'Merck & Co', 'Merck & Cos', ""Merck & Co's""]"
-META,"['META', 'METAs', ""META's"", '$META', '$Meta', '$METAs', ""$META's"", 'Meta Platforms', 'Meta', 'Metas', ""Meta's"", 'Facebook', 'Facebooks', ""Facebook's""]"
-MET,"['MET', 'METs', ""MET's"", '$MET', '$Met', '$METs', ""$MET's"", 'MetLife', 'MetLifes', ""MetLife's"", 'MetLife', 'MetLifes', ""MetLife's""]"
-MTD,"['MTD', 'MTDs', ""MTD's"", '$MTD', '$Mtd', '$MTDs', ""$MTD's"", 'Mettler Toledo', 'Mettler Toledos', ""Mettler Toledo's"", 'Mettler Toledo', 'Mettler Toledos', ""Mettler Toledo's""]"
-MGM,"['MGM', 'MGMs', ""MGM's"", '$MGM', '$Mgm', '$MGMs', ""$MGM's"", 'MGM Resorts', 'MGM Resorts']"
-MCHP,"['MCHP', 'MCHPs', ""MCHP's"", '$MCHP', '$Mchp', '$MCHPs', ""$MCHP's"", 'Microchip Technology', 'Microchip Technologys', ""Microchip Technology's""]"
-MU,"['MU', 'MUs', ""MU's"", '$MU', '$Mu', '$MUs', ""$MU's"", 'Micron Technology', 'Micron Technologys', ""Micron Technology's"", 'Micron', 'Microns', ""Micron's""]"
-MSFT,"['MSFT', 'MSFTs', ""MSFT's"", '$MSFT', '$Msft', '$MSFTs', ""$MSFT's"", 'Microsoft', 'Microsofts', ""Microsoft's"", 'Microsoft', 'Microsofts', ""Microsoft's""]"
-MAA,"['MAA', 'MAAs', ""MAA's"", '$MAA', '$Maa', '$MAAs', ""$MAA's"", 'Mid-America Apartment Communities']"
-MRNA,"['MRNA', 'MRNAs', ""MRNA's"", '$MRNA', '$Mrna', '$MRNAs', ""$MRNA's"", 'Moderna', 'Modernas', ""Moderna's"", 'Moderna', 'Modernas', ""Moderna's""]"
-MHK,"['MHK', 'MHKs', ""MHK's"", '$MHK', '$Mhk', '$MHKs', ""$MHK's"", 'Mohawk Industries', 'Mohawk Industries']"
-MOH,"['MOH', 'MOHs', ""MOH's"", '$MOH', '$Moh', '$MOHs', ""$MOH's"", 'Molina Healthcare', 'Molina Healthcares', ""Molina Healthcare's"", 'Molina Healthcare', 'Molina Healthcares', ""Molina Healthcare's""]"
-TAP,"['TAP', 'TAPs', ""TAP's"", '$TAP', '$Tap', '$TAPs', ""$TAP's"", 'Molson Coors Beverage Company', 'Molson Coors Beverage Companys', ""Molson Coors Beverage Company's"", 'Coors']"
-MDLZ,"['MDLZ', 'MDLZs', ""MDLZ's"", '$MDLZ', '$Mdlz', '$MDLZs', ""$MDLZ's"", 'Mondelez International', 'Mondelez Internationals', ""Mondelez International's"", 'Mondelez International', 'Mondelez Internationals', ""Mondelez International's""]"
-MPWR,"['MPWR', 'MPWRs', ""MPWR's"", '$MPWR', '$Mpwr', '$MPWRs', ""$MPWR's"", 'Monolithic Power Systems', 'Monolithic Power Systems']"
-MNST,"['MNST', 'MNSTs', ""MNST's"", '$MNST', '$Mnst', '$MNSTs', ""$MNST's"", 'Monster Beverage', 'Monster Beverages', ""Monster Beverage's"", 'Monster Energy', 'Monster Energys', ""Monster Energy's""]"
-MCO,"['MCO', 'MCOs', ""MCO's"", '$MCO', '$Mco', '$MCOs', ""$MCO's"", ""Moody's Corporation"", ""Moody's Corporations"", ""Moody's Corporation's"", 'Moodys']"
-MS,"['MS', 'MSs', ""MS's"", '$MS', '$Ms', '$MSs', ""$MS's"", 'Morgan Stanley', 'Morgan Stanleys', ""Morgan Stanley's"", 'Morgan Stanley', 'Morgan Stanleys', ""Morgan Stanley's""]"
-MOS,"['MOS', 'MOSs', ""MOS's"", '$MOS', '$Mos', '$MOSs', ""$MOS's"", 'Mosaic Company (The)', 'Mosaic Company (The)s', ""Mosaic Company (The)'s"", 'Mosaic', 'Mosaics', ""Mosaic's""]"
-MSI,"['MSI', 'MSIs', ""MSI's"", '$MSI', '$Msi', '$MSIs', ""$MSI's"", 'Motorola Solutions', 'Motorola Solutions']"
-MSCI,"['MSCI', 'MSCIs', ""MSCI's"", '$MSCI', '$Msci', '$MSCIs', ""$MSCI's"", 'MSCI', 'MSCIs', ""MSCI's"", 'MSCI', 'MSCIs', ""MSCI's""]"
-NDAQ,"['NDAQ', 'NDAQs', ""NDAQ's"", '$NDAQ', '$Ndaq', '$NDAQs', ""$NDAQ's"", 'Nasdaq, Inc.', 'Nasdaq, Inc.s', ""Nasdaq, Inc.'s"", 'Nasdaq', 'Nasdaqs', ""Nasdaq's""]"
-NTAP,"['NTAP', 'NTAPs', ""NTAP's"", '$NTAP', '$Ntap', '$NTAPs', ""$NTAP's"", 'NetApp', 'NetApps', ""NetApp's"", 'NetApp', 'NetApps', ""NetApp's""]"
-NFLX,"['NFLX', 'NFLXs', ""NFLX's"", '$NFLX', '$Nflx', '$NFLXs', ""$NFLX's"", 'Netflix', 'Netflixs', ""Netflix's"", 'Netflix', 'Netflixs', ""Netflix's""]"
-NEM,"['NEM', 'NEMs', ""NEM's"", '$NEM', '$Nem', '$NEMs', ""$NEM's"", 'Newmont', 'Newmonts', ""Newmont's"", 'Newmont', 'Newmonts', ""Newmont's""]"
-NWSA,"['NWSA', 'NWSAs', ""NWSA's"", '$NWSA', '$Nwsa', '$NWSAs', ""$NWSA's"", 'News Corp (Class A)', 'News Corp (Class A)s', ""News Corp (Class A)'s"", 'News Corp', 'News Corps', ""News Corp's""]"
-NWS,"['NWS', 'NWSs', ""NWS's"", '$NWS', '$Nws', '$NWSs', ""$NWS's"", 'News Corp (Class B)', 'News Corp (Class B)s', ""News Corp (Class B)'s"", 'News Corp', 'News Corps', ""News Corp's""]"
-NEE,"['NEE', 'NEEs', ""NEE's"", '$NEE', '$Nee', '$NEEs', ""$NEE's"", 'NextEra Energy', 'NextEra Energys', ""NextEra Energy's"", 'NextEra Energy', 'NextEra Energys', ""NextEra Energy's""]"
-NKE,"['NKE', 'NKEs', ""NKE's"", '$NKE', '$Nke', '$NKEs', ""$NKE's"", 'Nike, Inc.', 'Nike, Inc.s', ""Nike, Inc.'s"", 'Nike', 'Nikes', ""Nike's""]"
-NI,"['NI', 'NIs', ""NI's"", '$NI', '$Ni', '$NIs', ""$NI's"", 'NiSource', 'NiSources', ""NiSource's"", 'NiSource', 'NiSources', ""NiSource's""]"
-NDSN,"['NDSN', 'NDSNs', ""NDSN's"", '$NDSN', '$Ndsn', '$NDSNs', ""$NDSN's"", 'Nordson Corporation', 'Nordson Corporations', ""Nordson Corporation's"", 'Nordson', 'Nordsons', ""Nordson's""]"
-NSC,"['NSC', 'NSCs', ""NSC's"", '$NSC', '$Nsc', '$NSCs', ""$NSC's"", 'Norfolk Southern Railway', 'Norfolk Southern Railways', ""Norfolk Southern Railway's"", 'Norfolk Southern Railway', 'Norfolk Southern Railways', ""Norfolk Southern Railway's""]"
-NTRS,"['NTRS', 'NTRSs', ""NTRS's"", '$NTRS', '$Ntrs', '$NTRSs', ""$NTRS's"", 'Northern Trust', 'Northern Trusts', ""Northern Trust's"", 'Northern Trust', 'Northern Trusts', ""Northern Trust's""]"
-NOC,"['NOC', 'NOCs', ""NOC's"", '$NOC', '$Noc', '$NOCs', ""$NOC's"", 'Northrop Grumman', 'Northrop Grummans', ""Northrop Grumman's"", 'Northrop Grumman', 'Northrop Grummans', ""Northrop Grumman's""]"
-NCLH,"['NCLH', 'NCLHs', ""NCLH's"", '$NCLH', '$Nclh', '$NCLHs', ""$NCLH's"", 'Norwegian Cruise Line Holdings', 'Norwegian Cruise Line Holdings']"
-NRG,"['NRG', 'NRGs', ""NRG's"", '$NRG', '$Nrg', '$NRGs', ""$NRG's"", 'NRG Energy', 'NRG Energys', ""NRG Energy's"", 'NRG Energy', 'NRG Energys', ""NRG Energy's""]"
-NUE,"['NUE', 'NUEs', ""NUE's"", '$NUE', '$Nue', '$NUEs', ""$NUE's"", 'Nucor', 'Nucors', ""Nucor's"", 'Nucor', 'Nucors', ""Nucor's""]"
-NVDA,"['NVDA', 'NVDAs', ""NVDA's"", '$NVDA', '$Nvda', '$NVDAs', ""$NVDA's"", 'Nvidia', 'Nvidias', ""Nvidia's"", 'Nvidia', 'Nvidias', ""Nvidia's""]"
-NVR,"['NVR', 'NVRs', ""NVR's"", '$NVR', '$Nvr', '$NVRs', ""$NVR's"", 'NVR, Inc.', 'NVR, Inc.s', ""NVR, Inc.'s"", 'NVR', 'NVRs', ""NVR's""]"
-NXPI,"['NXPI', 'NXPIs', ""NXPI's"", '$NXPI', '$Nxpi', '$NXPIs', ""$NXPI's"", 'NXP Semiconductors', 'NXP Semiconductors']"
-ORLY,"['ORLY', 'ORLYs', ""ORLY's"", '$ORLY', '$Orly', '$ORLYs', ""$ORLY's"", ""O'Reilly Auto Parts"", 'OReilly Auto Parts']"
-OXY,"['OXY', 'OXYs', ""OXY's"", '$OXY', '$Oxy', '$OXYs', ""$OXY's"", 'Occidental Petroleum', 'Occidental Petroleums', ""Occidental Petroleum's"", 'Occidental Petroleum', 'Occidental Petroleums', ""Occidental Petroleum's""]"
-ODFL,"['ODFL', 'ODFLs', ""ODFL's"", '$ODFL', '$Odfl', '$ODFLs', ""$ODFL's"", 'Old Dominion', 'Old Dominions', ""Old Dominion's"", 'Old Dominion', 'Old Dominions', ""Old Dominion's""]"
-OMC,"['OMC', 'OMCs', ""OMC's"", '$OMC', '$Omc', '$OMCs', ""$OMC's"", 'Omnicom Group', 'Omnicom Groups', ""Omnicom Group's"", 'Omnicom', 'Omnicoms', ""Omnicom's""]"
-ON,"['ON', 'ONs', ""ON's"", '$ON', '$On', '$ONs', ""$ON's"", 'ON Semiconductor', 'ON Semiconductors', ""ON Semiconductor's"", 'ON Semiconductor', 'ON Semiconductors', ""ON Semiconductor's""]"
-OKE,"['OKE', 'OKEs', ""OKE's"", '$OKE', '$Oke', '$OKEs', ""$OKE's"", 'ONEOK', 'ONEOKs', ""ONEOK's"", 'ONEOK', 'ONEOKs', ""ONEOK's""]"
-ORCL,"['ORCL', 'ORCLs', ""ORCL's"", '$ORCL', '$Orcl', '$ORCLs', ""$ORCL's"", 'Oracle Corporation', 'Oracle Corporations', ""Oracle Corporation's"", 'Oracle', 'Oracles', ""Oracle's""]"
-OTIS,"['OTIS', 'OTISs', ""OTIS's"", '$OTIS', '$Otis', '$OTISs', ""$OTIS's"", 'Otis Worldwide', 'Otis Worldwides', ""Otis Worldwide's"", 'Otis Worldwide', 'Otis Worldwides', ""Otis Worldwide's""]"
-PCAR,"['PCAR', 'PCARs', ""PCAR's"", '$PCAR', '$Pcar', '$PCARs', ""$PCAR's"", 'Paccar', 'Paccars', ""Paccar's"", 'Paccar', 'Paccars', ""Paccar's""]"
-PKG,"['PKG', 'PKGs', ""PKG's"", '$PKG', '$Pkg', '$PKGs', ""$PKG's"", 'Packaging Corporation of America', 'Packaging Corporation of Americas', ""Packaging Corporation of America's""]"
-PLTR,"['PLTR', 'PLTRs', ""PLTR's"", '$PLTR', '$Pltr', '$PLTRs', ""$PLTR's"", 'Palantir Technologies', 'Palantir', 'Palantirs', ""Palantir's""]"
-PANW,"['PANW', 'PANWs', ""PANW's"", '$PANW', '$Panw', '$PANWs', ""$PANW's"", 'Palo Alto Networks', 'Palo Alto Networks']"
-PARA,"['PARA', 'PARAs', ""PARA's"", '$PARA', '$Para', '$PARAs', ""$PARA's"", 'Paramount Global', 'Paramount Globals', ""Paramount Global's"", 'Paramount', 'Paramounts', ""Paramount's""]"
-PH,"['PH', 'PHs', ""PH's"", '$PH', '$Ph', '$PHs', ""$PH's"", 'Parker Hannifin', 'Parker Hannifins', ""Parker Hannifin's"", 'Parker Hannifin', 'Parker Hannifins', ""Parker Hannifin's""]"
-PAYX,"['PAYX', 'PAYXs', ""PAYX's"", '$PAYX', '$Payx', '$PAYXs', ""$PAYX's"", 'Paychex', 'Paychexs', ""Paychex's"", 'Paychex', 'Paychexs', ""Paychex's""]"
-PAYC,"['PAYC', 'PAYCs', ""PAYC's"", '$PAYC', '$Payc', '$PAYCs', ""$PAYC's"", 'Paycom', 'Paycoms', ""Paycom's"", 'Paycom', 'Paycoms', ""Paycom's""]"
-PYPL,"['PYPL', 'PYPLs', ""PYPL's"", '$PYPL', '$Pypl', '$PYPLs', ""$PYPL's"", 'PayPal', 'PayPals', ""PayPal's"", 'PayPal', 'PayPals', ""PayPal's""]"
-PNR,"['PNR', 'PNRs', ""PNR's"", '$PNR', '$Pnr', '$PNRs', ""$PNR's"", 'Pentair', 'Pentairs', ""Pentair's"", 'Pentair', 'Pentairs', ""Pentair's""]"
-PEP,"['PEP', 'PEPs', ""PEP's"", '$PEP', '$Pep', '$PEPs', ""$PEP's"", 'PepsiCo', 'PepsiCos', ""PepsiCo's"", 'Pepsi', 'Pepsis', ""Pepsi's""]"
-PFE,"['PFE', 'PFEs', ""PFE's"", '$PFE', '$Pfe', '$PFEs', ""$PFE's"", 'Pfizer', 'Pfizers', ""Pfizer's"", 'Pfizer', 'Pfizers', ""Pfizer's""]"
-PCG,"['PCG', 'PCGs', ""PCG's"", '$PCG', '$Pcg', '$PCGs', ""$PCG's"", 'PG&E Corporation', 'PG&E Corporations', ""PG&E Corporation's"", 'PG&E', 'PG&Es', ""PG&E's""]"
-PM,"['PM', 'PMs', ""PM's"", '$PM', '$Pm', '$PMs', ""$PM's"", 'Philip Morris International', 'Philip Morris Internationals', ""Philip Morris International's"", 'Philip Morris International', 'Philip Morris Internationals', ""Philip Morris International's""]"
-PSX,"['PSX', 'PSXs', ""PSX's"", '$PSX', '$Psx', '$PSXs', ""$PSX's"", 'Phillips 66', 'Phillips 66s', ""Phillips 66's"", 'Phillips 66', 'Phillips 66s', ""Phillips 66's""]"
-PNW,"['PNW', 'PNWs', ""PNW's"", '$PNW', '$Pnw', '$PNWs', ""$PNW's"", 'Pinnacle West', 'Pinnacle Wests', ""Pinnacle West's"", 'Pinnacle West', 'Pinnacle Wests', ""Pinnacle West's""]"
-PNC,"['PNC', 'PNCs', ""PNC's"", '$PNC', '$Pnc', '$PNCs', ""$PNC's"", 'PNC Financial Services', 'PNC Financial Services']"
-POOL,"['POOL', 'POOLs', ""POOL's"", '$POOL', '$Pool', '$POOLs', ""$POOL's"", 'Pool Corporation', 'Pool Corporations', ""Pool Corporation's""]"
-PPG,"['PPG', 'PPGs', ""PPG's"", '$PPG', '$Ppg', '$PPGs', ""$PPG's"", 'PPG Industries', 'PPG Industries']"
-PPL,"['PPL', 'PPLs', ""PPL's"", '$PPL', '$Ppl', '$PPLs', ""$PPL's"", 'PPL Corporation', 'PPL Corporations', ""PPL Corporation's""]"
-PFG,"['PFG', 'PFGs', ""PFG's"", '$PFG', '$Pfg', '$PFGs', ""$PFG's"", 'Principal Financial Group', 'Principal Financial Groups', ""Principal Financial Group's"", 'Principal Financial', 'Principal Financials', ""Principal Financial's""]"
-PG,"['PG', 'PGs', ""PG's"", '$PG', '$Pg', '$PGs', ""$PG's"", 'Procter & Gamble', 'Procter & Gambles', ""Procter & Gamble's"", 'Procter Gamble', 'Procter Gambles', ""Procter Gamble's""]"
-PGR,"['PGR', 'PGRs', ""PGR's"", '$PGR', '$Pgr', '$PGRs', ""$PGR's"", 'Progressive Corporation', 'Progressive Corporations', ""Progressive Corporation's""]"
-PLD,"['PLD', 'PLDs', ""PLD's"", '$PLD', '$Pld', '$PLDs', ""$PLD's"", 'Prologis', 'Prologis']"
-PRU,"['PRU', 'PRUs', ""PRU's"", '$PRU', '$Pru', '$PRUs', ""$PRU's"", 'Prudential Financial', 'Prudential Financials', ""Prudential Financial's"", 'Prudential Financial', 'Prudential Financials', ""Prudential Financial's""]"
-PEG,"['PEG', 'PEGs', ""PEG's"", '$PEG', '$Peg', '$PEGs', ""$PEG's"", 'Public Service Enterprise Group', 'Public Service Enterprise Groups', ""Public Service Enterprise Group's""]"
-PTC,"['PTC', 'PTCs', ""PTC's"", '$PTC', '$Ptc', '$PTCs', ""$PTC's"", 'PTC Inc.', 'PTC Inc.s', ""PTC Inc.'s"", 'PTC', 'PTCs', ""PTC's""]"
-PSA,"['PSA', 'PSAs', ""PSA's"", '$PSA', '$Psa', '$PSAs', ""$PSA's"", 'Public Storage', 'Public Storages', ""Public Storage's""]"
-PHM,"['PHM', 'PHMs', ""PHM's"", '$PHM', '$Phm', '$PHMs', ""$PHM's"", 'PulteGroup', 'PulteGroups', ""PulteGroup's"", 'Pulte', 'Pultes', ""Pulte's""]"
-QRVO,"['QRVO', 'QRVOs', ""QRVO's"", '$QRVO', '$Qrvo', '$QRVOs', ""$QRVO's"", 'Qorvo', 'Qorvos', ""Qorvo's"", 'Qorvo', 'Qorvos', ""Qorvo's""]"
-PWR,"['PWR', 'PWRs', ""PWR's"", '$PWR', '$Pwr', '$PWRs', ""$PWR's"", 'Quanta Services', 'Quanta', 'Quantas', ""Quanta's""]"
-QCOM,"['QCOM', 'QCOMs', ""QCOM's"", '$QCOM', '$Qcom', '$QCOMs', ""$QCOM's"", 'Qualcomm', 'Qualcomms', ""Qualcomm's"", 'Qualcomm', 'Qualcomms', ""Qualcomm's""]"
-DGX,"['DGX', 'DGXs', ""DGX's"", '$DGX', '$Dgx', '$DGXs', ""$DGX's"", 'Quest Diagnostics', 'Quest Diagnostics']"
-RL,"['RL', 'RLs', ""RL's"", '$RL', '$Rl', '$RLs', ""$RL's"", 'Ralph Lauren Corporation', 'Ralph Lauren Corporations', ""Ralph Lauren Corporation's"", 'Ralph Lauren', 'Ralph Laurens', ""Ralph Lauren's""]"
-RJF,"['RJF', 'RJFs', ""RJF's"", '$RJF', '$Rjf', '$RJFs', ""$RJF's"", 'Raymond James Financial', 'Raymond James Financials', ""Raymond James Financial's"", 'Raymond James']"
-RTX,"['RTX', 'RTXs', ""RTX's"", '$RTX', '$Rtx', '$RTXs', ""$RTX's"", 'RTX Corporation', 'RTX Corporations', ""RTX Corporation's""]"
-O,"['O', 'Os', ""O's"", '$O', '$O', '$Os', ""$O's"", 'Realty Income', 'Realty Incomes', ""Realty Income's"", 'Realty Income', 'Realty Incomes', ""Realty Income's""]"
-REG,"['REG', 'REGs', ""REG's"", '$REG', '$Reg', '$REGs', ""$REG's"", 'Regency Centers', 'Regency Centers']"
-REGN,"['REGN', 'REGNs', ""REGN's"", '$REGN', '$Regn', '$REGNs', ""$REGN's"", 'Regeneron Pharmaceuticals', 'Regeneron', 'Regenerons', ""Regeneron's""]"
-RF,"['RF', 'RFs', ""RF's"", '$RF', '$Rf', '$RFs', ""$RF's"", 'Regions Financial Corporation', 'Regions Financial Corporations', ""Regions Financial Corporation's"", 'Regions Financial', 'Regions Financials', ""Regions Financial's""]"
-RSG,"['RSG', 'RSGs', ""RSG's"", '$RSG', '$Rsg', '$RSGs', ""$RSG's"", 'Republic Services', 'Republic Services']"
-RMD,"['RMD', 'RMDs', ""RMD's"", '$RMD', '$Rmd', '$RMDs', ""$RMD's"", 'ResMed', 'ResMeds', ""ResMed's"", 'ResMed', 'ResMeds', ""ResMed's""]"
-RVTY,"['RVTY', 'RVTYs', ""RVTY's"", '$RVTY', '$Rvty', '$RVTYs', ""$RVTY's"", 'Revvity', 'Revvitys', ""Revvity's"", 'Revvity', 'Revvitys', ""Revvity's""]"
-ROK,"['ROK', 'ROKs', ""ROK's"", '$ROK', '$Rok', '$ROKs', ""$ROK's"", 'Rockwell Automation', 'Rockwell Automations', ""Rockwell Automation's"", 'Rockwell Automation', 'Rockwell Automations', ""Rockwell Automation's""]"
-ROL,"['ROL', 'ROLs', ""ROL's"", '$ROL', '$Rol', '$ROLs', ""$ROL's"", 'Rollins, Inc.', 'Rollins, Inc.s', ""Rollins, Inc.'s"", 'Rollins']"
-ROP,"['ROP', 'ROPs', ""ROP's"", '$ROP', '$Rop', '$ROPs', ""$ROP's"", 'Roper Technologies', 'Roper Technologies']"
-ROST,"['ROST', 'ROSTs', ""ROST's"", '$ROST', '$Rost', '$ROSTs', ""$ROST's"", 'Ross Stores', 'Ross Stores']"
-RCL,"['RCL', 'RCLs', ""RCL's"", '$RCL', '$Rcl', '$RCLs', ""$RCL's"", 'Royal Caribbean Group', 'Royal Caribbean Groups', ""Royal Caribbean Group's"", 'Royal Caribbean', 'Royal Caribbeans', ""Royal Caribbean's""]"
-SPGI,"['SPGI', 'SPGIs', ""SPGI's"", '$SPGI', '$Spgi', '$SPGIs', ""$SPGI's"", 'S&P Global', 'S&P Globals', ""S&P Global's"", 'S&P Global', 'S&P Globals', ""S&P Global's""]"
-CRM,"['CRM', 'CRMs', ""CRM's"", '$CRM', '$Crm', '$CRMs', ""$CRM's"", 'Salesforce', 'Salesforces', ""Salesforce's"", 'Salesforce', 'Salesforces', ""Salesforce's""]"
-SBAC,"['SBAC', 'SBACs', ""SBAC's"", '$SBAC', '$Sbac', '$SBACs', ""$SBAC's"", 'SBA Communications', 'SBA Communications']"
-SLB,"['SLB', 'SLBs', ""SLB's"", '$SLB', '$Slb', '$SLBs', ""$SLB's"", 'Schlumberger', 'Schlumbergers', ""Schlumberger's"", 'Schlumberger', 'Schlumbergers', ""Schlumberger's""]"
-STX,"['STX', 'STXs', ""STX's"", '$STX', '$Stx', '$STXs', ""$STX's"", 'Seagate Technology', 'Seagate Technologys', ""Seagate Technology's"", 'Seagate Technology', 'Seagate Technologys', ""Seagate Technology's""]"
-SRE,"['SRE', 'SREs', ""SRE's"", '$SRE', '$Sre', '$SREs', ""$SRE's"", 'Sempra', 'Sempras', ""Sempra's"", 'Sempra', 'Sempras', ""Sempra's""]"
-NOW,"['NOW', 'NOWs', ""NOW's"", '$NOW', '$Now', '$NOWs', ""$NOW's"", 'ServiceNow', 'ServiceNows', ""ServiceNow's"", 'ServiceNow', 'ServiceNows', ""ServiceNow's""]"
-SHW,"['SHW', 'SHWs', ""SHW's"", '$SHW', '$Shw', '$SHWs', ""$SHW's"", 'Sherwin-Williams', 'Sherwin Williams']"
-SPG,"['SPG', 'SPGs', ""SPG's"", '$SPG', '$Spg', '$SPGs', ""$SPG's"", 'Simon Property Group', 'Simon Property Groups', ""Simon Property Group's"", 'Simon Property', 'Simon Propertys', ""Simon Property's""]"
-SWKS,"['SWKS', 'SWKSs', ""SWKS's"", '$SWKS', '$Swks', '$SWKSs', ""$SWKS's"", 'Skyworks Solutions', 'Skyworks Solutions']"
-SJM,"['SJM', 'SJMs', ""SJM's"", '$SJM', '$Sjm', '$SJMs', ""$SJM's"", 'J.M. Smucker Company (The)', 'J.M. Smucker Company (The)s', ""J.M. Smucker Company (The)'s"", 'JM Smucker', 'JM Smuckers', ""JM Smucker's""]"
-SW,"['SW', 'SWs', ""SW's"", '$SW', '$Sw', '$SWs', ""$SW's"", 'Smurfit WestRock', 'Smurfit WestRocks', ""Smurfit WestRock's"", 'Smurfit WestRock', 'Smurfit WestRocks', ""Smurfit WestRock's""]"
-SNA,"['SNA', 'SNAs', ""SNA's"", '$SNA', '$Sna', '$SNAs', ""$SNA's"", 'Snap-on', 'Snap-ons', ""Snap-on's""]"
-SOLV,"['SOLV', 'SOLVs', ""SOLV's"", '$SOLV', '$Solv', '$SOLVs', ""$SOLV's"", 'Solventum', 'Solventums', ""Solventum's"", 'Solventum', 'Solventums', ""Solventum's""]"
-SO,"['SO', 'SOs', ""SO's"", '$SO', '$So', '$SOs', ""$SO's"", 'Southern Company', 'Southern Companys', ""Southern Company's""]"
-LUV,"['LUV', 'LUVs', ""LUV's"", '$LUV', '$Luv', '$LUVs', ""$LUV's"", 'Southwest Airlines', 'Southwest Airlines']"
-SWK,"['SWK', 'SWKs', ""SWK's"", '$SWK', '$Swk', '$SWKs', ""$SWK's"", 'Stanley Black & Decker', 'Stanley Black & Deckers', ""Stanley Black & Decker's"", 'Stanley Black Decker', 'Stanley Black Deckers', ""Stanley Black Decker's""]"
-SBUX,"['SBUX', 'SBUXs', ""SBUX's"", '$SBUX', '$Sbux', '$SBUXs', ""$SBUX's"", 'Starbucks', 'Starbucks']"
-STT,"['STT', 'STTs', ""STT's"", '$STT', '$Stt', '$STTs', ""$STT's"", 'State Street Corporation', 'State Street Corporations', ""State Street Corporation's"", 'State Street', 'State Streets', ""State Street's""]"
-STLD,"['STLD', 'STLDs', ""STLD's"", '$STLD', '$Stld', '$STLDs', ""$STLD's"", 'Steel Dynamics', 'Steel Dynamics']"
-STE,"['STE', 'STEs', ""STE's"", '$STE', '$Ste', '$STEs', ""$STE's"", 'Steris', 'Steris']"
-SYK,"['SYK', 'SYKs', ""SYK's"", '$SYK', '$Syk', '$SYKs', ""$SYK's"", 'Stryker Corporation', 'Stryker Corporations', ""Stryker Corporation's"", 'Stryker', 'Strykers', ""Stryker's""]"
-SMCI,"['SMCI', 'SMCIs', ""SMCI's"", '$SMCI', '$Smci', '$SMCIs', ""$SMCI's"", 'Supermicro', 'Supermicros', ""Supermicro's"", 'Supermicro', 'Supermicros', ""Supermicro's""]"
-SYF,"['SYF', 'SYFs', ""SYF's"", '$SYF', '$Syf', '$SYFs', ""$SYF's"", 'Synchrony Financial', 'Synchrony Financials', ""Synchrony Financial's"", 'Synchrony Financial', 'Synchrony Financials', ""Synchrony Financial's""]"
-SNPS,"['SNPS', 'SNPSs', ""SNPS's"", '$SNPS', '$Snps', '$SNPSs', ""$SNPS's"", 'Synopsys', 'Synopsys']"
-SYY,"['SYY', 'SYYs', ""SYY's"", '$SYY', '$Syy', '$SYYs', ""$SYY's"", 'Sysco', 'Syscos', ""Sysco's"", 'Sysco', 'Syscos', ""Sysco's""]"
-TMUS,"['TMUS', 'TMUSs', ""TMUS's"", '$TMUS', '$Tmus', '$TMUSs', ""$TMUS's"", 'T-Mobile US', 'T-Mobile USs', ""T-Mobile US's"", 'T Mobile', 'T Mobiles', ""T Mobile's""]"
-TROW,"['TROW', 'TROWs', ""TROW's"", '$TROW', '$Trow', '$TROWs', ""$TROW's"", 'T. Rowe Price', 'T. Rowe Prices', ""T. Rowe Price's"", 'T. Rowe Price', 'T. Rowe Prices', ""T. Rowe Price's""]"
-TTWO,"['TTWO', 'TTWOs', ""TTWO's"", '$TTWO', '$Ttwo', '$TTWOs', ""$TTWO's"", 'Take-Two Interactive', 'Take-Two Interactives', ""Take-Two Interactive's"", 'Take Two', 'Take Twos', ""Take Two's""]"
-TPR,"['TPR', 'TPRs', ""TPR's"", '$TPR', '$Tpr', '$TPRs', ""$TPR's"", 'Tapestry, Inc.', 'Tapestry, Inc.s', ""Tapestry, Inc.'s"", 'Tapestry', 'Tapestrys', ""Tapestry's""]"
-TRGP,"['TRGP', 'TRGPs', ""TRGP's"", '$TRGP', '$Trgp', '$TRGPs', ""$TRGP's"", 'Targa Resources', 'Targa Resources']"
-TGT,"['TGT', 'TGTs', ""TGT's"", '$TGT', '$Tgt', '$TGTs', ""$TGT's"", 'Target Corporation', 'Target Corporations', ""Target Corporation's"", 'Target', 'Targets', ""Target's""]"
-TEL,"['TEL', 'TELs', ""TEL's"", '$TEL', '$Tel', '$TELs', ""$TEL's"", 'TE Connectivity', 'TE Connectivitys', ""TE Connectivity's"", 'TE Connectivity', 'TE Connectivitys', ""TE Connectivity's""]"
-TDY,"['TDY', 'TDYs', ""TDY's"", '$TDY', '$Tdy', '$TDYs', ""$TDY's"", 'Teledyne Technologies', 'Teledyne Technologies']"
-TFX,"['TFX', 'TFXs', ""TFX's"", '$TFX', '$Tfx', '$TFXs', ""$TFX's"", 'Teleflex', 'Teleflexs', ""Teleflex's"", 'Teleflex', 'Teleflexs', ""Teleflex's""]"
-TER,"['TER', 'TERs', ""TER's"", '$TER', '$Ter', '$TERs', ""$TER's"", 'Teradyne', 'Teradynes', ""Teradyne's"", 'Teradyne', 'Teradynes', ""Teradyne's""]"
-TSLA,"['TSLA', 'TSLAs', ""TSLA's"", '$TSLA', '$Tsla', '$TSLAs', ""$TSLA's"", 'Tesla, Inc.', 'Tesla, Inc.s', ""Tesla, Inc.'s"", 'Tesla', 'Teslas', ""Tesla's""]"
-TXN,"['TXN', 'TXNs', ""TXN's"", '$TXN', '$Txn', '$TXNs', ""$TXN's"", 'Texas Instruments', 'Texas Instruments']"
-TPL,"['TPL', 'TPLs', ""TPL's"", '$TPL', '$Tpl', '$TPLs', ""$TPL's"", 'Texas Pacific Land Corporation', 'Texas Pacific Land Corporations', ""Texas Pacific Land Corporation's"", 'Texas Pacific Land', 'Texas Pacific Lands', ""Texas Pacific Land's""]"
-TXT,"['TXT', 'TXTs', ""TXT's"", '$TXT', '$Txt', '$TXTs', ""$TXT's"", 'Textron', 'Textrons', ""Textron's"", 'Textron', 'Textrons', ""Textron's""]"
-TMO,"['TMO', 'TMOs', ""TMO's"", '$TMO', '$Tmo', '$TMOs', ""$TMO's"", 'Thermo Fisher Scientific', 'Thermo Fisher Scientifics', ""Thermo Fisher Scientific's"", 'Thermo Fisher Scientific', 'Thermo Fisher Scientifics', ""Thermo Fisher Scientific's""]"
-TJX,"['TJX', 'TJXs', ""TJX's"", '$TJX', '$Tjx', '$TJXs', ""$TJX's"", 'TJX Companies', 'TJX', 'TJXs', ""TJX's""]"
-TSCO,"['TSCO', 'TSCOs', ""TSCO's"", '$TSCO', '$Tsco', '$TSCOs', ""$TSCO's"", 'Tractor Supply', 'Tractor Supplys', ""Tractor Supply's"", 'Tractor Supply', 'Tractor Supplys', ""Tractor Supply's""]"
-TT,"['TT', 'TTs', ""TT's"", '$TT', '$Tt', '$TTs', ""$TT's"", 'Trane Technologies', 'Trane Technologies']"
-TDG,"['TDG', 'TDGs', ""TDG's"", '$TDG', '$Tdg', '$TDGs', ""$TDG's"", 'TransDigm Group', 'TransDigm Groups', ""TransDigm Group's"", 'TransDigm', 'TransDigms', ""TransDigm's""]"
-TRV,"['TRV', 'TRVs', ""TRV's"", '$TRV', '$Trv', '$TRVs', ""$TRV's"", 'Travelers Companies (The)', 'Travelers Companies (The)s', ""Travelers Companies (The)'s"", 'Travelers']"
-TRMB,"['TRMB', 'TRMBs', ""TRMB's"", '$TRMB', '$Trmb', '$TRMBs', ""$TRMB's"", 'Trimble Inc.', 'Trimble Inc.s', ""Trimble Inc.'s"", 'Trimble', 'Trimbles', ""Trimble's""]"
-TFC,"['TFC', 'TFCs', ""TFC's"", '$TFC', '$Tfc', '$TFCs', ""$TFC's"", 'Truist Financial', 'Truist Financials', ""Truist Financial's"", 'Truist Financial', 'Truist Financials', ""Truist Financial's""]"
-TYL,"['TYL', 'TYLs', ""TYL's"", '$TYL', '$Tyl', '$TYLs', ""$TYL's"", 'Tyler Technologies', 'Tyler Technologies']"
-TSN,"['TSN', 'TSNs', ""TSN's"", '$TSN', '$Tsn', '$TSNs', ""$TSN's"", 'Tyson Foods', 'Tyson Foods']"
-USB,"['USB', 'USBs', ""USB's"", '$USB', '$Usb', '$USBs', ""$USB's"", 'U.S. Bancorp', 'U.S. Bancorps', ""U.S. Bancorp's"", 'U.S. Bancorp', 'U.S. Bancorps', ""U.S. Bancorp's""]"
-UBER,"['UBER', 'UBERs', ""UBER's"", '$UBER', '$Uber', '$UBERs', ""$UBER's"", 'Uber', 'Ubers', ""Uber's"", 'Uber', 'Ubers', ""Uber's""]"
-UDR,"['UDR', 'UDRs', ""UDR's"", '$UDR', '$Udr', '$UDRs', ""$UDR's"", 'UDR, Inc.', 'UDR, Inc.s', ""UDR, Inc.'s"", 'UDR', 'UDRs', ""UDR's""]"
-ULTA,"['ULTA', 'ULTAs', ""ULTA's"", '$ULTA', '$Ulta', '$ULTAs', ""$ULTA's"", 'Ulta Beauty', 'Ulta Beautys', ""Ulta Beauty's"", 'Ulta Beauty', 'Ulta Beautys', ""Ulta Beauty's""]"
-UNP,"['UNP', 'UNPs', ""UNP's"", '$UNP', '$Unp', '$UNPs', ""$UNP's"", 'Union Pacific Corporation', 'Union Pacific Corporations', ""Union Pacific Corporation's"", 'Union Pacific', 'Union Pacifics', ""Union Pacific's""]"
-UAL,"['UAL', 'UALs', ""UAL's"", '$UAL', '$Ual', '$UALs', ""$UAL's"", 'United Airlines Holdings', 'United Airlines Holdings']"
-UPS,"['UPS', 'UPSs', ""UPS's"", '$UPS', '$Ups', '$UPSs', ""$UPS's"", 'United Parcel Service', 'United Parcel Services', ""United Parcel Service's"", 'United Parcel Service', 'United Parcel Services', ""United Parcel Service's""]"
-URI,"['URI', 'URIs', ""URI's"", '$URI', '$Uri', '$URIs', ""$URI's"", 'United Rentals', 'United Rentals']"
-UNH,"['UNH', 'UNHs', ""UNH's"", '$UNH', '$Unh', '$UNHs', ""$UNH's"", 'UnitedHealth Group', 'UnitedHealth Groups', ""UnitedHealth Group's"", 'UnitedHealth', 'UnitedHealths', ""UnitedHealth's""]"
-UHS,"['UHS', 'UHSs', ""UHS's"", '$UHS', '$Uhs', '$UHSs', ""$UHS's"", 'Universal Health Services', 'Universal Health Services']"
-VLO,"['VLO', 'VLOs', ""VLO's"", '$VLO', '$Vlo', '$VLOs', ""$VLO's"", 'Valero Energy', 'Valero Energys', ""Valero Energy's"", 'Valero Energy', 'Valero Energys', ""Valero Energy's""]"
-VTR,"['VTR', 'VTRs', ""VTR's"", '$VTR', '$Vtr', '$VTRs', ""$VTR's"", 'Ventas', 'Ventas']"
-VLTO,"['VLTO', 'VLTOs', ""VLTO's"", '$VLTO', '$Vlto', '$VLTOs', ""$VLTO's"", 'Veralto', 'Veraltos', ""Veralto's"", 'Veralto', 'Veraltos', ""Veralto's""]"
-VRSN,"['VRSN', 'VRSNs', ""VRSN's"", '$VRSN', '$Vrsn', '$VRSNs', ""$VRSN's"", 'Verisign', 'Verisigns', ""Verisign's"", 'Verisign', 'Verisigns', ""Verisign's""]"
-VRSK,"['VRSK', 'VRSKs', ""VRSK's"", '$VRSK', '$Vrsk', '$VRSKs', ""$VRSK's"", 'Verisk Analytics', 'Verisk Analytics']"
-VZ,"['VZ', 'VZs', ""VZ's"", '$VZ', '$Vz', '$VZs', ""$VZ's"", 'Verizon', 'Verizons', ""Verizon's"", 'Verizon', 'Verizons', ""Verizon's""]"
-VRTX,"['VRTX', 'VRTXs', ""VRTX's"", '$VRTX', '$Vrtx', '$VRTXs', ""$VRTX's"", 'Vertex Pharmaceuticals', 'Vertex Pharmaceuticals']"
-VTRS,"['VTRS', 'VTRSs', ""VTRS's"", '$VTRS', '$Vtrs', '$VTRSs', ""$VTRS's"", 'Viatris', 'Viatris']"
-VICI,"['VICI', 'VICIs', ""VICI's"", '$VICI', '$Vici', '$VICIs', ""$VICI's"", 'Vici Properties', 'Vici Properties']"
-V,"['V', 'Vs', ""V's"", '$V', '$V', '$Vs', ""$V's"", 'Visa Inc.', 'Visa Inc.s', ""Visa Inc.'s"", 'Visa', 'Visas', ""Visa's""]"
-VST,"['VST', 'VSTs', ""VST's"", '$VST', '$Vst', '$VSTs', ""$VST's"", 'Vistra Corp.', 'Vistra Corp.s', ""Vistra Corp.'s"", 'Vistra', 'Vistras', ""Vistra's""]"
-VMC,"['VMC', 'VMCs', ""VMC's"", '$VMC', '$Vmc', '$VMCs', ""$VMC's"", 'Vulcan Materials Company', 'Vulcan Materials Companys', ""Vulcan Materials Company's"", 'Vulcan Materials']"
-WRB,"['WRB', 'WRBs', ""WRB's"", '$WRB', '$Wrb', '$WRBs', ""$WRB's"", 'W. R. Berkley Corporation', 'W. R. Berkley Corporations', ""W. R. Berkley Corporation's"", 'W R Berkley', 'W R Berkleys', ""W R Berkley's""]"
-GWW,"['GWW', 'GWWs', ""GWW's"", '$GWW', '$Gww', '$GWWs', ""$GWW's"", 'W. W. Grainger', 'W. W. Graingers', ""W. W. Grainger's"", 'W W Grainger', 'W W Graingers', ""W W Grainger's""]"
-WAB,"['WAB', 'WABs', ""WAB's"", '$WAB', '$Wab', '$WABs', ""$WAB's"", 'Wabtec', 'Wabtecs', ""Wabtec's"", 'Wabtec', 'Wabtecs', ""Wabtec's""]"
-WBA,"['WBA', 'WBAs', ""WBA's"", '$WBA', '$Wba', '$WBAs', ""$WBA's"", 'Walgreens Boots Alliance', 'Walgreens Boots Alliances', ""Walgreens Boots Alliance's"", 'Walgreens Boots Alliance', 'Walgreens Boots Alliances', ""Walgreens Boots Alliance's""]"
-WMT,"['WMT', 'WMTs', ""WMT's"", '$WMT', '$Wmt', '$WMTs', ""$WMT's"", 'Walmart', 'Walmarts', ""Walmart's"", 'Walmart', 'Walmarts', ""Walmart's""]"
-DIS,"['DIS', 'DISs', ""DIS's"", '$DIS', '$Dis', '$DISs', ""$DIS's"", 'Walt Disney Company (The)', 'Walt Disney Company (The)s', ""Walt Disney Company (The)'s"", 'Disney', 'Disneys', ""Disney's""]"
-WBD,"['WBD', 'WBDs', ""WBD's"", '$WBD', '$Wbd', '$WBDs', ""$WBD's"", 'Warner Bros. Discovery', 'Warner Bros. Discoverys', ""Warner Bros. Discovery's"", 'Warner', 'Warners', ""Warner's"", 'Discovery', 'Discoverys', ""Discovery's""]"
-WM,"['WM', 'WMs', ""WM's"", '$WM', '$Wm', '$WMs', ""$WM's"", 'Waste Management', 'Waste Managements', ""Waste Management's""]"
-WAT,"['WAT', 'WATs', ""WAT's"", '$WAT', '$Wat', '$WATs', ""$WAT's"", 'Waters Corporation', 'Waters Corporations', ""Waters Corporation's""]"
-WEC,"['WEC', 'WECs', ""WEC's"", '$WEC', '$Wec', '$WECs', ""$WEC's"", 'WEC Energy Group', 'WEC Energy Groups', ""WEC Energy Group's"", 'WEC Energy', 'WEC Energys', ""WEC Energy's""]"
-WFC,"['WFC', 'WFCs', ""WFC's"", '$WFC', '$Wfc', '$WFCs', ""$WFC's"", 'Wells Fargo', 'Wells Fargos', ""Wells Fargo's"", 'Wells Fargo', 'Wells Fargos', ""Wells Fargo's""]"
-WELL,"['WELL', 'WELLs', ""WELL's"", '$WELL', '$Well', '$WELLs', ""$WELL's"", 'Welltower', 'Welltowers', ""Welltower's"", 'Welltower', 'Welltowers', ""Welltower's""]"
-WST,"['WST', 'WSTs', ""WST's"", '$WST', '$Wst', '$WSTs', ""$WST's"", 'West Pharmaceutical Services', 'West Pharmaceutical Services']"
-WDC,"['WDC', 'WDCs', ""WDC's"", '$WDC', '$Wdc', '$WDCs', ""$WDC's"", 'Western Digital', 'Western Digitals', ""Western Digital's"", 'Western Digital', 'Western Digitals', ""Western Digital's""]"
-WY,"['WY', 'WYs', ""WY's"", '$WY', '$Wy', '$WYs', ""$WY's"", 'Weyerhaeuser', 'Weyerhaeusers', ""Weyerhaeuser's"", 'Weyerhaeuser', 'Weyerhaeusers', ""Weyerhaeuser's""]"
-WMB,"['WMB', 'WMBs', ""WMB's"", '$WMB', '$Wmb', '$WMBs', ""$WMB's"", 'Williams Companies']"
-WTW,"['WTW', 'WTWs', ""WTW's"", '$WTW', '$Wtw', '$WTWs', ""$WTW's"", 'Willis Towers Watson', 'Willis Towers Watsons', ""Willis Towers Watson's"", 'Willis Towers Watson', 'Willis Towers Watsons', ""Willis Towers Watson's""]"
-WYNN,"['WYNN', 'WYNNs', ""WYNN's"", '$WYNN', '$Wynn', '$WYNNs', ""$WYNN's"", 'Wynn Resorts', 'Wynn Resorts']"
-XEL,"['XEL', 'XELs', ""XEL's"", '$XEL', '$Xel', '$XELs', ""$XEL's"", 'Xcel Energy', 'Xcel Energys', ""Xcel Energy's"", 'Xcel Energy', 'Xcel Energys', ""Xcel Energy's""]"
-XYL,"['XYL', 'XYLs', ""XYL's"", '$XYL', '$Xyl', '$XYLs', ""$XYL's"", 'Xylem Inc.', 'Xylem Inc.s', ""Xylem Inc.'s"", 'Xylem', 'Xylems', ""Xylem's""]"
-YUM,"['YUM', 'YUMs', ""YUM's"", '$YUM', '$Yum', '$YUMs', ""$YUM's"", 'Yum! Brands']"
-ZBRA,"['ZBRA', 'ZBRAs', ""ZBRA's"", '$ZBRA', '$Zbra', '$ZBRAs', ""$ZBRA's"", 'Zebra Technologies', 'Zebra Technologies']"
-ZBH,"['ZBH', 'ZBHs', ""ZBH's"", '$ZBH', '$Zbh', '$ZBHs', ""$ZBH's"", 'Zimmer Biomet', 'Zimmer Biomets', ""Zimmer Biomet's"", 'Zimmer Biomet', 'Zimmer Biomets', ""Zimmer Biomet's""]"
-ZTS,"['ZTS', 'ZTSs', ""ZTS's"", '$ZTS', '$Zts', '$ZTSs', ""$ZTS's"", 'Zoetis', 'Zoetis']"
-GME,"['GME', 'GMEs', ""GME's"", '$GME', '$Gme', '$GMEs', ""$GME's"", 'GameStop Corporation', 'GameStop Corporations', ""GameStop Corporation's"", 'GameStop', 'GameStops', ""GameStop's""]"
+MMM,3MS|MMM|3Ms|3ms|MMMs|3M|$MMMs|3m|$MMM
+AOS,AO SMITHS|AOS|a o smith|AO Smiths|A.O. Smiths|a. o. smith|A. O. Smith|A. O. SMITH|A O SMITHS|a.o. smiths|A O Smith|A. O. Smiths|ao smith|ao smiths|A. O. SMITHS|A O SMITH|A.O. Smith|a. o. smiths|A.O. SMITHS|$AOS|AOSs|A O Smiths|$AOSs|a.o. smith|A.O. SMITH|a o smiths|AO Smith|AO SMITH
+ABT,ABTs|$ABT|ABBOTT LABORATORIES|abbott laboratories|Abbott Laboratories|ABT|$ABTs
+ABBV,$ABBVs|AbbVies|ABBVIES|AbbVie|$ABBV|abbvies|ABBVs|abbvie|ABBVIE|ABBV
+ACN,$ACNs|ACN|accenture|ACNs|$ACN|Accenture|accentures|ACCENTURE|ACCENTURES|Accentures
+ADBE,adobe|adobe inc.s|ADBE|adobes|Adobe Inc.|Adobes|$ADBEs|ADOBE INC.|Adobe Inc.s|Adobe|ADOBE|$ADBE|ADOBE INC.S|ADOBES|adobe inc.|ADBEs
+AMD,$AMDs|AMDs|amd|AMD|AMDS|advanced micro devices|$AMD|ADVANCED MICRO DEVICES|amds|Advanced Micro Devices
+AES,AES Corporations|aes corporations|AESS|AES CORPORATIONS|aess|AES Corporation|AESs|$AESs|AES CORPORATION|$AES|aes|aes corporation|AES
+AFL,AFLs|Aflacs|AFL|aflac|aflacs|Aflac|AFLACS|$AFL|AFLAC|$AFLs
+A,AGILENT TECHNOLOGIES|AGILENTS|As|A|$As|agilents|AGILENT|Agilent|agilent|agilent technologies|Agilent Technologies|Agilents|$A
+APD,$APD|air products|Air Products|AIR PRODUCTS|APDs|APD|$APDs
+ABNB,airbnb|AIRBNB|Airbnb|$ABNB|airbnbs|AIRBNBS|$ABNBs|ABNB|ABNBs|Airbnbs
+AKAM,Akamai|$AKAMs|AKAM|akamais|AKAMAI TECHNOLOGIES|AKAMAI|AKAMAIS|$AKAM|akamai|akamai technologies|Akamais|AKAMs|Akamai Technologies
+ALB,Albemarle Corporations|$ALBs|albemarle corporations|ALBEMARLES|ALB|albemarle|Albemarle|ALBEMARLE|ALBs|$ALB|Albemarles|ALBEMARLE CORPORATIONS|Albemarle Corporation|ALBEMARLE CORPORATION|albemarle corporation|albemarles
+ARE,Alexandria Real Estate Equities|AREs|ALEXANDRIA REAL ESTATES|alexandria real estates|ARE|Alexandria Real Estates|ALEXANDRIA REAL ESTATE|alexandria real estate|$ARE|$AREs|alexandria real estate equities|ALEXANDRIA REAL ESTATE EQUITIES|Alexandria Real Estate
+ALGN,ALIGN TECHNOLOGYS|align technologys|align technology|$ALGN|Align Technology|Align Technologys|ALIGN TECHNOLOGY|ALGN|ALGNs|$ALGNs
+ALLE,$ALLEs|$ALLE|Allegion|ALLEs|allegion|ALLEGION|ALLE|ALLEGIONS|allegions|Allegions
+LNT,ALLIANT ENERGY|LNT|ALLIANT ENERGYS|$LNTs|alliant energy|Alliant Energys|$LNT|Alliant Energy|alliant energys|LNTs
+ALL,ALLSTATES|ALL|ALLs|allstates|Allstate|ALLSTATE|Allstates|$ALLs|allstate|$ALL
+GOOGL,ALPHABET INC. (CLASS A)|$GOOGLs|Alphabet Inc. (Class A)|alphabet inc. (class a)s|Google|Alphabet|GOOGL|ALPHABET INC. (CLASS A)S|google|alphabet|GOOGLES|GOOGLs|Alphabet Inc. (Class A)s|Googles|GOOGLE|Alphabets|ALPHABET|googles|alphabet inc. (class a)|alphabets|ALPHABETS|$GOOGL
+GOOG,alphabet inc. (class c)|Google|Alphabet|google|alphabet|$GOOG|ALPHABET INC. (CLASS C)S|GOOG|Googles|GOOGLE|$GOOGs|Alphabets|ALPHABET|ALPHABET INC. (CLASS C)|Alphabet Inc. (Class C)|googles|Alphabet Inc. (Class C)s|alphabet inc. (class c)s|alphabets|ALPHABETS|GOOGs|GOOGLES
+MO,$MOs|altria|Altria|MOs|altrias|MO|Altrias|$MO|ALTRIA|ALTRIAS
+AMZN,AMAZON|Amazons|amazon|$AMZN|Amazon|AMAZONS|AMZN|amazons|AMZNs|$AMZNs
+AMCR,Amcor|$AMCRs|AMCRs|AMCOR|AMCORS|AMCR|amcor|Amcors|$AMCR|amcors
+AMTM,$AMTMs|AMENTUM|AMTM|AMTMs|Amentums|amentums|amentum|Amentum|$AMTM|AMENTUMS
+AEE,$AEEs|ameren|AEEs|amerens|AMERENS|AMEREN|AEE|Ameren|Amerens|$AEE
+AEP,American Electric Power|american electric power|AMERICAN ELECTRIC POWER|american electric powers|AMERICAN ELECTRIC POWERS|AEP|$AEP|$AEPs|AEPs|American Electric Powers
+AXP,American Express|american express|AMERICAN EXPRESS|$AXP|AXP|$AXPs|AXPs
+AIG,American International Group|AIG|American Internationals|$AIGs|$AIG|AMERICAN INTERNATIONALS|american internationals|AIGs|American International Groups|AMERICAN INTERNATIONAL GROUPS|american international groups|american international|AMERICAN INTERNATIONAL|AMERICAN INTERNATIONAL GROUP|American International|american international group
+AMT,american tower|AMT|American Tower|AMERICAN TOWER|$AMTs|AMERICAN TOWERS|$AMT|american towers|AMTs|American Towers
+AWK,$AWKs|AWK|american water works|AWKs|AMERICAN WATER WORKS|American Water Works|$AWK
+AMP,ameriprise financial|AMERIPRISE FINANCIALS|AMERIPRISE FINANCIAL|$AMPs|AMPs|ameriprise financials|Ameriprise Financial|Ameriprise Financials|AMP|$AMP
+AME,$AME|ameteks|AME|$AMEs|AMETEK|Ameteks|ametek|AMEs|AMETEKS|Ametek
+AMGN,amgens|$AMGN|$AMGNs|AMGEN|AMGNs|Amgen|AMGN|AMGENS|amgen|Amgens
+APH,$APH|APH|amphenol|amphenols|$APHs|Amphenols|APHs|Amphenol|AMPHENOLS|AMPHENOL
+ADI,ADI|ADIs|$ADI|$ADIs|Analog Devices|analog devices|ANALOG DEVICES
+ANSS,$ANSSs|ANSYS|ANSSs|Ansys|ansys|$ANSS|ANSS
+AON,AONs|Aons|$AON|$AONs|AONS|aon|Aon|aons|AON
+APA,apas|$APA|APAs|apa|APA CORPORATION|APA Corporations|apa corporation|$APAs|APAS|APA|APA CORPORATIONS|APA Corporation|apa corporations
+AAPL,APPLE|Apples|Apple Inc.|apples|apple|Apple|apple inc.|APPLES|Apple Inc.s|$AAPL|AAPLs|APPLE INC.|APPLE INC.S|$AAPLs|AAPL|apple inc.s
+AMAT,$AMAT|Applied Materials|APPLIED MATERIALS|AMATs|AMAT|applied materials|$AMATs
+APTV,APTVs|Aptivs|Aptiv|$APTVs|APTIVS|APTIV|aptivs|aptiv|APTV|$APTV
+ACGL,ARCH CAPITAL|$ACGL|$ACGLs|ACGL|Arch Capital|Arch Capital Group|ACGLs|Arch Capital Groups|arch capitals|ARCH CAPITALS|Arch Capitals|arch capital group|arch capital|arch capital groups|ARCH CAPITAL GROUPS|ARCH CAPITAL GROUP
+ADM,ADMs|Archer Daniels Midland|Archer Daniels Midlands|$ADMs|archer daniels midlands|archer daniels midland|ARCHER DANIELS MIDLAND|ARCHER DANIELS MIDLANDS|ADM|$ADM
+ANET,ANET|$ANET|$ANETs|ANETs|Arista Networks|ARISTA NETWORKS|arista networks
+AJG,Arthur J. Gallagher & Co.s|Arthur J. Gallagher & Co.|arthur j gallagher|ARTHUR J GALLAGHERS|arthur j gallaghers|$AJGs|$AJG|arthur j. gallagher & co.|ARTHUR J. GALLAGHER & CO.S|ARTHUR J GALLAGHER|Arthur J Gallaghers|arthur j. gallagher & co.s|AJGs|Arthur J Gallagher|AJG|ARTHUR J. GALLAGHER & CO.
+AIZ,Assurants|Assurant|$AIZ|AIZ|ASSURANTS|$AIZs|assurant|AIZs|ASSURANT|assurants
+T,Ts|$Ts|at&ts|$T|T|at&t|AT&TS|AT&Ts|AT&T
+ATO,atmos energys|ATMOS|ATMOS ENERGYS|ATOs|Atmos Energy|ATMOS ENERGY|Atmos|$ATOs|ATO|atmos|$ATO|atmos energy|Atmos Energys
+ADSK,$ADSKs|AUTODESK|ADSKs|$ADSK|autodesk|autodesks|AUTODESKS|ADSK|Autodesks|Autodesk
+ADP,automatic data processings|$ADPs|Automatic Data Processings|automatic data processing|ADPs|ADP|AUTOMATIC DATA PROCESSING|$ADP|Automatic Data Processing|AUTOMATIC DATA PROCESSINGS
+AZO,$AZO|AutoZone|AZO|AUTOZONES|autozone|AUTOZONE|AutoZones|autozones|AZOs|$AZOs
+AVB,avalonbays|AVALONBAYS|avalonbay|AvalonBay|AVB|AvalonBay Communities|AVALONBAY COMMUNITIES|AvalonBays|avalonbay communities|AVALONBAY|$AVB|$AVBs|AVBs
+AVY,AVERY DENNISON|$AVYs|$AVY|AVY|AVYs|avery dennison|Avery Dennisons|avery dennisons|AVERY DENNISONS|Avery Dennison
+AXON,axons|AXON ENTERPRISE|Axon Enterprises|axon enterprise|axon enterprises|axon|Axons|Axon Enterprise|AXONS|$AXONs|AXON ENTERPRISES|AXONs|AXON|Axon|$AXON
+BKR,BKR|$BKRs|Baker Hughes|BAKER HUGHES|baker hughes|$BKR|BKRs
+BALL,BALL|BALLs|$BALL|$BALLs|Ball Corporation|ball corporation|BALL CORPORATION|Ball Corporations|ball corporations|BALL CORPORATIONS
+BAC,Bank of Americas|BANK OF AMERICA|BANK OF AMERICAS|BAC|Bank of America|bofas|$BACs|BofAs|BofA|bank of americas|BOFA|BOFAS|bank of america|$BAC|bofa|BACs
+BAX,BAXTER INTERNATIONAL|BAXTER INTERNATIONALS|$BAX|$BAXs|BAXs|baxter international|BAX|Baxter International|Baxter Internationals|baxter internationals
+BDX,BECTON DICKINSONS|$BDX|BECTON DICKINSON|BDXs|becton dickinson|Becton Dickinson|$BDXs|BDX|Becton Dickinsons|becton dickinsons
+BRK.B,Berkshire Hathaways|BERKSHIRES|berkshire|BERKSHIRE|$BRK.B|Berkshire|BRK.Bs|berkshire hathaway|BERKSHIRE HATHAWAYS|berkshires|Berkshires|Berkshire Hathaway|$BRK.Bs|BRK.B|BERKSHIRE HATHAWAY|berkshire hathaways
+BBY,best buys|Best Buy|best buy|$BBY|BEST BUY|BBYs|BEST BUYS|BBY|$BBYs|Best Buys
+TECH,$TECHs|TECHs|bio techne|bio technes|BIO-TECHNE|TECH|bio-techne|BIO-TECHNES|Bio Techne|Bio Technes|$TECH|BIO TECHNES|Bio-Technes|bio-technes|Bio-Techne|BIO TECHNE
+BIIB,BIIB|Biogen|$BIIBs|biogen|BIOGEN|$BIIB|Biogens|biogens|BIOGENS|BIIBs
+BLK,BlackRock|$BLKs|BLACKROCKS|blackrocks|BLKs|blackrock|$BLK|BLACKROCK|BlackRocks|BLK
+BX,BLACKSTONE INC.S|blackstones|BXs|Blackstone Inc.|blackstone|BLACKSTONE|BX|blackstone inc.|Blackstones|BLACKSTONES|BLACKSTONE INC.|$BXs|$BX|blackstone inc.s|Blackstone Inc.s|Blackstone
+BK,BNY Mellons|bny mellons|BNY Mellon|$BK|bny mellon|BNY MELLON|BKs|$BKs|BNY MELLONS|BK
+BA,Boeing|$BAs|boeings|BOEINGS|BAs|BA|$BA|Boeings|BOEING|boeing
+BKNG,$BKNG|Booking.com|BOOKING HOLDINGS|Booking.coms|BOOKING.COM|BKNG|BKNGs|$BKNGs|Booking Holdings|BOOKING.COMS|booking.com|booking.coms|booking holdings
+BWA,BWA|$BWAs|BORGWARNER|BORGWARNERS|$BWA|BWAs|BorgWarner|borgwarners|BorgWarners|borgwarner
+BSX,Boston Scientific|BSXs|$BSX|Boston Scientifics|BOSTON SCIENTIFICS|boston scientifics|BOSTON SCIENTIFIC|BSX|boston scientific|$BSXs
+BMY,Bristol Myers Squibb|BRISTOL MYERS SQUIBBS|Bristol Myers Squibbs|BMYs|BRISTOL MYERS SQUIBB|bristol myers squibbs|$BMYs|bristol myers squibb|$BMY|BMY
+AVGO,$AVGO|AVGO|$AVGOs|Broadcom|broadcom|BROADCOM|broadcoms|Broadcoms|AVGOs|BROADCOMS
+BR,$BR|$BRs|BROADRIDGE FINANCIAL SOLUTIONS|Broadridge Financial Solutions|broadridge financial solutions|BRs|BR
+BRO,BROs|BROWN & BROWNS|BRO|brown & brown|Brown & Browns|brown & browns|$BROs|BROWN & BROWN|$BRO|Brown & Brown
+BF.B,BF.B|brown–formans|BROWN–FORMANS|Brown–Forman|Brown–Formans|brown forman|$BF.Bs|BROWN FORMAN|brown–forman|brown formans|BROWN FORMANS|Brown Forman|$BF.B|BF.Bs|Brown Formans|BROWN–FORMAN
+BLDR,$BLDR|BLDRs|builders firstsources|BUILDERS FIRSTSOURCES|BLDR|Builders FirstSource|BUILDERS FIRSTSOURCE|Builders FirstSources|builders firstsource|$BLDRs
+BG,BUNGE GLOBALS|BUNGE GLOBAL|BGs|Bunge Global|bunge global|bunge globals|$BG|BG|$BGs|Bunge Globals
+BXP,"BXP|bxp|bxps|bxp, inc.|$BXPs|$BXP|BXP, Inc.|BXP, INC.S|BXP, Inc.s|BXPs|bxp, inc.s|BXP, INC.|BXPS"
+CHRW,CHRW|$CHRWs|C.H. Robinsons|C.H. ROBINSONS|c.h. robinsons|$CHRW|CHRWs|C.H. Robinson|C.H. ROBINSON|c.h. robinson
+CDNS,CDNS|$CDNS|$CDNSs|CADENCE DESIGN SYSTEMS|cadence design systems|Cadence Design Systems|CDNSs
+CZR,CZRs|caesars entertainments|CAESARS ENTERTAINMENT|CAESARS ENTERTAINMENTS|Caesars Entertainments|$CZRs|Caesars Entertainment|$CZR|caesars entertainment|CZR
+CPT,camden property trusts|$CPT|$CPTs|Camden Property Trusts|Camden Property Trust|CAMDEN PROPERTY TRUST|camden property trust|CPTs|CAMDEN PROPERTY TRUSTS|CPT
+CPB,campbell soups|campbell soup|CAMPBELL SOUP COMPANY|CAMPBELL SOUP COMPANYS|CAMPBELL SOUP|$CPBs|Campbell Soups|CAMPBELL SOUPS|CPB|campbell soup company|CPBs|$CPB|Campbell Soup|Campbell Soup Companys|campbell soup companys|Campbell Soup Company
+COF,COFs|COF|$COF|CAPITAL ONE|capital ones|Capital One|$COFs|capital one|Capital Ones|CAPITAL ONES
+CAH,cardinal healths|CARDINAL HEALTHS|$CAHs|$CAH|Cardinal Health|CAH|cardinal health|Cardinal Healths|CARDINAL HEALTH|CAHs
+KMX,carmax|KMXs|$KMXs|KMX|CarMax|CARMAXS|CARMAX|$KMX|carmaxs|CarMaxs
+CCL,Carnivals|$CCL|Carnival|CCLs|$CCLs|CCL|CARNIVAL|carnivals|carnival|CARNIVALS
+CARR,CARRs|$CARRs|Carrier Globals|CARR|$CARR|carrier globals|Carrier Global|CARRIER GLOBALS|carrier global|CARRIER GLOBAL
+CAT,CATERPILLARS|CATERPILLAR INC.|caterpillar inc.|Caterpillar|CATs|$CAT|Caterpillar Inc.s|CATERPILLAR|CAT|caterpillars|caterpillar|Caterpillars|caterpillar inc.s|$CATs|CATERPILLAR INC.S|Caterpillar Inc.
+CBOE,cboe global markets|CBOE|cboe|cboes|CBOES|Cboe Global Markets|$CBOEs|$CBOE|Cboes|CBOEs|Cboe|CBOE GLOBAL MARKETS
+CBRE,cbre|cbre group|$CBRE|CBRE|CBREs|$CBREs|CBRE Group|CBRES|CBRE GROUPS|cbres|cbre groups|CBRE Groups|CBRE GROUP
+CDW,CDW|cdw|CDWS|CDWs|$CDW|$CDWs|cdws
+CE,celanese|CEs|CELANESES|celaneses|CE|Celaneses|$CEs|Celanese|CELANESE|$CE
+COR,cencora|$COR|COR|CENCORAS|cencoras|Cencora|Cencoras|$CORs|CENCORA|CORs
+CNC,$CNC|centene corporation|CENTENES|CENTENE CORPORATION|centene|Centene|centenes|Centene Corporations|Centenes|CENTENE|Centene Corporation|centene corporations|CNCs|CENTENE CORPORATIONS|CNC|$CNCs
+CNP,CNPs|centerpoint energy|CenterPoint Energy|CenterPoint|CENTERPOINT|centerpoints|$CNPs|CENTERPOINTS|CNP|centerpoint|CENTERPOINT ENERGYS|CenterPoint Energys|CENTERPOINT ENERGY|centerpoint energys|CenterPoints|$CNP
+CF,$CFs|cf industries|$CF|CF INDUSTRIES|CF|CF Industries|CFs
+CRL,$CRLs|Charles River Laboratories|CHARLES RIVER LABORATORIES|Charles River|charles river laboratories|CRLs|charles river|CHARLES RIVERS|charles rivers|CRL|Charles Rivers|$CRL|CHARLES RIVER
+SCHW,schwab|charles schwab corporations|CHARLES SCHWAB CORPORATIONS|Schwabs|charles schwab corporation|Charles Schwab Corporation|schwabs|$SCHWs|Charles Schwab Corporations|Schwab|$SCHW|SCHWAB|CHARLES SCHWAB CORPORATION|SCHW|SCHWs|SCHWABS
+CHTR,CHTR|charter communications|$CHTR|$CHTRs|CHARTER COMMUNICATIONS|Charter Communications|CHTRs
+CVX,CHEVRON CORPORATIONS|Chevron Corporation|chevrons|chevron corporations|CHEVRONS|$CVX|CHEVRON|chevron corporation|CHEVRON CORPORATION|$CVXs|Chevrons|Chevron Corporations|CVX|CVXs|chevron|Chevron
+CMG,Chipotle Mexican Grills|chipotle mexican grill|chipotle mexican grills|Chipotle|CHIPOTLE MEXICAN GRILLS|chipotle|CHIPOTLES|CMG|CHIPOTLE MEXICAN GRILL|chipotles|$CMG|Chipotles|Chipotle Mexican Grill|CHIPOTLE|$CMGs|CMGs
+CB,CHUBB LIMITED|CB|$CB|chubb limiteds|chubbs|chubb limited|CHUBBS|CHUBB LIMITEDS|Chubbs|Chubb|$CBs|chubb|CBs|CHUBB|Chubb Limiteds|Chubb Limited
+CHD,Church Dwights|Church & Dwight|$CHD|Church & Dwights|church & dwights|$CHDs|Church Dwight|CHURCH DWIGHT|church dwight|CHURCH & DWIGHT|church dwights|CHURCH DWIGHTS|CHDs|CHURCH & DWIGHTS|church & dwight|CHD
+CI,cignas|$CI|$CIs|CI|Cignas|CIGNAS|CIGNA|CIs|Cigna|cigna
+CINF,CINFs|cincinnati financial|cincinnati financials|$CINFs|CINCINNATI FINANCIALS|Cincinnati Financials|$CINF|CINF|CINCINNATI FINANCIAL|Cincinnati Financial
+CTAS,CINTAS|CTAS|$CTAS|CTASs|$CTASs|Cintas|cintas
+CSCO,CISCO|CSCOs|$CSCO|Ciscos|$CSCOs|CSCO|ciscos|cisco|CISCOS|Cisco
+C,citigroups|citigroup|Citigroups|Citigroup|CITIGROUPS|$C|CITIGROUP|C|$Cs|Cs
+CFG,CFG|Citizens Financial Group|citizens financials|citizens financial group|$CFG|citizens financial groups|CITIZENS FINANCIALS|citizens financial|Citizens Financial Groups|CITIZENS FINANCIAL|CITIZENS FINANCIAL GROUPS|Citizens Financials|CFGs|$CFGs|Citizens Financial|CITIZENS FINANCIAL GROUP
+CLX,CLXs|$CLX|CLX|cloroxs|Clorox|$CLXs|clorox|Cloroxs|CLOROXS|CLOROX
+CME,cme group|CME Group|CME GROUPS|$CMEs|cme groups|$CME|cmes|cme|CME GROUP|CMES|CME|CMEs|CME Groups
+CMS,CMSs|CMS Energy|CMS Energys|$CMSs|CMS ENERGY|$CMS|CMS ENERGYS|CMS|cms energy|cms energys
+KO,$KO|KOs|coca cola|Coca Cola|COCA COLAS|KO|coca-cola company (the)s|Coca-Cola Company (The)|COCA-COLA COMPANY (THE)|Coca-Cola Company (The)s|COCA COLA|coca-cola company (the)|coca colas|Coca Colas|COCA-COLA COMPANY (THE)S|$KOs
+CTSH,CTSH|$CTSHs|COGNIZANTS|Cognizant|CTSHs|cognizants|Cognizants|COGNIZANT|cognizant|$CTSH
+CL,CL|Colgate-Palmolive|Colgate-Palmolives|PALMOLIVE|COLGATE|Colgates|Palmolive|colgates|Colgate|CLs|$CLs|palmolive|colgate-palmolives|$CL|PALMOLIVES|Palmolives|colgate|COLGATES|colgate-palmolive|COLGATE-PALMOLIVES|COLGATE-PALMOLIVE|palmolives
+CMCSA,CMCSAs|$CMCSAs|Comcasts|COMCAST|COMCASTS|Comcast|comcast|comcasts|$CMCSA|CMCSA
+CAG,conagras|$CAG|CONAGRA BRANDS|Conagra Brands|conagra|CONAGRA|Conagras|conagra brands|CAG|$CAGs|Conagra|CONAGRAS|CAGs
+COP,$COPs|ConocoPhillips|CONOCOPHILLIPS|$COP|conocophillips|COP|COPs
+ED,CONSOLIDATED EDISONS|$ED|$EDs|consolidated edison|CONSOLIDATED EDISON|Consolidated Edisons|EDs|Consolidated Edison|consolidated edisons|ED
+STZ,$STZ|CONSTELLATION BRANDS|constellation brands|STZ|Constellation Brands|STZs|$STZs
+CEG,CEGs|constellation energys|Constellation Energys|CONSTELLATION ENERGYS|Constellation Energy|constellation energy|CONSTELLATION ENERGY|CEG|$CEGs|$CEG
+COO,COOs|Cooper Companies (The)|cooper companies (the)s|Cooper|$COO|Cooper Companies (The)s|$COOs|cooper|Coopers|COO|COOPER COMPANIES (THE)|coopers|COOPER COMPANIES (THE)S|COOPER|COOPERS|cooper companies (the)
+CPRT,COPARTS|COPART|$CPRTs|$CPRT|Copart|coparts|Coparts|copart|CPRTs|CPRT
+GLW,CORNINGS|CORNING|GLW|GLWs|Cornings|Corning Inc.s|Corning|corning inc.|CORNING INC.|$GLW|corning inc.s|CORNING INC.S|cornings|corning|$GLWs|Corning Inc.
+CPAY,$CPAY|CPAYs|Corpay|Corpays|corpays|$CPAYs|CPAY|corpay|CORPAYS|CORPAY
+CTVA,Corteva|corteva|CTVAs|$CTVA|CORTEVAS|$CTVAs|Cortevas|cortevas|CTVA|CORTEVA
+CSGP,COSTAR GROUP|CSGPs|CoStar Group|CoStar Groups|COSTARS|costars|costar groups|COSTAR|CSGP|costar group|CoStar|costar|CoStars|$CSGPs|$CSGP|COSTAR GROUPS
+COST,costco|Costcos|costcos|COSTs|COSTCO|COST|Costco|$COST|$COSTs|COSTCOS
+CTRA,coterras|coterra|CTRA|Coterras|$CTRA|Coterra|$CTRAs|COTERRA|CTRAs|COTERRAS
+CRWD,CrowdStrike|CROWDSTRIKES|CRWDs|CRWD|$CRWD|CROWDSTRIKE|$CRWDs|crowdstrike|CrowdStrikes|crowdstrikes
+CCI,$CCI|CROWN CASTLE|CCIs|CCI|Crown Castle|crown castle|CROWN CASTLES|$CCIs|crown castles|Crown Castles
+CSX,$CSXs|CSXS|CSX Corporation|CSXs|csx corporation|CSX Corporations|csxs|csx|CSX CORPORATIONS|csx corporations|CSX|$CSX|CSX CORPORATION
+CMI,CMI|CMIs|$CMIs|CUMMINS|$CMI|Cummins|cummins
+CVS,CVS|$CVS|cvs health|$CVSs|CVS Healths|CVS HEALTH|CVSs|CVS Health|CVS HEALTHS|cvs healths
+DHR,DANAHER CORPORATION|$DHR|Danaher Corporation|DANAHERS|danaher corporations|danaher|Danaher Corporations|danahers|DHR|DANAHER CORPORATIONS|DANAHER|danaher corporation|DHRs|$DHRs|Danaher|Danahers
+DRI,Darden Restaurants|$DRI|DRI|$DRIs|DRIs|darden restaurants|DARDEN RESTAURANTS
+DVA,DaVita|$DVAs|DAVITA|DaVitas|DVAs|DVA|davita|DAVITAS|$DVA|davitas
+DAY,$DAY|dayforces|DAYs|$DAYs|Dayforce|DAYFORCES|dayforce|DAYFORCE|Dayforces|DAY
+DECK,Ugg|deckers|Uggs|DECKs|$DECKs|Deckers|DECKERS|ugg|UGGS|uggs|$DECK|DECK|deckers brands|UGG|Deckers Brands|DECKERS BRANDS
+DE,deere & companys|DEERE & COMPANYS|deere|deere & company|DEERES|deeres|DE|Deeres|$DEs|DEERE|Deere|Deere & Company|DEERE & COMPANY|Deere & Companys|$DE|DEs
+DELL,$DELLs|Dell Technologies|DELL TECHNOLOGIES|DELL|DELLs|dell technologies|$DELL
+DAL,Delta Air Lines|delta airs|$DAL|delta air lines|DELTA AIRS|Delta Airs|DELTA AIR LINES|Delta Air|DELTA AIR|DAL|DALs|delta air|$DALs
+DVN,Devon Energy|DEVON ENERGY|DVN|$DVNs|$DVN|DVNs|devon energy|devon energys|Devon Energys|DEVON ENERGYS
+DXCM,DEXCOMS|dexcoms|$DXCM|Dexcom|$DXCMs|Dexcoms|dexcom|DXCMs|DEXCOM|DXCM
+FANG,FANGs|DIAMONDBACK ENERGY|$FANG|$FANGs|DIAMONDBACK ENERGYS|Diamondback Energys|diamondback energy|diamondback energys|Diamondback Energy|FANG
+DLR,Digital Realtys|DLRs|Digital Realty|$DLRs|$DLR|DIGITAL REALTY|DIGITAL REALTYS|DLR|digital realtys|digital realty
+DFS,DFSs|DISCOVER FINANCIAL|Discover Financial|$DFS|discover financials|discover financial|$DFSs|DISCOVER FINANCIALS|DFS|Discover Financials
+DG,$DGs|dollar general|DG|Dollar General|dollar generals|DOLLAR GENERAL|$DG|DGs|DOLLAR GENERALS|Dollar Generals
+DLTR,$DLTR|DLTRs|dollar tree|DOLLAR TREE|dollar trees|Dollar Tree|Dollar Trees|$DLTRs|DOLLAR TREES|DLTR
+D,Ds|Dominion Energys|D|Dominion Energy|$D|DOMINION ENERGYS|$Ds|dominion energy|DOMINION ENERGY|dominion energys
+DPZ,dominos|DPZs|DOMINOS|$DPZs|domino's|Domino's|DPZ|$DPZ|Dominos|DOMINO'S
+DOV,$DOV|DOVs|DOV|Dover Corporation|Dover|DOVER|Dover Corporations|dovers|DOVER CORPORATION|Dovers|dover|dover corporation|DOVERS|dover corporations|DOVER CORPORATIONS|$DOVs
+DOW,Dow Inc.|dows|dow inc.s|DOW INC.S|DOWS|DOW|dow inc.|Dow|DOWs|Dows|dow|$DOW|Dow Inc.s|$DOWs|DOW INC.
+DHI,d. r. hortons|DHI|D R HORTON|D R Hortons|d r hortons|D R HORTONS|$DHIs|DHIs|D. R. Horton|$DHI|D. R. HORTON|d r horton|D R Horton|D. R. Hortons|d. r. horton|D. R. HORTONS
+DTE,DTE|$DTEs|DTE ENERGY|DTE Energys|dte energys|DTE Energy|dte energy|$DTE|DTE ENERGYS|DTEs
+DUK,duke energys|DUK|DUKE ENERGY|DUKs|$DUK|Duke Energys|duke energy|DUKE ENERGYS|Duke Energy|$DUKs
+DD,DuPonts|$DDs|$DD|DUPONT|duponts|DDs|DuPont|DUPONTS|DD|dupont
+EMN,Eastman Chemical|eastman chemical companys|Eastman Chemicals|EASTMAN CHEMICALS|eastman chemicals|$EMNs|Eastman Chemical Company|eastman chemical company|EASTMAN CHEMICAL COMPANY|Eastman Chemical Companys|eastman chemical|EMNs|EASTMAN CHEMICAL|EMN|EASTMAN CHEMICAL COMPANYS|$EMN
+ETN,$ETNs|ETN|Eatons|ETNs|Eaton Corporation|EATON|eaton corporation|eaton corporations|Eaton|eatons|EATON CORPORATIONS|EATON CORPORATION|eaton|EATONS|Eaton Corporations|$ETN
+EBAY,$EBAYs|EBAYs|eBays|EBAY|$EBAY|eBay|EBAYS|ebay|ebays
+ECL,$ECLs|$ECL|ECOLAB|Ecolabs|ecolabs|ECL|Ecolab|ECLs|ecolab|ECOLABS
+EIX,edison internationals|EIX|EDISON INTERNATIONALS|edison international|EIXs|$EIXs|Edison International|Edison Internationals|$EIX|EDISON INTERNATIONAL
+EW,$EW|$EWs|EDWARDS LIFESCIENCES|Edwards Lifesciences|edwards lifesciences|EW|EWs
+EA,Electronic Arts|$EAs|electronic arts|ELECTRONIC ARTS|$EA|EAs|EA
+ELV,ELEVANCE HEALTHS|ELV|elevance health|$ELV|Elevance Healths|ELVs|$ELVs|ELEVANCE HEALTH|elevance healths|Elevance Health
+EMR,Emerson Electric|Emerson Electrics|$EMRs|EMERSON ELECTRIC|EMRs|emerson electrics|EMR|emerson electric|EMERSON ELECTRICS|$EMR
+ENPH,enphase energys|$ENPHs|Enphase Energy|enphase energy|ENPHASE ENERGY|ENPH|ENPHASE ENERGYS|$ENPH|ENPHs|Enphase Energys
+ETR,entergy|$ETRs|$ETR|ENTERGY|Entergy|entergys|ETRs|Entergys|ENTERGYS|ETR
+EOG,$EOGs|EOG Resources|EOGs|EOG RESOURCES|eog resources|$EOG|EOG
+EPAM,epam systems|EPAM|EPAM Systems|EPAM SYSTEMS|$EPAM|EPAMs|$EPAMs
+EQT,$EQTs|EQT Corporations|eqts|$EQT|EQTS|eqt|EQT CORPORATION|EQT|EQT CORPORATIONS|EQTs|EQT Corporation|eqt corporation|eqt corporations
+EFX,$EFX|EFX|Equifax|$EFXs|equifax|Equifaxs|equifaxs|EQUIFAX|EFXs|EQUIFAXS
+EQIX,EQIXs|$EQIXs|Equinix|EQUINIX|EQUINIXS|equinixs|EQIX|$EQIX|equinix|Equinixs
+EQR,EQR|EQUITY RESIDENTIALS|equity residentials|Equity Residential|$EQR|EQUITY RESIDENTIAL|equity residential|EQRs|Equity Residentials|$EQRs
+ERIE,Erie Indemnitys|ERIEs|ERIE INDEMNITY|$ERIE|ERIE|Erie Indemnity|erie indemnitys|ERIE INDEMNITYS|$ERIEs|erie indemnity
+ESS,Essex Property Trust|essex property trusts|ESSEX PROPERTY TRUST|ESSEX PROPERTY TRUSTS|ESS|Essex Property Trusts|essex property trust|ESSs|$ESSs|$ESS
+EL,estee lauder|EL|Estee Lauders|Estée Lauder Companies (The)|ESTÉE LAUDER COMPANIES (THE)S|ESTEE LAUDERS|estée lauder companies (the)|$ELs|Estée Lauder Companies (The)s|ESTÉE LAUDER COMPANIES (THE)|ELs|$EL|estée lauder companies (the)s|ESTEE LAUDER|Estee Lauder|estee lauders
+EG,Everest Groups|Everest|Everests|$EG|EVERESTS|everests|everest group|EVEREST GROUPS|EG|Everest Group|EGs|everest groups|everest|$EGs|EVEREST GROUP|EVEREST
+EVRG,evergy|$EVRGs|evergys|EVRG|EVERGY|Evergy|EVRGs|Evergys|$EVRG|EVERGYS
+ES,Eversource Energys|eversource energy|$ESs|EVERSOURCE ENERGYS|EVERSOURCE ENERGY|ESs|eversource energys|Eversource Energy|$ES|ES
+EXC,Exelon|exelon|EXELONS|exelons|EXELON|Exelons|$EXC|EXCs|$EXCs|EXC
+EXPE,$EXPE|expedia groups|Expedias|EXPEDIA GROUPS|expedias|$EXPEs|EXPEDIA|Expedia Groups|expedia|EXPE|expedia group|Expedia|EXPEDIAS|Expedia Group|EXPEs|EXPEDIA GROUP
+EXPD,expeditors internationals|Expeditors International|expeditors international|$EXPD|Expeditors Internationals|EXPDs|EXPEDITORS INTERNATIONAL|EXPD|EXPEDITORS INTERNATIONALS|$EXPDs
+EXR,EXR|Extra Space Storages|$EXRs|EXRs|extra space storage|EXTRA SPACE STORAGE|extra space storages|EXTRA SPACE STORAGES|$EXR|Extra Space Storage
+XOM,exxonmobil|$XOM|ExxonMobil|ExxonMobils|EXXONMOBIL|exxonmobils|XOMs|EXXONMOBILS|XOM|$XOMs
+FFIV,"$FFIV|F5|FFIVs|f5|F5s|F5, Inc.|F5, INC.S|f5s|F5S|$FFIVs|f5, inc.s|F5, INC.|F5, Inc.s|FFIV|f5, inc."
+FDS,FDSs|FactSets|FACTSETS|FactSet|factset|$FDSs|FACTSET|$FDS|factsets|FDS
+FICO,FAIR ISAACS|Fair Isaac|$FICO|FAIR ISAAC|fair isaacs|$FICOs|FICO|Fair Isaacs|fair isaac|FICOs
+FAST,fastenals|Fastenal|$FASTs|FAST|$FAST|Fastenals|FASTENALS|fastenal|FASTENAL|FASTs
+FRT,FRT|FRTs|$FRT|$FRTs|Federal Realty Investment Trust|federal realty investment trust|FEDERAL REALTY INVESTMENT TRUST|Federal Realty Investment Trusts|federal realty investment trusts|FEDERAL REALTY INVESTMENT TRUSTS
+FDX,FedExs|FDX|FedEx|FEDEXS|FEDEX|$FDXs|fedex|FDXs|fedexs|$FDX
+FIS,FISs|FIS|$FISs|fiss|Fidelity National Information Services|fis|FISS|fidelity national information services|FIDELITY NATIONAL INFORMATION SERVICES|$FIS
+FITB,FITBs|fifth third bancorps|FIFTH THIRD BANCORP|Fifth Third Bancorps|Fifth Third Bancorp|FIFTH THIRD BANCORPS|FITB|fifth third bancorp|$FITB|$FITBs
+FSLR,$FSLR|First Solars|FSLR|FIRST SOLARS|first solar|FSLRs|FIRST SOLAR|first solars|$FSLRs|First Solar
+FE,$FEs|FE|firstenergy|FIRSTENERGY|FirstEnergys|FIRSTENERGYS|firstenergys|FEs|$FE|FirstEnergy
+FI,FI|FIs|$FI|FISERVS|FISERV|fiservs|fiserv|$FIs|Fiservs|Fiserv
+FMC,FMC CORPORATIONS|FMC|fmc corporation|FMC Corporations|$FMC|fmc corporations|FMC CORPORATION|fmcs|$FMCs|fmc|FMCs|FMCS|FMC Corporation
+F,FORD MOTOR COMPANY|Ford Motor|Fs|$F|FORD MOTOR|ford motors|$Fs|Ford Motors|Ford Motor Companys|FORD MOTORS|ford motor company|Ford Motor Company|ford motor companys|FORD MOTOR COMPANYS|F|ford motor
+FTNT,FTNT|FORTINETS|Fortinets|$FTNTs|FORTINET|fortinet|$FTNT|Fortinet|FTNTs|fortinets
+FTV,FTV|Fortives|$FTV|FORTIVE|FTVs|fortives|$FTVs|FORTIVES|fortive|Fortive
+FOXA,FOX|Fox|FOXS|fox corporation (class a)s|FOX CORPORATION (CLASS A)|Foxs|$FOXAs|FOXAs|fox corporation (class a)|$FOXA|fox|Fox Corporation (Class A)s|Fox Corporation (Class A)|foxs|FOXA|FOX CORPORATION (CLASS A)S
+FOX,$FOX|FOX CORPORATION (CLASS B)S|fox corporation (class b)s|FOX|FOX CORPORATION (CLASS B)|Fox|FOXS|FOXs|Foxs|Fox Corporation (Class B)s|fox corporation (class b)|fox|Fox Corporation (Class B)|foxs|$FOXs
+BEN,$BEN|BEN|$BENs|FRANKLIN RESOURCES|Franklin Resources|franklin resources|BENs
+FCX,FREEPORT MCMORAN|$FCXs|FCX|Freeport-McMoRan|FREEPORT MCMORANS|freeport-mcmorans|Freeport-McMoRans|FREEPORT-MCMORANS|Freeport McMoRans|freeport mcmoran|$FCX|Freeport McMoRan|FCXs|freeport-mcmoran|FREEPORT-MCMORAN|freeport mcmorans
+GRMN,GARMIN|Garmin|GARMINS|$GRMN|$GRMNs|garmins|GRMNs|Garmins|GRMN|garmin
+IT,IT|GARTNERS|ITs|$ITs|Gartner|gartners|gartner|Gartners|GARTNER|$IT
+GE,GE Aerospace|General Electric|GE AEROSPACE|ge aerospaces|general electrics|GE Aerospaces|ge aerospace|GE|$GE|general electric|GENERAL ELECTRIC|GE AEROSPACES|GENERAL ELECTRICS|General Electrics|GEs|$GEs
+GEHC,ges|GENERAL ELECTRIC|GEHC|GEs|ge healthcare|GEHCs|GES|General Electric|GE HEALTHCARES|ge healthcares|$GEHC|GE HealthCares|GE HealthCare|general electrics|GE|ge|GENERAL ELECTRICS|general electric|GE HEALTHCARE|$GEHCs|General Electrics
+GEV,ges|GE VERNOVAS|GEVs|ge vernova|GENERAL ELECTRIC|GEs|$GEVs|GES|General Electric|general electrics|GE Vernova|GEV|GE|ge|GENERAL ELECTRICS|general electric|GE Vernovas|ge vernovas|$GEV|GE VERNOVA|General Electrics
+GEN,GEN|gen digital|$GEN|$GENs|Gen Digital|GEN DIGITALS|gen digitals|GEN DIGITAL|Gen Digitals|GENs
+GNRC,GNRC|Generac|GNRCs|GENERAC|$GNRCs|generac|$GNRC|GENERACS|Generacs|generacs
+GD,GDs|$GD|general dynamics|$GDs|General Dynamics|GD|GENERAL DYNAMICS
+GIS,GISs|$GIS|$GISs|GENERAL MILLS|GIS|General Mills|general mills
+GM,GM|$GMs|$GM|General Motors|GMs|GENERAL MOTORS|general motors
+GPC,Genuine Parts Company|genuine parts companys|Genuine Parts|GENUINE PARTS|GENUINE PARTS COMPANY|genuine parts|GENUINE PARTS COMPANYS|$GPC|GPC|$GPCs|GPCs|Genuine Parts Companys|genuine parts company
+GILD,Gilead Sciences|GILDs|gilead sciences|$GILD|GILEAD SCIENCES|GILD|$GILDs
+GPN,Global Payments|GLOBAL PAYMENTS|GPNs|GPN|$GPN|global payments|$GPNs
+GL,$GLs|Globe Lifes|globe lifes|GLs|GLOBE LIFES|$GL|globe life|GLOBE LIFE|GL|Globe Life
+GDDY,GoDaddy|GODADDY|$GDDYs|GDDYs|godaddys|GODADDYS|GoDaddys|GDDY|$GDDY|godaddy
+GS,GSs|$GSs|Goldman Sachs|$GS|GOLDMAN SACHS|GS|goldman sachs
+HAL,$HAL|HALLIBURTON|HALs|Halliburtons|Halliburton|HALLIBURTONS|$HALs|halliburtons|halliburton|HAL
+HIG,$HIG|HIGs|Hartfords|Hartford|$HIGs|HARTFORD (THE)|Hartford (The)s|HARTFORDS|hartford|HIG|Hartford (The)|HARTFORD (THE)S|hartford (the)|hartford (the)s|HARTFORD|hartfords
+HAS,hasbro|Hasbros|HASs|HASBRO|HASBROS|$HAS|hasbros|Hasbro|HAS|$HASs
+HCA,HCA Healthcares|HCAs|HCA|hca healthcares|HCA HEALTHCARE|hca healthcare|HCA HEALTHCARES|$HCAs|HCA Healthcare|$HCA
+DOC,HEALTHPEAK PROPERTIES|Healthpeak Properties|$DOCs|DOCs|healthpeak properties|$DOC|DOC
+HSIC,Henry Schein|HENRY SCHEIN|$HSICs|henry schein|HSIC|HSICs|Henry Scheins|$HSIC|HENRY SCHEINS|henry scheins
+HSY,hershey company (the)|$HSY|HSYs|HSY|$HSYs|hershey|HERSHEYS|Hershey Company (The)s|HERSHEY|hersheys|Hershey|hershey company (the)s|HERSHEY COMPANY (THE)|Hersheys|Hershey Company (The)|HERSHEY COMPANY (THE)S
+HES,HESS|hess corporations|Hess Corporation|$HES|HESS CORPORATIONS|hess corporation|Hess|HESs|HESS CORPORATION|Hess Corporations|hess|$HESs|HES
+HPE,hps|HPs|HEWLETT PACKARD ENTERPRISES|hewlett packard enterprises|hewlett packards|Hewlett Packard|hewlett packard|hewlett packard enterprise|$HPEs|Hewlett Packard Enterprise|HEWLETT PACKARD|Hewlett Packard Enterprises|HPEs|HPS|HEWLETT PACKARD ENTERPRISE|HPE|HP|$HPE|hp|Hewlett Packards|HEWLETT PACKARDS
+HLT,$HLT|hilton worldwides|HLTs|HILTON WORLDWIDES|$HLTs|HLT|Hilton Worldwide|hilton worldwide|HILTON WORLDWIDE|Hilton Worldwides
+HOLX,Hologic|Hologics|$HOLX|HOLOGIC|hologics|hologic|$HOLXs|HOLOGICS|HOLX|HOLXs
+HD,Home Depot|home depots|HOME DEPOT|HDs|Home Depot (The)s|HOME DEPOTS|HD|HOME DEPOT (THE)|HOME DEPOT (THE)S|home depot|Home Depots|Home Depot (The)|home depot (the)|home depot (the)s|$HDs|$HD
+HON,HON|HONEYWELL|$HON|Honeywell|Honeywells|HONEYWELLS|$HONs|honeywell|honeywells|HONs
+HRL,HRL|hormel foods|$HRLs|HORMEL FOODS|Hormel Foods|HRLs|$HRL
+HST,host hotels & resorts|HOST HOTELS & RESORTS|Host Hotels & Resorts|HSTs|HOST HOTELS RESORTS|host hotels resorts|HST|$HSTs|Host Hotels Resorts|$HST
+HWM,Howmet Aerospace|HWMs|howmet aerospaces|Howmet Aerospaces|HOWMET AEROSPACES|HOWMET AEROSPACE|howmet aerospace|HWM|$HWMs|$HWM
+HPQ,hps|hp inc.s|HPs|HP Inc.|HPQ|hewlett packards|HP INC.S|Hewlett Packard|hewlett packard|HEWLETT PACKARD|HPS|HPQs|hp inc.|$HPQs|HP Inc.s|$HPQ|HP|HP INC.|hp|Hewlett Packards|HEWLETT PACKARDS
+HUBB,hubbells|hubbell incorporateds|HUBBs|HUBB|$HUBBs|$HUBB|Hubbell Incorporated|HUBBELLS|Hubbell Incorporateds|Hubbell|Hubbells|HUBBELL INCORPORATED|hubbell|HUBBELL INCORPORATEDS|HUBBELL|hubbell incorporated
+HUM,HUMANAS|HUMANA|Humana|$HUM|HUMs|humanas|humana|HUM|$HUMs|Humanas
+HBAN,$HBANs|Huntington Bancshares|HBAN|HUNTINGTON BANCSHARES|$HBAN|HBANs|huntington bancshares
+HII,HIIs|$HIIs|huntington ingalls industries|Huntington Ingalls Industries|HUNTINGTON INGALLS INDUSTRIES|huntington ingalls|Huntington Ingalls|HII|$HII|HUNTINGTON INGALLS
+IBM,ibms|IBMs|ibm|IBM|IBMS|$IBMs|$IBM
+IEX,IDEXS|idex|$IEX|IDEX Corporation|IEX|IDEXs|IEXs|idex corporations|IDEX CORPORATIONS|IDEX|idex corporation|idexs|$IEXs|IDEX CORPORATION|IDEX Corporations
+IDXX,idexx laboratories|Idexx|idexx|$IDXXs|IDXXs|Idexxs|IDXX|IDEXXS|$IDXX|IDEXX|Idexx Laboratories|idexxs|IDEXX LABORATORIES
+ITW,$ITWs|ITWs|ITW|Illinois Tool Works|$ITW|illinois tool works|ILLINOIS TOOL WORKS
+INCY,Incytes|incyte|INCY|incytes|$INCYs|$INCY|INCYTES|INCYs|INCYTE|Incyte
+IR,$IR|ingersoll rand|ingersoll rands|Ingersoll Rand|INGERSOLL RANDS|$IRs|IR|IRs|Ingersoll Rands|INGERSOLL RAND
+PODD,insulets|Insulets|PODDs|Insulet|INSULET|PODD|INSULET CORPORATION|Insulet Corporation|insulet corporations|INSULET CORPORATIONS|INSULETS|insulet corporation|$PODDs|Insulet Corporations|$PODD|insulet
+INTC,INTCs|Intel|INTC|Intels|intels|INTELS|intel|$INTC|INTEL|$INTCs
+ICE,ICEs|intercontinental exchange|Intercontinental Exchanges|$ICEs|ICE|INTERCONTINENTAL EXCHANGES|INTERCONTINENTAL EXCHANGE|intercontinental exchanges|$ICE|Intercontinental Exchange
+IFF,International Flavors & Fragrances|$IFFs|INTERNATIONAL FLAVORS FRAGRANCES|international flavors fragrances|IFF|$IFF|INTERNATIONAL FLAVORS & FRAGRANCES|IFFs|International Flavors Fragrances|international flavors & fragrances
+IP,$IPs|IPs|INTERNATIONAL PAPERS|International Paper|IP|international papers|INTERNATIONAL PAPER|international paper|International Papers|$IP
+IPG,Interpublic|interpublics|interpublic group of companies (the)|Interpublics|Interpublic Group of Companies (The)s|INTERPUBLIC GROUP OF COMPANIES (THE)|INTERPUBLICS|$IPGs|INTERPUBLIC|interpublic|IPG|interpublic group of companies (the)s|$IPG|Interpublic Group of Companies (The)|INTERPUBLIC GROUP OF COMPANIES (THE)S|IPGs
+INTU,intuit|INTUITS|INTUIT|INTUs|$INTUs|Intuits|Intuit|intuits|INTU|$INTU
+ISRG,INTUITIVE SURGICALS|Intuitive Surgical|INTUITIVE SURGICAL|ISRGs|Intuitive Surgicals|$ISRG|intuitive surgicals|intuitive surgical|ISRG|$ISRGs
+IVZ,IVZ|Invesco|Invescos|INVESCOS|$IVZ|IVZs|$IVZs|invesco|invescos|INVESCO
+INVH,INVITATION HOMES|$INVHs|INVHs|$INVH|INVH|Invitation Homes|invitation homes
+IQV,IQVs|$IQV|IQV|IQVIAs|IQVIA|iqvias|IQVIAS|$IQVs|iqvia
+IRM,$IRMs|IRM|Iron Mountain|Iron Mountains|IRON MOUNTAINS|$IRM|iron mountain|IRON MOUNTAIN|IRMs|iron mountains
+JBHT,J.B. HUNT|j.b. hunt|JBHT|JBHTs|J.B. Hunts|jb hunt|jb hunts|JB HUNTS|JB HUNT|$JBHT|J.B. HUNTS|JB Hunt|$JBHTs|J.B. Hunt|JB Hunts|j.b. hunts
+JBL,$JBLs|JABILS|jabils|jabil|$JBL|JBL|Jabils|Jabil|JABIL|JBLs
+JKHY,JACK HENRY ASSOCIATES|jack henry associates|JACK HENRY & ASSOCIATES|JKHYs|jack henry & associates|$JKHYs|$JKHY|Jack Henry Associates|Jack Henry & Associates|JKHY
+J,jacobs solutions|Jacobs Solutions|J|Js|$J|JACOBS SOLUTIONS|$Js
+JNJ,JOHNSON & JOHNSONS|JOHNSON & JOHNSON|JNJs|Johnson & Johnson|Johnson & Johnsons|johnson & johnsons|$JNJ|johnson & johnson|JNJ|$JNJs
+JCI,JCI|$JCI|JCIs|$JCIs|johnson controls|Johnson Controls|JOHNSON CONTROLS
+JPM,jpmorgans|jpmorgan chases|JPM|$JPMs|JPMorgans|JPMORGAN CHASES|jpmorgan chase|JPMorgan Chase|JPMORGAN|JPMs|$JPM|JPMorgan|jpmorgan|JPMORGANS|JPMorgan Chases|JPMORGAN CHASE
+JNPR,$JNPR|Juniper Networks|JUNIPER NETWORKS|juniper networks|$JNPRs|JNPR|JNPRs
+K,kellanovas|K|kellanova|KELLANOVA|Kellanovas|$K|$Ks|Ks|KELLANOVAS|Kellanova
+KVUE,kenvue|KENVUE|KVUE|Kenvue|$KVUE|KVUEs|KENVUES|$KVUEs|kenvues|Kenvues
+KDP,Keurig Dr Pepper|KDPs|keurig dr peppers|KDP|dr peppers|DR PEPPER|$KDPs|Dr Pepper|Keurig Dr Peppers|$KDP|Dr Peppers|KEURIG DR PEPPERS|KEURIG DR PEPPER|DR PEPPERS|dr pepper|keurig dr pepper
+KEY,keycorp|KEYCORPS|KeyCorp|KEYs|KeyCorps|$KEYs|KEY|$KEY|KEYCORP|keycorps
+KEYS,Keysight|KEYSIGHT|keysight technologies|Keysights|KEYS|keysight|keysights|$KEYS|KEYSs|KEYSIGHTS|Keysight Technologies|KEYSIGHT TECHNOLOGIES|$KEYSs
+KMB,Kimberly-Clarks|kimberly-clarks|$KMBs|Kimberly-Clark|kimberly clark|Kimberly Clark|kimberly clarks|KMBs|KMB|Kimberly Clarks|KIMBERLY CLARK|KIMBERLY-CLARK|$KMB|KIMBERLY-CLARKS|kimberly-clark|KIMBERLY CLARKS
+KIM,KIMCO REALTYS|kimco realty|Kimco Realty|KIMs|Kimco Realtys|KIM|KIMCO REALTY|$KIMs|$KIM|kimco realtys
+KMI,KMIs|$KMI|KINDER MORGANS|kinder morgans|kinder morgan|Kinder Morgan|Kinder Morgans|$KMIs|KMI|KINDER MORGAN
+KKR,kkr|KKRs|$KKR|KKR|$KKRs|KKRS|kkrs
+KLAC,$KLACs|KLA|KLAC|kla|KLACs|kla corporation|$KLAC|KLAs|KLA Corporation|KLAS|KLA CORPORATION|KLA CORPORATIONS|klas|kla corporations|KLA Corporations
+KHC,Heinzs|KHC|KRAFT HEINZ|KRAFT HEINZS|KHCs|Krafts|Kraft Heinzs|Kraft|kraft|kraft heinzs|krafts|$KHCs|kraft heinz|HEINZS|heinzs|heinz|KRAFT|$KHC|Heinz|KRAFTS|Kraft Heinz|HEINZ
+KR,KRs|krogers|$KR|KR|$KRs|Kroger|Krogers|KROGERS|kroger|KROGER
+LHX,LHX|LHXs|L3HARRIS|$LHXs|L3Harris|$LHX|l3harris
+LH,labcorp|$LHs|LH|LABCORPS|LABCORP|LHs|labcorps|LabCorps|$LH|LabCorp
+LRCX,LRCXs|LAM RESEARCHS|lam researchs|LRCX|$LRCX|LAM RESEARCH|lam research|Lam Research|$LRCXs|Lam Researchs
+LW,$LWs|Lamb Westons|LWs|LAMB WESTONS|Lamb Weston|LAMB WESTON|LW|lamb westons|lamb weston|$LW
+LVS,LVS|$LVSs|LAS VEGAS SANDS|las vegas sands|LVSs|Las Vegas Sands|$LVS
+LDOS,$LDOSs|$LDOS|leidos|LDOS|Leidos|LDOSs|LEIDOS
+LEN,$LENs|lennar|LEN|Lennars|LENNARS|LENNAR|$LEN|Lennar|LENs|lennars
+LLY,LLY|LLYs|$LLY|$LLYs|Lilly (Eli)|lilly (eli)|LILLY (ELI)|Lilly (Eli)s|lilly (eli)s|LILLY (ELI)S
+LIN,$LIN|linde plc|LINDE PLC|LINs|linde plcs|LIN|Linde|linde|LINDE|Linde plcs|LINDES|lindes|$LINs|Lindes|Linde plc|LINDE PLCS
+LYV,LIVE NATION ENTERTAINMENTS|LIVE NATIONS|live nation entertainment|Live Nation Entertainment|live nation|Live Nation Entertainments|LIVE NATION|LYV|Live Nations|LYVs|live nation entertainments|LIVE NATION ENTERTAINMENT|$LYV|live nations|Live Nation|$LYVs
+LKQ,lkq corporations|LKQ CORPORATION|lkq corporation|lkqs|LKQS|LKQ|$LKQ|$LKQs|LKQ CORPORATIONS|LKQs|LKQ Corporations|LKQ Corporation|lkq
+LMT,lockheed martin|LMT|LOCKHEED MARTINS|Lockheed Martins|Lockheed Martin|LMTs|$LMTs|$LMT|lockheed martins|LOCKHEED MARTIN
+L,L|loews|Loews|LOEWS CORPORATION|$Ls|$L|loews corporation|LOEWS|loews corporations|LOEWS CORPORATIONS|Loews Corporation|Ls|Loews Corporations
+LOW,LOWES|Lowes|LOWE'S|lowe's|lowes|LOW|Lowe's|$LOW|$LOWs|LOWs
+LULU,LULUs|Lululemon Athleticas|lululemons|Lululemons|lululemon athletica|lululemon athleticas|Lululemon|LULULEMON ATHLETICA|LULULEMONS|$LULU|LULU|LULULEMON|Lululemon Athletica|LULULEMON ATHLETICAS|lululemon|$LULUs
+LYB,LYONDELL BASELLS|LYONDELLBASELL|Lyondell Basells|LYB|LyondellBasell|lyondellbasells|LyondellBasells|lyondell basells|$LYBs|lyondellbasell|LYONDELL BASELL|lyondell basell|LYBs|Lyondell Basell|LYONDELLBASELLS|$LYB
+MTB,$MTB|MTB|M&T Bank|M&T BANKS|m&t banks|MTBs|M&T BANK|M&T Banks|m&t bank|$MTBs
+MPC,MARATHON PETROLEUM|MPCs|Marathon Petroleums|$MPCs|MARATHON PETROLEUMS|marathon petroleum|$MPC|Marathon Petroleum|marathon petroleums|MPC
+MKTX,$MKTXs|MarketAxess|MARKETAXESS|MKTX|$MKTX|marketaxess|MKTXs
+MAR,MARRIOTT INTERNATIONAL|$MARs|MARRIOTT INTERNATIONALS|MAR|$MAR|Marriott International|Marriott Internationals|marriott internationals|MARs|marriott international
+MMC,marsh mclennans|MARSH MCLENNAN|MMC|Marsh McLennan|MARSH MCLENNANS|MMCs|Marsh McLennans|marsh mclennan|$MMCs|$MMC
+MLM,MLMs|MARTIN MARIETTA MATERIALS|Martin Marietta Materials|martin marietta|martin marietta materials|MARTIN MARIETTAS|MLM|$MLM|Martin Mariettas|Martin Marietta|$MLMs|martin mariettas|MARTIN MARIETTA
+MAS,MAS|$MAS|MASs|Mascos|mascos|Masco|$MASs|MASCO|MASCOS|masco
+MA,Mastercards|Mastercard|$MAs|MA|MASTERCARDS|mastercards|MASTERCARD|mastercard|$MA|MAs
+MTCH,match groups|MATCH GROUPS|$MTCH|$MTCHs|Match Groups|MATCH|match group|matchs|match|MTCHs|Matchs|Match|MATCH GROUP|MATCHS|MTCH|Match Group
+MKC,mccormick|$MKC|McCormick & Companys|MCCORMICK & COMPANY|mccormick & companys|McCormick|mccormick & company|MCCORMICK|MKCs|McCormicks|McCormick & Company|MCCORMICK & COMPANYS|mccormicks|MCCORMICKS|$MKCs|MKC
+MCD,MCD|$MCD|$MCDs|McDonalds|mcdonald's|mcdonalds|MCDONALDS|MCDs|McDonald's|MCDONALD'S
+MCK,MCKESSONS|mckesson|mckessons|mckesson corporations|McKessons|McKesson Corporations|MCKs|$MCK|mckesson corporation|MCKESSON|McKesson Corporation|$MCKs|MCKESSON CORPORATION|MCK|MCKESSON CORPORATIONS|McKesson
+MDT,MEDTRONICS|MDT|Medtronics|MDTs|$MDTs|medtronics|medtronic|MEDTRONIC|$MDT|Medtronic
+MRK,merck & co|MERCK & COS|Merck & Co.s|Merck & Co|merck & co.s|MERCK & CO.|merck & cos|MERCK & CO|MERCK & CO.S|Merck & Cos|merck & co.|$MRK|$MRKs|MRK|Merck & Co.|MRKs
+META,Meta Platforms|Facebook|Metas|$META|facebook|$METAs|META PLATFORMS|Meta|facebooks|FACEBOOKS|Facebooks|metas|meta platforms|META|meta|METAS|METAs|FACEBOOK
+MET,MetLife|METLIFE|metlifes|MET|METs|MetLifes|$METs|$MET|metlife|METLIFES
+MTD,METTLER TOLEDOS|$MTDs|$MTD|METTLER TOLEDO|MTDs|mettler toledo|Mettler Toledos|Mettler Toledo|MTD|mettler toledos
+MGM,MGM|$MGM|MGMs|$MGMs|MGM RESORTS|mgm resorts|MGM Resorts
+MCHP,MCHP|MCHPs|$MCHP|$MCHPs|Microchip Technology|microchip technology|MICROCHIP TECHNOLOGY|Microchip Technologys|microchip technologys|MICROCHIP TECHNOLOGYS
+MU,MICRON TECHNOLOGY|MUs|MU|MICRON|microns|MICRON TECHNOLOGYS|Micron Technologys|Micron|$MUs|Micron Technology|micron technology|micron technologys|Microns|MICRONS|$MU|micron
+MSFT,MSFT|MICROSOFTS|microsoft|Microsoft|MICROSOFT|microsofts|MSFTs|Microsofts|$MSFT|$MSFTs
+MAA,MAA|MAAs|$MAA|$MAAs|Mid-America Apartment Communities|mid-america apartment communities|MID-AMERICA APARTMENT COMMUNITIES
+MRNA,MODERNA|MRNA|Modernas|MRNAs|$MRNA|modernas|moderna|MODERNAS|$MRNAs|Moderna
+MHK,$MHK|Mohawk Industries|$MHKs|MHK|MHKs|MOHAWK INDUSTRIES|mohawk industries
+MOH,$MOH|MOHs|Molina Healthcares|$MOHs|molina healthcare|MOLINA HEALTHCARES|Molina Healthcare|MOLINA HEALTHCARE|MOH|molina healthcares
+TAP,$TAPs|coors|MOLSON COORS BEVERAGE COMPANY|TAP|Molson Coors Beverage Companys|molson coors beverage companys|COORS|molson coors beverage company|TAPs|MOLSON COORS BEVERAGE COMPANYS|Molson Coors Beverage Company|$TAP|Coors
+MDLZ,Mondelez International|mondelez internationals|mondelez international|$MDLZs|MONDELEZ INTERNATIONALS|MDLZ|$MDLZ|Mondelez Internationals|MONDELEZ INTERNATIONAL|MDLZs
+MPWR,MPWRs|$MPWRs|MPWR|$MPWR|MONOLITHIC POWER SYSTEMS|Monolithic Power Systems|monolithic power systems
+MNST,$MNSTs|Monster Beverage|monster beverage|Monster Energy|MONSTER ENERGY|MNST|Monster Beverages|MONSTER ENERGYS|Monster Energys|$MNST|monster energys|MNSTs|monster beverages|MONSTER BEVERAGES|MONSTER BEVERAGE|monster energy
+MCO,moodys|moody's corporation|MOODY'S CORPORATIONS|MCO|MOODY'S CORPORATION|$MCOs|$MCO|moody's corporations|MOODYS|Moody's Corporation|Moodys|MCOs|Moody's Corporations
+MS,MS|Morgan Stanley|MORGAN STANLEYS|$MS|$MSs|MORGAN STANLEY|morgan stanleys|morgan stanley|MSs|Morgan Stanleys
+MOS,MOSs|mosaic|MOS|Mosaic Company (The)s|$MOS|mosaic company (the)|MOSAIC|MOSAICS|$MOSs|Mosaic|mosaics|Mosaics|MOSAIC COMPANY (THE)|mosaic company (the)s|Mosaic Company (The)|MOSAIC COMPANY (THE)S
+MSI,MSI|motorola solutions|Motorola Solutions|MOTOROLA SOLUTIONS|$MSIs|$MSI|MSIs
+MSCI,MSCI|$MSCIs|MSCIS|$MSCI|MSCIs|mscis|msci
+NDAQ,"NASDAQ, INC.S|NASDAQ|nasdaq, inc.|$NDAQs|NASDAQS|Nasdaq, Inc.s|nasdaq|Nasdaqs|$NDAQ|NDAQ|NDAQs|nasdaqs|nasdaq, inc.s|Nasdaq|Nasdaq, Inc.|NASDAQ, INC."
+NTAP,$NTAPs|NETAPPS|netapps|netapp|NetApp|NTAP|$NTAP|NetApps|NETAPP|NTAPs
+NFLX,NETFLIXS|NFLXs|$NFLX|$NFLXs|netflix|Netflix|NFLX|NETFLIX|Netflixs|netflixs
+NEM,Newmonts|Newmont|newmonts|$NEM|NEWMONTS|$NEMs|NEWMONT|NEMs|NEM|newmont
+NWSA,$NWSA|NWSAs|News Corps|$NWSAs|News Corp (Class A)|News Corp|NEWS CORP (CLASS A)|NEWS CORP|NWSA|news corp|NEWS CORP (CLASS A)S|news corp (class a)s|NEWS CORPS|News Corp (Class A)s|news corp (class a)|news corps
+NWS,NWSs|News Corps|news corp (class b)s|News Corp (Class B)|$NWS|NWS|News Corp (Class B)s|News Corp|$NWSs|NEWS CORP|news corp (class b)|news corp|NEWS CORP (CLASS B)|NEWS CORPS|NEWS CORP (CLASS B)S|news corps
+NEE,NEEs|nextera energy|$NEE|NEE|nextera energys|NEXTERA ENERGY|NextEra Energys|NEXTERA ENERGYS|$NEEs|NextEra Energy
+NKE,"NIKE|NKE|nike, inc.|$NKE|Nike, Inc.s|NKEs|NIKE, INC.|nike, inc.s|Nike, Inc.|Nikes|nike|NIKE, INC.S|NIKES|Nike|nikes|$NKEs"
+NI,NISOURCE|NIs|NI|nisources|NiSource|NISOURCES|nisource|NiSources|$NIs|$NI
+NDSN,nordson corporation|NORDSONS|$NDSNs|NORDSON CORPORATIONS|$NDSN|NDSN|NORDSON CORPORATION|nordson corporations|NDSNs|Nordson Corporations|Nordson|NORDSON|Nordsons|nordsons|Nordson Corporation|nordson
+NSC,Norfolk Southern Railway|$NSC|norfolk southern railway|Norfolk Southern Railways|norfolk southern railways|NORFOLK SOUTHERN RAILWAYS|$NSCs|NSC|NORFOLK SOUTHERN RAILWAY|NSCs
+NTRS,Northern Trust|NTRS|Northern Trusts|$NTRS|NORTHERN TRUSTS|$NTRSs|NORTHERN TRUST|northern trusts|NTRSs|northern trust
+NOC,$NOCs|northrop grummans|northrop grumman|NORTHROP GRUMMANS|NOC|Northrop Grumman|NORTHROP GRUMMAN|NOCs|$NOC|Northrop Grummans
+NCLH,NCLH|NORWEGIAN CRUISE LINE HOLDINGS|Norwegian Cruise Line Holdings|$NCLHs|norwegian cruise line holdings|NCLHs|$NCLH
+NRG,NRGs|NRG|NRG ENERGY|$NRG|NRG Energy|NRG Energys|nrg energy|$NRGs|nrg energys|NRG ENERGYS
+NUE,Nucors|nucors|NUCOR|$NUEs|NUCORS|nucor|NUEs|$NUE|Nucor|NUE
+NVDA,$NVDA|NVIDIA|nvidias|nvidia|NVIDIAS|Nvidia|Nvidias|$NVDAs|NVDAs|NVDA
+NVR,"nvr, inc.|NVR, INC.S|NVR, Inc.s|NVRS|nvr|NVR, Inc.|NVR|NVRs|nvrs|nvr, inc.s|NVR, INC.|$NVR|$NVRs"
+NXPI,nxp semiconductors|NXP Semiconductors|$NXPI|NXP SEMICONDUCTORS|$NXPIs|NXPIs|NXPI
+ORLY,O'Reilly Auto Parts|ORLY|$ORLYs|o'reilly auto parts|OREILLY AUTO PARTS|$ORLY|oreilly auto parts|ORLYs|OReilly Auto Parts|O'REILLY AUTO PARTS
+OXY,occidental petroleums|$OXY|occidental petroleum|$OXYs|OCCIDENTAL PETROLEUMS|Occidental Petroleum|OCCIDENTAL PETROLEUM|OXYs|OXY|Occidental Petroleums
+ODFL,Old Dominions|$ODFL|OLD DOMINIONS|ODFLs|Old Dominion|ODFL|OLD DOMINION|old dominion|old dominions|$ODFLs
+OMC,OMCs|OMNICOMS|Omnicom Groups|Omnicom|OMNICOM GROUP|$OMCs|omnicom|omnicoms|Omnicoms|Omnicom Group|OMNICOM GROUPS|omnicom groups|omnicom group|OMNICOM|$OMC|OMC
+ON,on semiconductors|$ON|ON SEMICONDUCTOR|on semiconductor|ON Semiconductor|ON Semiconductors|ON SEMICONDUCTORS|ONs|$ONs|ON
+OKE,OKE|oneoks|ONEOKS|OKEs|$OKE|oneok|ONEOKs|ONEOK|$OKEs
+ORCL,$ORCL|Oracle Corporations|Oracles|oracle|ORACLES|ORACLE CORPORATIONS|oracle corporations|Oracle|oracles|ORCL|ORACLE CORPORATION|Oracle Corporation|oracle corporation|ORCLs|ORACLE|$ORCLs
+OTIS,OTIS WORLDWIDE|Otis Worldwides|OTISs|OTIS|Otis Worldwide|otis worldwides|$OTISs|OTIS WORLDWIDES|$OTIS|otis worldwide
+PCAR,paccar|PACCARS|paccars|Paccars|PACCAR|$PCARs|$PCAR|PCARs|Paccar|PCAR
+PKG,PKG|PKGs|$PKG|$PKGs|Packaging Corporation of America|packaging corporation of america|PACKAGING CORPORATION OF AMERICA|Packaging Corporation of Americas|packaging corporation of americas|PACKAGING CORPORATION OF AMERICAS
+PLTR,palantir technologies|$PLTRs|$PLTR|Palantir Technologies|Palantirs|palantirs|PLTR|PALANTIR TECHNOLOGIES|palantir|PLTRs|PALANTIRS|Palantir|PALANTIR
+PANW,$PANW|Palo Alto Networks|PANWs|$PANWs|palo alto networks|PALO ALTO NETWORKS|PANW
+PARA,PARAMOUNT GLOBAL|$PARA|Paramounts|Paramount Globals|paramount global|$PARAs|PARAMOUNTS|Paramount Global|PARAMOUNT GLOBALS|PARA|paramount|PARAMOUNT|PARAs|paramounts|Paramount|paramount globals
+PH,PHs|$PH|Parker Hannifin|PARKER HANNIFIN|Parker Hannifins|PARKER HANNIFINS|parker hannifin|PH|$PHs|parker hannifins
+PAYX,paychexs|PAYCHEXS|paychex|Paychexs|PAYX|$PAYX|PAYXs|$PAYXs|PAYCHEX|Paychex
+PAYC,PAYC|Paycom|PAYCs|PAYCOM|paycoms|$PAYCs|Paycoms|PAYCOMS|$PAYC|paycom
+PYPL,$PYPLs|PayPals|$PYPL|paypals|PayPal|PYPL|PAYPAL|paypal|PYPLs|PAYPALS
+PNR,Pentair|pentairs|Pentairs|PENTAIR|pentair|$PNR|PNRs|$PNRs|PNR|PENTAIRS
+PEP,PEPSICOS|pepsis|Pepsis|pepsi|PEP|PEPs|PEPSICO|PepsiCos|pepsicos|PEPSIS|pepsico|PEPSI|$PEP|PepsiCo|Pepsi|$PEPs
+PFE,PFIZER|$PFEs|pfizer|Pfizers|$PFE|PFE|Pfizer|PFIZERS|pfizers|PFEs
+PCG,PCGs|PG&E Corporation|PG&E CORPORATIONS|PG&E|pg&es|PG&Es|$PCG|pg&e corporation|pg&e|PG&ES|$PCGs|PG&E Corporations|PCG|pg&e corporations|PG&E CORPORATION
+PM,PMs|PM|philip morris international|Philip Morris International|philip morris internationals|PHILIP MORRIS INTERNATIONALS|$PMs|$PM|PHILIP MORRIS INTERNATIONAL|Philip Morris Internationals
+PSX,phillips 66s|PSXs|PSX|$PSX|Phillips 66|PHILLIPS 66S|PHILLIPS 66|Phillips 66s|phillips 66|$PSXs
+PNW,$PNWs|PNWs|PINNACLE WEST|Pinnacle Wests|pinnacle wests|pinnacle west|PNW|$PNW|Pinnacle West|PINNACLE WESTS
+PNC,PNC|PNC FINANCIAL SERVICES|PNC Financial Services|pnc financial services|$PNC|PNCs|$PNCs
+POOL,POOL|POOLs|$POOL|$POOLs|Pool Corporation|pool corporation|POOL CORPORATION|Pool Corporations|pool corporations|POOL CORPORATIONS
+PPG,PPG Industries|$PPG|ppg industries|$PPGs|PPG|PPG INDUSTRIES|PPGs
+PPL,PPL|PPLs|$PPL|$PPLs|PPL Corporation|ppl corporation|PPL CORPORATION|PPL Corporations|ppl corporations|PPL CORPORATIONS
+PFG,PFGs|principal financial group|Principal Financial Groups|Principal Financial|Principal Financial Group|principal financials|PRINCIPAL FINANCIALS|Principal Financials|PFG|PRINCIPAL FINANCIAL GROUPS|PRINCIPAL FINANCIAL GROUP|principal financial groups|principal financial|$PFG|PRINCIPAL FINANCIAL|$PFGs
+PG,PGs|Procter & Gamble|PROCTER & GAMBLES|PROCTER GAMBLE|$PG|PG|Procter Gamble|procter & gamble|PROCTER & GAMBLE|procter & gambles|Procter & Gambles|$PGs|PROCTER GAMBLES|procter gamble|Procter Gambles|procter gambles
+PGR,PGR|PGRs|$PGR|$PGRs|Progressive Corporation|progressive corporation|PROGRESSIVE CORPORATION|Progressive Corporations|progressive corporations|PROGRESSIVE CORPORATIONS
+PLD,Prologis|$PLDs|$PLD|PROLOGIS|PLDs|prologis|PLD
+PRU,Prudential Financials|PRUDENTIAL FINANCIAL|$PRUs|prudential financial|PRUs|Prudential Financial|PRU|PRUDENTIAL FINANCIALS|$PRU|prudential financials
+PEG,PEG|PEGs|$PEG|$PEGs|Public Service Enterprise Group|public service enterprise group|PUBLIC SERVICE ENTERPRISE GROUP|Public Service Enterprise Groups|public service enterprise groups|PUBLIC SERVICE ENTERPRISE GROUPS
+PTC,$PTCs|PTCs|ptcs|PTCS|PTC INC.S|ptc|PTC INC.|ptc inc.|ptc inc.s|PTC Inc.s|$PTC|PTC Inc.|PTC
+PSA,PSA|PSAs|$PSA|$PSAs|Public Storage|public storage|PUBLIC STORAGE|Public Storages|public storages|PUBLIC STORAGES
+PHM,pultegroups|PulteGroups|PulteGroup|pultes|Pulte|PHM|pultegroup|PULTEGROUPS|PULTES|$PHMs|pulte|PULTE|Pultes|PHMs|$PHM|PULTEGROUP
+QRVO,$QRVO|qorvo|qorvos|Qorvo|$QRVOs|QORVO|Qorvos|QRVOs|QRVO|QORVOS
+PWR,Quanta Services|QUANTA SERVICES|$PWRs|quanta|QUANTAS|Quanta|$PWR|QUANTA|PWR|quantas|Quantas|PWRs|quanta services
+QCOM,$QCOM|QUALCOMMS|QCOM|QCOMs|qualcomm|$QCOMs|qualcomms|Qualcomms|QUALCOMM|Qualcomm
+DGX,$DGX|$DGXs|DGXs|quest diagnostics|DGX|Quest Diagnostics|QUEST DIAGNOSTICS
+RL,RALPH LAURENS|ralph lauren corporations|$RL|Ralph Laurens|RLs|RL|RALPH LAUREN|ralph lauren corporation|ralph laurens|Ralph Lauren|ralph lauren|RALPH LAUREN CORPORATION|Ralph Lauren Corporations|Ralph Lauren Corporation|$RLs|RALPH LAUREN CORPORATIONS
+RJF,RAYMOND JAMES|Raymond James Financial|RJF|RAYMOND JAMES FINANCIAL|raymond james financials|Raymond James|raymond james|$RJFs|raymond james financial|RJFs|$RJF|Raymond James Financials|RAYMOND JAMES FINANCIALS
+RTX,RTX|RTXs|$RTX|$RTXs|RTX Corporation|rtx corporation|RTX CORPORATION|RTX Corporations|rtx corporations|RTX CORPORATIONS
+O,Os|$O|REALTY INCOME|realty incomes|O|Realty Income|realty income|REALTY INCOMES|Realty Incomes|$Os
+REG,$REG|Regency Centers|regency centers|$REGs|REG|REGENCY CENTERS|REGs
+REGN,Regeneron Pharmaceuticals|REGENERON|regeneron pharmaceuticals|REGENERONS|Regenerons|REGNs|regenerons|$REGN|REGENERON PHARMACEUTICALS|Regeneron|REGN|regeneron|$REGNs
+RF,RF|Regions Financial|regions financial corporations|REGIONS FINANCIALS|Regions Financial Corporations|$RFs|RFs|regions financial corporation|Regions Financials|regions financials|Regions Financial Corporation|REGIONS FINANCIAL CORPORATIONS|$RF|regions financial|REGIONS FINANCIAL CORPORATION|REGIONS FINANCIAL
+RSG,RSG|RSGs|REPUBLIC SERVICES|Republic Services|$RSGs|$RSG|republic services
+RMD,RESMEDS|$RMDs|resmed|RMDs|RESMED|ResMeds|resmeds|ResMed|$RMD|RMD
+RVTY,revvitys|revvity|REVVITY|Revvitys|RVTYs|Revvity|$RVTY|REVVITYS|$RVTYs|RVTY
+ROK,$ROK|ROKs|$ROKs|Rockwell Automations|rockwell automations|ROK|Rockwell Automation|rockwell automation|ROCKWELL AUTOMATIONS|ROCKWELL AUTOMATION
+ROL,"Rollins|ROLLINS, INC.|ROLLINS|$ROLs|ROL|Rollins, Inc.s|$ROL|rollins, inc.s|ROLLINS, INC.S|ROLs|rollins|rollins, inc.|Rollins, Inc."
+ROP,ROPs|roper technologies|ROP|ROPER TECHNOLOGIES|$ROP|Roper Technologies|$ROPs
+ROST,ROSS STORES|ROSTs|ROST|$ROST|$ROSTs|ross stores|Ross Stores
+RCL,ROYAL CARIBBEAN GROUPS|$RCLs|Royal Caribbean Group|Royal Caribbean|ROYAL CARIBBEANS|Royal Caribbean Groups|royal caribbean group|ROYAL CARIBBEAN GROUP|royal caribbean|$RCL|RCLs|Royal Caribbeans|ROYAL CARIBBEAN|royal caribbeans|RCL|royal caribbean groups
+SPGI,S&P GLOBAL|SPGIs|s&p globals|$SPGIs|$SPGI|s&p global|S&P GLOBALS|S&P Globals|S&P Global|SPGI
+CRM,Salesforce|CRM|SALESFORCE|$CRM|Salesforces|$CRMs|CRMs|SALESFORCES|salesforce|salesforces
+SBAC,$SBACs|sba communications|SBA COMMUNICATIONS|SBA Communications|SBAC|SBACs|$SBAC
+SLB,$SLB|SLBs|SLB|Schlumbergers|SCHLUMBERGER|schlumbergers|SCHLUMBERGERS|schlumberger|Schlumberger|$SLBs
+STX,$STXs|Seagate Technologys|STXs|$STX|SEAGATE TECHNOLOGYS|SEAGATE TECHNOLOGY|Seagate Technology|seagate technologys|STX|seagate technology
+SRE,sempras|SEMPRA|SREs|Sempra|$SRE|SEMPRAS|$SREs|sempra|Sempras|SRE
+NOW,SERVICENOW|servicenow|ServiceNows|servicenows|SERVICENOWS|NOWs|NOW|$NOW|ServiceNow|$NOWs
+SHW,SHERWIN WILLIAMS|Sherwin-Williams|$SHWs|SHWs|SHW|sherwin-williams|SHERWIN-WILLIAMS|sherwin williams|$SHW|Sherwin Williams
+SPG,SIMON PROPERTY|Simon Property Groups|SIMON PROPERTYS|simon property group|simon propertys|Simon Propertys|simon property|SPG|$SPG|SPGs|SIMON PROPERTY GROUP|simon property groups|Simon Property|Simon Property Group|SIMON PROPERTY GROUPS|$SPGs
+SWKS,SKYWORKS SOLUTIONS|SWKSs|$SWKSs|skyworks solutions|SWKS|$SWKS|Skyworks Solutions
+SJM,JM Smucker|J.M. Smucker Company (The)|$SJMs|JM Smuckers|J.M. SMUCKER COMPANY (THE)|JM SMUCKER|SJMs|j.m. smucker company (the)s|JM SMUCKERS|j.m. smucker company (the)|$SJM|jm smucker|SJM|J.M. Smucker Company (The)s|jm smuckers|J.M. SMUCKER COMPANY (THE)S
+SW,SW|SWs|smurfit westrock|$SWs|Smurfit WestRocks|SMURFIT WESTROCK|SMURFIT WESTROCKS|$SW|smurfit westrocks|Smurfit WestRock
+SNA,SNA|SNAs|$SNA|$SNAs|Snap-on|snap-on|SNAP-ON|Snap-ons|snap-ons|SNAP-ONS
+SOLV,SOLV|$SOLVs|solventums|SOLVs|Solventums|Solventum|solventum|$SOLV|SOLVENTUM|SOLVENTUMS
+SO,SO|SOs|$SO|$SOs|Southern Company|southern company|SOUTHERN COMPANY|Southern Companys|southern companys|SOUTHERN COMPANYS
+LUV,Southwest Airlines|SOUTHWEST AIRLINES|LUV|$LUV|$LUVs|southwest airlines|LUVs
+SWK,Stanley Black & Decker|STANLEY BLACK & DECKERS|STANLEY BLACK DECKER|Stanley Black Decker|$SWKs|stanley black decker|STANLEY BLACK DECKERS|SWKs|$SWK|stanley black & deckers|stanley black deckers|STANLEY BLACK & DECKER|stanley black & decker|Stanley Black & Deckers|SWK|Stanley Black Deckers
+SBUX,$SBUX|$SBUXs|SBUXs|Starbucks|STARBUCKS|starbucks|SBUX
+STT,$STT|State Street Corporations|State Street Corporation|state street|State Streets|STATE STREETS|state street corporation|STATE STREET CORPORATIONS|STT|STTs|STATE STREET CORPORATION|STATE STREET|$STTs|state streets|State Street|state street corporations
+STLD,STLDs|steel dynamics|$STLD|$STLDs|STEEL DYNAMICS|Steel Dynamics|STLD
+STE,$STEs|$STE|STEs|steris|STERIS|Steris|STE
+SYK,Stryker Corporation|stryker|STRYKER CORPORATION|stryker corporation|SYK|SYKs|Stryker|STRYKER|STRYKERS|strykers|stryker corporations|Strykers|STRYKER CORPORATIONS|$SYKs|Stryker Corporations|$SYK
+SMCI,SUPERMICROS|supermicro|SMCIs|SMCI|$SMCIs|$SMCI|Supermicros|SUPERMICRO|supermicros|Supermicro
+SYF,SYNCHRONY FINANCIALS|Synchrony Financial|SYFs|SYF|SYNCHRONY FINANCIAL|synchrony financial|$SYF|synchrony financials|$SYFs|Synchrony Financials
+SNPS,$SNPSs|synopsys|Synopsys|SYNOPSYS|$SNPS|SNPS|SNPSs
+SYY,$SYYs|sysco|$SYY|syscos|SYSCO|SYSCOS|SYYs|SYY|Sysco|Syscos
+TMUS,$TMUSs|TMUSs|T-MOBILE US|T Mobile|T Mobiles|t mobiles|T-Mobile USs|T MOBILES|T MOBILE|T-MOBILE USS|T-Mobile US|t-mobile uss|TMUS|t-mobile us|$TMUS|t mobile
+TROW,T. Rowe Price|T. Rowe Prices|T. ROWE PRICES|$TROWs|t. rowe price|t. rowe prices|TROWs|TROW|$TROW|T. ROWE PRICE
+TTWO,TTWO|TAKE-TWO INTERACTIVE|take two|Take Twos|TAKE-TWO INTERACTIVES|take-two interactive|Take-Two Interactive|take-two interactives|TAKE TWOS|$TTWO|Take Two|TTWOs|TAKE TWO|Take-Two Interactives|$TTWOs|take twos
+TPR,"tapestry, inc.|TAPESTRYS|$TPR|$TPRs|TAPESTRY|TPR|Tapestry, Inc.|Tapestry, Inc.s|Tapestrys|TPRs|tapestrys|tapestry, inc.s|tapestry|TAPESTRY, INC.S|TAPESTRY, INC.|Tapestry"
+TRGP,$TRGPs|TRGPs|TRGP|targa resources|TARGA RESOURCES|Targa Resources|$TRGP
+TGT,TGT|TARGET CORPORATION|target|$TGT|TARGET|TARGETS|Target Corporation|$TGTs|targets|Target Corporations|target corporations|Targets|TARGET CORPORATIONS|Target|TGTs|target corporation
+TEL,te connectivitys|$TELs|te connectivity|TE Connectivitys|TELs|TE CONNECTIVITY|TE CONNECTIVITYS|TE Connectivity|TEL|$TEL
+TDY,TELEDYNE TECHNOLOGIES|TDY|Teledyne Technologies|teledyne technologies|$TDY|$TDYs|TDYs
+TFX,$TFX|teleflexs|teleflex|TELEFLEX|$TFXs|Teleflex|TELEFLEXS|Teleflexs|TFXs|TFX
+TER,$TER|TERADYNES|Teradyne|TER|teradyne|TERADYNE|$TERs|TERs|teradynes|Teradynes
+TSLA,"$TSLA|tesla, inc.|tesla, inc.s|Tesla, Inc.|Teslas|Tesla|TESLA, INC.S|Tesla, Inc.s|tesla|TSLAs|TESLAS|TSLA|TESLA, INC.|teslas|TESLA|$TSLAs"
+TXN,TXNs|texas instruments|$TXNs|$TXN|Texas Instruments|TXN|TEXAS INSTRUMENTS
+TPL,Texas Pacific Land Corporation|Texas Pacific Land Corporations|TEXAS PACIFIC LAND CORPORATIONS|texas pacific land|texas pacific lands|texas pacific land corporation|Texas Pacific Land|TPLs|texas pacific land corporations|$TPLs|TEXAS PACIFIC LAND CORPORATION|Texas Pacific Lands|TEXAS PACIFIC LAND|TPL|TEXAS PACIFIC LANDS|$TPL
+TXT,Textron|TXT|TEXTRONS|textron|TXTs|Textrons|$TXT|TEXTRON|textrons|$TXTs
+TMO,thermo fisher scientifics|TMOs|TMO|$TMO|thermo fisher scientific|Thermo Fisher Scientifics|THERMO FISHER SCIENTIFIC|THERMO FISHER SCIENTIFICS|Thermo Fisher Scientific|$TMOs
+TJX,tjx companies|$TJX|TJXs|tjx|TJX Companies|tjxs|TJXS|TJX COMPANIES|$TJXs|TJX
+TSCO,tractor supplys|TRACTOR SUPPLYS|$TSCO|TSCO|Tractor Supplys|tractor supply|TRACTOR SUPPLY|TSCOs|Tractor Supply|$TSCOs
+TT,Trane Technologies|TRANE TECHNOLOGIES|$TT|TT|$TTs|trane technologies|TTs
+TDG,transdigm groups|transdigm group|TDG|TDGs|TRANSDIGM GROUP|TransDigm Group|TRANSDIGMS|TransDigms|transdigms|$TDGs|transdigm|TransDigm Groups|TransDigm|TRANSDIGM GROUPS|TRANSDIGM|$TDG
+TRV,travelers|travelers companies (the)|Travelers|TRV|Travelers Companies (The)|TRAVELERS|$TRVs|$TRV|TRAVELERS COMPANIES (THE)S|travelers companies (the)s|Travelers Companies (The)s|TRAVELERS COMPANIES (THE)|TRVs
+TRMB,Trimbles|$TRMB|Trimble Inc.s|TRIMBLE INC.|TRMBs|$TRMBs|TRIMBLE INC.S|trimbles|TRIMBLES|Trimble Inc.|TRMB|trimble inc.s|TRIMBLE|trimble|trimble inc.|Trimble
+TFC,Truist Financials|TFCs|Truist Financial|$TFCs|$TFC|truist financial|TRUIST FINANCIALS|TRUIST FINANCIAL|TFC|truist financials
+TYL,$TYL|TYLs|Tyler Technologies|TYLER TECHNOLOGIES|tyler technologies|TYL|$TYLs
+TSN,TYSON FOODS|TSNs|Tyson Foods|tyson foods|TSN|$TSNs|$TSN
+USB,USBs|USB|U.S. Bancorp|u.s. bancorps|U.S. BANCORPS|$USB|U.S. Bancorps|U.S. BANCORP|u.s. bancorp|$USBs
+UBER,$UBERs|UBERS|$UBER|Uber|Ubers|ubers|UBERs|uber|UBER
+UDR,"udrs|UDR, INC.|udr, inc.s|UDR|UDRS|UDRs|UDR, INC.S|$UDR|$UDRs|udr|UDR, Inc.|UDR, Inc.s|udr, inc."
+ULTA,$ULTA|ULTAs|ulta beauty|Ulta Beautys|$ULTAs|Ulta Beauty|ULTA BEAUTY|ulta beautys|ULTA BEAUTYS|ULTA
+UNP,Union Pacific|union pacifics|UNION PACIFIC CORPORATIONS|$UNP|union pacific corporation|union pacific|UNION PACIFIC|$UNPs|Union Pacific Corporations|Union Pacific Corporation|UNP|union pacific corporations|UNION PACIFIC CORPORATION|Union Pacifics|UNPs|UNION PACIFICS
+UAL,$UAL|UALs|$UALs|UAL|UNITED AIRLINES HOLDINGS|United Airlines Holdings|united airlines holdings
+UPS,United Parcel Service|$UPS|united parcel service|UNITED PARCEL SERVICE|$UPSs|United Parcel Services|UNITED PARCEL SERVICES|united parcel services|UPSs|UPS
+URI,URIs|UNITED RENTALS|URI|$URIs|$URI|United Rentals|united rentals
+UNH,UNITEDHEALTH GROUP|UNITEDHEALTH|UNITEDHEALTHS|UnitedHealth Group|unitedhealth groups|unitedhealth group|UNITEDHEALTH GROUPS|UnitedHealth|UNHs|UnitedHealth Groups|UnitedHealths|unitedhealths|$UNHs|unitedhealth|$UNH|UNH
+UHS,UHS|UHSs|universal health services|Universal Health Services|$UHS|$UHSs|UNIVERSAL HEALTH SERVICES
+VLO,VLO|$VLOs|Valero Energy|Valero Energys|VLOs|valero energy|$VLO|VALERO ENERGY|VALERO ENERGYS|valero energys
+VTR,ventas|VENTAS|VTR|$VTRs|Ventas|VTRs|$VTR
+VLTO,veralto|VLTOs|veraltos|$VLTOs|$VLTO|Veraltos|Veralto|VERALTOS|VLTO|VERALTO
+VRSN,Verisign|VERISIGNS|$VRSNs|VRSN|verisigns|VRSNs|$VRSN|VERISIGN|Verisigns|verisign
+VRSK,VRSKs|$VRSKs|$VRSK|VERISK ANALYTICS|VRSK|Verisk Analytics|verisk analytics
+VZ,VERIZON|$VZ|Verizons|VZ|VZs|verizons|Verizon|verizon|$VZs|VERIZONS
+VRTX,VRTX|$VRTXs|VRTXs|$VRTX|vertex pharmaceuticals|Vertex Pharmaceuticals|VERTEX PHARMACEUTICALS
+VTRS,VTRSs|VIATRIS|Viatris|$VTRSs|viatris|$VTRS|VTRS
+VICI,VICI|$VICIs|Vici Properties|$VICI|vici properties|VICIs|VICI PROPERTIES
+V,$Vs|visa inc.|visa inc.s|visas|VISA INC.|Visa Inc.|$V|Visa Inc.s|visa|VISAS|Visa|VISA|Visas|V|Vs|VISA INC.S
+VST,VISTRAS|Vistra Corp.|VISTRA CORP.S|vistra corp.s|Vistra Corp.s|Vistras|vistra corp.|VSTs|vistras|$VSTs|VISTRA CORP.|VISTRA|$VST|Vistra|VST|vistra
+VMC,vulcan materials|$VMCs|VULCAN MATERIALS COMPANYS|Vulcan Materials Company|vulcan materials company|$VMC|VULCAN MATERIALS COMPANY|vulcan materials companys|Vulcan Materials|VMCs|Vulcan Materials Companys|VULCAN MATERIALS|VMC
+WRB,W R BERKLEY|W R Berkley|WRB|W. R. Berkley Corporation|W. R. Berkley Corporations|$WRBs|W. R. BERKLEY CORPORATION|W R BERKLEYS|w r berkleys|W. R. BERKLEY CORPORATIONS|w. r. berkley corporation|w r berkley|WRBs|W R Berkleys|w. r. berkley corporations|$WRB
+GWW,$GWWs|w w graingers|W. W. GRAINGERS|$GWW|W W Graingers|W W GRAINGER|W W GRAINGERS|W W Grainger|W. W. Grainger|w. w. grainger|W. W. GRAINGER|W. W. Graingers|w w grainger|w. w. graingers|GWW|GWWs
+WAB,$WAB|WABs|wabtec|WAB|WABTECS|Wabtecs|wabtecs|Wabtec|$WABs|WABTEC
+WBA,$WBAs|walgreens boots alliances|$WBA|walgreens boots alliance|WALGREENS BOOTS ALLIANCES|WBAs|WBA|Walgreens Boots Alliance|WALGREENS BOOTS ALLIANCE|Walgreens Boots Alliances
+WMT,Walmart|$WMT|$WMTs|WALMARTS|WALMART|WMT|walmarts|Walmarts|walmart|WMTs
+DIS,Walt Disney Company (The)|$DIS|Disneys|Disney|DIS|disney|DISNEYS|Walt Disney Company (The)s|$DISs|DISs|walt disney company (the)s|disneys|WALT DISNEY COMPANY (THE)S|DISNEY|WALT DISNEY COMPANY (THE)|walt disney company (the)
+WBD,$WBDs|Warner Bros. Discovery|WARNERS|warner bros. discovery|Warner|DISCOVERY|warners|Warner Bros. Discoverys|warner bros. discoverys|Discoverys|Warners|DISCOVERYS|warner|WARNER BROS. DISCOVERY|$WBD|discovery|WBDs|WARNER|discoverys|Discovery|WBD|WARNER BROS. DISCOVERYS
+WM,WM|WMs|$WM|$WMs|Waste Management|waste management|WASTE MANAGEMENT|Waste Managements|waste managements|WASTE MANAGEMENTS
+WAT,WAT|WATs|$WAT|$WATs|Waters Corporation|waters corporation|WATERS CORPORATION|Waters Corporations|waters corporations|WATERS CORPORATIONS
+WEC,wec energy|WEC ENERGY|$WECs|$WEC|WEC ENERGYS|WECs|WEC Energy Group|wec energys|WEC ENERGY GROUP|WEC Energy|wec energy groups|WEC Energys|WEC Energy Groups|WEC|WEC ENERGY GROUPS|wec energy group
+WFC,Wells Fargo|$WFCs|WELLS FARGOS|WELLS FARGO|wells fargo|WFCs|wells fargos|$WFC|Wells Fargos|WFC
+WELL,WELLTOWERS|WELL|welltower|welltowers|$WELLs|WELLTOWER|$WELL|Welltower|WELLs|Welltowers
+WST,west pharmaceutical services|WST|West Pharmaceutical Services|WSTs|WEST PHARMACEUTICAL SERVICES|$WSTs|$WST
+WDC,WDCs|Western Digital|WESTERN DIGITAL|western digitals|WESTERN DIGITALS|Western Digitals|western digital|$WDC|$WDCs|WDC
+WY,$WY|Weyerhaeusers|WEYERHAEUSER|weyerhaeuser|WEYERHAEUSERS|Weyerhaeuser|WYs|WY|weyerhaeusers|$WYs
+WMB,WMB|WMBs|$WMB|$WMBs|Williams Companies|williams companies|WILLIAMS COMPANIES
+WTW,Willis Towers Watsons|$WTWs|WTW|willis towers watsons|willis towers watson|WILLIS TOWERS WATSONS|$WTW|WILLIS TOWERS WATSON|WTWs|Willis Towers Watson
+WYNN,Wynn Resorts|WYNN|WYNNs|wynn resorts|$WYNN|$WYNNs|WYNN RESORTS
+XEL,XELs|Xcel Energy|xcel energy|XCEL ENERGY|XCEL ENERGYS|$XEL|$XELs|xcel energys|Xcel Energys|XEL
+XYL,xylem|xylems|XYLEM|XYLEMS|Xylem|$XYL|Xylem Inc.s|XYLEM INC.|xylem inc.s|Xylem Inc.|XYL|$XYLs|xylem inc.|XYLEM INC.S|XYLs|Xylems
+YUM,YUM|YUMs|$YUM|$YUMs|Yum! Brands|yum! brands|YUM! BRANDS
+ZBRA,$ZBRAs|$ZBRA|zebra technologies|ZEBRA TECHNOLOGIES|ZBRAs|Zebra Technologies|ZBRA
+ZBH,zimmer biomets|Zimmer Biomet|ZIMMER BIOMETS|ZBHs|Zimmer Biomets|ZIMMER BIOMET|zimmer biomet|ZBH|$ZBH|$ZBHs
+ZTS,$ZTSs|ZOETIS|$ZTS|ZTS|zoetis|ZTSs|Zoetis
+GME,GameStop Corporations|GAMESTOP|GameStops|gamestop corporation|$GMEs|GameStop Corporation|gamestop corporations|GMEs|GAMESTOPS|gamestops|GAMESTOP CORPORATIONS|$GME|GameStop|GAMESTOP CORPORATION|gamestop|GME
