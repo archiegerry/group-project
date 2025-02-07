@@ -4,7 +4,12 @@ import sys
 
 
 # this needs to be finished
-ignore = ["A", "ARE", "ALL", "AMP", "TECH"]
+ignore = ["A", "ARE", "ALL", "AMP", "AFL", 
+          "BALL", "BRO", "BA", 
+          "CAT", "C", "COP", "COST",
+          "D", "DAY", "DECK", "DD", 
+          "ED", 
+          "T", "TECH"]
 
 
 # read in stock tickers from csv file
