@@ -2,6 +2,7 @@ import pandas as pd
 import re
 import sys
 import ast
+from s3 import *
 
 # read in stock tickers from csv file
 def read_tickers(path):
@@ -54,8 +55,23 @@ def count_tickers(texts, tickers):
         
     counts_df = pd.DataFrame(counts_list)
     return counts_df
-            
 
+def news_all(tickers):
+    print("Downloading everything locally.")
+    s3_paths =  s3_to_local_path("processed/news/gnews/").mkdir(parents=True, exist_ok=True)
+
+    # Download into S3 local without overwrite
+    download_all("processed/news/gnews/", overwrite=False)
+    print(f"Done. Files can be found in: ")
+
+    # Loop all news and process mentions per-parquet
+    for path in tqdm(s3_paths):
+        local_path = s3_to_local_path(path)
+        stem = re.search(r'^.*\/([^\/]+)\.parquet$' , str(local_path))
+        output_path = s3_to_local_path(f"processed/news/gnews/{stem.group(1)}_tally.parqet")
+        text = read_news_parq(local_path)
+        counts = count_tickers(text, tickers)
+        write_parq(counts, output_path)
 
 def main():
     if len(sys.argv) != 5:
@@ -72,19 +88,25 @@ def main():
     # read in news articles or reddit submissions depending on cmd line arg
     if sys.argv[2] == "news":
         texts = read_news_parq(input_file)
+        # count mentions of each stock ticker in news articles
+        counts = count_tickers(texts, tickers)
+        # write counts to parquet file
+        write_parq(counts, output_file)
+
     elif sys.argv[2] == "reddit":
         texts = read_reddit_parq(input_file)
+        # count mentions of each stock ticker in news articles
+        counts = count_tickers(texts, tickers)
+        # write counts to parquet file
+        write_parq(counts, output_file)
+
+    elif sys.argv[2] == "reddit-all":
+        print("Unfinished")
+    elif sys.argv[2] == "news-all":
+        news_all(tickers)
     else:
-        print("Usage: python tally.py <stock_file> <news/reddit> <input_file> <output_file>")
+        print("Usage: python tally.py <stock_file> <news/reddit/news-all/reddit-all> <input_file_optional> <output_file_optional>")
         sys.exit(1)
-    
-    # count mentions of each stock ticker in news articles
-    counts = count_tickers(texts, tickers)
-    
-    # write counts to parquet file
-    write_parq(counts, output_file)
-    
-    
 
 
 if __name__ == "__main__":

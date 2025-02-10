@@ -90,7 +90,7 @@ def list(s3_prefix):
 # Download everything for a given prefix
 def download_all(s3_prefix, overwrite=False):
     paths = list(s3_prefix)
-    for path in paths:
+    for path in tqdm(paths):
         download(path, overwrite=overwrite)
     return paths
 
