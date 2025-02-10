@@ -3,14 +3,9 @@ import re
 import sys
 
 
-# this needs to be finished
-ignore = ["A", "ARE", "ALL", "AMP", "AFL", 
-          "BALL", "BRO", "BA", 
-          "CAT", "C", "COP", "COST",
-          "D", "DAY", "DECK", "DD", 
-          "ED", 
-          "T", "TECH"]
-
+news_ignore = ['AFL', 'A', 'ARE', 'ALL', 'T', 'BA', 'C', 'COP', 'COO', 'DAY', 'DG', 'D', 
+               'EL', 'FAST', 'F', 'IT', 'GM', 'HAS', 'HD', 'ICE', 'IP', 'J', 'K', 'L', 'MAS', 
+               'MS', 'NI', 'NSC', 'ON', 'PH', 'PM', 'PSA', 'O', 'ROK', 'NOW', 'SW', 'USB', 'V']
 
 # read in stock tickers from csv file
 def read_tickers(path):
@@ -22,9 +17,10 @@ def generate_terms(symbol, security, search_terms):
     searches = []
     
     if symbol:
-        # add ticker variations and their possessives
-        searches.append(symbol)
-        searches.append(f'{symbol}s')
+        if symbol not in news_ignore:
+            # add ticker variations and their possessives
+            searches.append(symbol)
+            searches.append(f'{symbol}s')
         
         searches.append(f"${symbol}")
         searches.append(f"${symbol}s")
