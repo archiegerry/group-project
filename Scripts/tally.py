@@ -72,15 +72,15 @@ def news_all(tickers):
             continue
         else:
             with open(output_path, 'w') as file:
-                upload(output_path)
+                upload(f"processed/news/tally/{path.stem}_tally.parquet")
 
             print(f'Procesing: {output_path}')
             text = read_news_parq(path)
             counts = count_tickers(text, tickers)
             write_parq(counts, output_path)
-            print('Completed processing, uploading...')
 
-            upload(output_path)
+            print('Completed processing, uploading...')
+            upload(f"processed/news/tally/{path.stem}_tally.parquet")
             print('Upload complete.')
 
 def main():
