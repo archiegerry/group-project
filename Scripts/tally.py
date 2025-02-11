@@ -56,16 +56,32 @@ def count_tickers(texts, tickers):
     counts_df = pd.DataFrame(counts_list)
     return counts_df
 
-def news_all(tickers):
-    s3_to_local_path("processed/news/gnews").mkdir(parents=True, exist_ok=True)
-    submission_paths =  s3_to_local_path("processed/news/gnews").glob("*.parquet")
+def news_all(tickers): 
+    #s3_to_local_path("processed/news/gnews").mkdir(parents=True, exist_ok=True)
+    #s3_to_local_path("processed/news/tally").mkdir(parents=True, exist_ok=True)
+
+    download_all("processed/news", overwrite=False)
+
+    submission_paths = s3_to_local_path("processed/news/gnews/").glob("*.parquet")
 
     # Loop all news and process mentions per-parquet
     for path in tqdm(submission_paths):
-        output_path = s3_to_local_path(f"processed/news/gnews/{path.stem}_tally.parquet")
-        text = read_news_parq(path)
-        counts = count_tickers(text, tickers)
-        write_parq(counts, output_path)
+        download_all("processed/news/tally", overwrite=False)
+        output_path = s3_to_local_path(f"processed/news/tally/{path.stem}_tally.parquet")
+        if output_path.is_file():
+            continue
+        else:
+            with open(output_path, 'w') as file:
+                upload(output_path)
+
+            print(f'Procesing: {output_path}')
+            text = read_news_parq(path)
+            counts = count_tickers(text, tickers)
+            write_parq(counts, output_path)
+            print('Completed processing, uploading...')
+
+            upload(output_path)
+            print('Upload complete.')
 
 def main():
 
@@ -97,6 +113,7 @@ def main():
         print("Unfinished")
     elif sys.argv[2] == "news-all":
         news_all(tickers)
+        #print(list('processed/news'))
     else:
         print("Usage: python tally.py <stock_file> <news/reddit/news-all/reddit-all> <input_file_optional> <output_file_optional>")
         sys.exit(1)
