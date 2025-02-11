@@ -45,9 +45,9 @@ def count_tickers(texts, tickers):
             symbol, search_terms = row['symbol'], row['search_terms']
 
             # Check for additional search terms
-            if isinstance(search_terms, list):  
-                for term in search_terms:
-                    total_count += len(re.findall(rf'\b{re.escape(term)}\b', text))
+           # if isinstance(search_terms, list):  
+            for term in search_terms:
+                total_count += len(re.findall(rf'\b{re.escape(term)}\b', text))
 
             ticker_counts[symbol] = total_count
         
@@ -57,36 +57,27 @@ def count_tickers(texts, tickers):
     return counts_df
 
 def news_all(tickers):
-    print("Downloading everything locally.")
-    s3_paths =  s3_to_local_path("processed/news/gnews/").mkdir(parents=True, exist_ok=True)
-
-    # Download into S3 local without overwrite
-    download_all("processed/news/gnews/", overwrite=False)
-    print(f"Done. Files can be found in: ")
+    s3_to_local_path("processed/news/gnews").mkdir(parents=True, exist_ok=True)
+    submission_paths =  s3_to_local_path("processed/news/gnews").glob("*.parquet")
 
     # Loop all news and process mentions per-parquet
-    for path in tqdm(s3_paths):
-        local_path = s3_to_local_path(path)
-        stem = re.search(r'^.*\/([^\/]+)\.parquet$' , str(local_path))
-        output_path = s3_to_local_path(f"processed/news/gnews/{stem.group(1)}_tally.parqet")
-        text = read_news_parq(local_path)
+    for path in tqdm(submission_paths):
+        output_path = s3_to_local_path(f"processed/news/gnews/{path.stem}_tally.parquet")
+        text = read_news_parq(path)
         counts = count_tickers(text, tickers)
         write_parq(counts, output_path)
 
 def main():
-    if len(sys.argv) != 5:
-        print("Usage: python tally.py <stock_file> <news/reddit> <input_file> <output_file>")
-        sys.exit(1)
-    
+
     stock_file = sys.argv[1]
-    input_file = sys.argv[3]
-    output_file = sys.argv[4]
     
     # read in stock tickers
     tickers = read_tickers(stock_file)
    
     # read in news articles or reddit submissions depending on cmd line arg
     if sys.argv[2] == "news":
+        input_file = sys.argv[3]
+        output_file = sys.argv[4]
         texts = read_news_parq(input_file)
         # count mentions of each stock ticker in news articles
         counts = count_tickers(texts, tickers)
@@ -94,6 +85,8 @@ def main():
         write_parq(counts, output_file)
 
     elif sys.argv[2] == "reddit":
+        input_file = sys.argv[3]
+        output_file = sys.argv[4]
         texts = read_reddit_parq(input_file)
         # count mentions of each stock ticker in news articles
         counts = count_tickers(texts, tickers)
