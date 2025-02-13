@@ -26,8 +26,10 @@ type RedditSubmissionRaw struct {
 	Subreddit  string      `json:"subreddit"`
 	Domain     string      `json:"domain"`
 	Score      int64       `json:"score"`
+	Downs      int64       `json:"downs"`
 	PostId     string      `json:"id"`
 	Body       string      `json:"selftext"`
+	Flair      string      `json:"link_flair_text"`
 }
 
 type RedditCommentRaw struct {
@@ -47,7 +49,9 @@ type RedditSubmission struct {
 	PostId    string `parquet:"name=id, type=BYTE_ARRAY, convertedtype=UTF8, encoding=PLAIN_DICTIONARY"`
 	Datetime  int64  `parquet:"name=dt, type=INT64, logicaltype=TIMESTAMP, logicaltype.isadjustedtoutc=true, logicaltype.unit=MILLIS"`
 	Score     int64  `parquet:"name=score, type=INT32, convertedtype=UTF8"`
+	Downs     int64  `parquet:"name=downs, type=INT32, convertedtype=UTF8"`
 	Body      string `parquet:"name=body, type=BYTE_ARRAY, convertedtype=UTF8, encoding=PLAIN_DICTIONARY"`
+	Flair     string `parquet:"name=Flair, type=BYTE_ARRAY, convertedtype=UTF8, encoding=PLAIN_DICTIONARY"`
 }
 
 type RedditComment struct {
@@ -73,8 +77,10 @@ func (s *RedditSubmissionRaw) ToSubmission() RedditSubmission {
 		Subreddit: s.Subreddit,
 		Domain:    s.Domain,
 		Score:     s.Score,
+		Downs:     s.Downs,
 		PostId:    s.PostId,
 		Body:      s.Body,
+		Flair:     s.Flair,
 	}
 }
 
@@ -128,7 +134,7 @@ func ProcessRedditSubmissions(scanner *bufio.Scanner, output *os.File) error {
 			return fmt.Errorf("error parsing line: " + string(line) + ", " + err.Error())
 		}
 		submission := submissionRaw.ToSubmission()
-		writer.Write([]string{submission.Title, strconv.FormatInt(submission.Datetime, 10), submission.Subreddit, submission.Domain, strconv.Itoa(int(submission.Score)), submission.PostId, submission.Body})
+		writer.Write([]string{submission.Title, strconv.FormatInt(submission.Datetime, 10), submission.Subreddit, submission.Domain, strconv.Itoa(int(submission.Score)), strconv.Itoa(int(submission.Downs)), submission.PostId, submission.Body, submission.Flair})
 	}
 	writer.Flush()
 	output.Close()
@@ -146,11 +152,11 @@ func ProcessRedditSubmissionsParquet(scanner *bufio.Scanner, output source.Parqu
 	// Create parquet writer
 	// Initialize column builders
 	pool := memory.NewGoAllocator()
-	stringBuilders := make([]*array.StringBuilder, 5)
+	stringBuilders := make([]*array.StringBuilder, 6)
 	for i := range stringBuilders {
 		stringBuilders[i] = array.NewStringBuilder(pool)
 	}
-	intBuilders := make([]*array.Int64Builder, 2)
+	intBuilders := make([]*array.Int64Builder, 3)
 	for i := range intBuilders {
 		intBuilders[i] = array.NewInt64Builder(pool)
 	}
@@ -162,9 +168,11 @@ func ProcessRedditSubmissionsParquet(scanner *bufio.Scanner, output source.Parqu
 		{Name: "domain", Type: arrow.BinaryTypes.String},
 		{Name: "id", Type: arrow.BinaryTypes.String},
 		{Name: "body", Type: arrow.BinaryTypes.String},
+		{Name: "flair", Type: arrow.BinaryTypes.String},
 		// Epoch milliseconds
 		{Name: "dt", Type: arrow.PrimitiveTypes.Int64},
 		{Name: "score", Type: arrow.PrimitiveTypes.Int64},
+		{Name: "downs", Type: arrow.PrimitiveTypes.Int64},
 	}
 	schema := arrow.NewSchema(fields, nil)
 
@@ -216,8 +224,10 @@ func ProcessRedditSubmissionsParquet(scanner *bufio.Scanner, output source.Parqu
 		stringBuilders[2].Append(s.Domain)
 		stringBuilders[3].Append(s.PostId)
 		stringBuilders[4].Append(s.Body)
+		stringBuilders[5].Append(s.Flair)
 		intBuilders[0].Append(s.Datetime)
 		intBuilders[1].Append(s.Score)
+		intBuilders[2].Append(s.Downs)
 
 		// Flush at interval
 		i += 1

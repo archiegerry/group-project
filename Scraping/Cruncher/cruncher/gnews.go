@@ -2,12 +2,9 @@ package main
 
 import (
 	"bufio"
-	"encoding/csv"
 	"encoding/json"
 	"fmt"
 	"log"
-	"os"
-	"strconv"
 	"time"
 
 	"github.com/apache/arrow/go/arrow"
@@ -154,7 +151,8 @@ func ProcessNewsArticlesParquet(scanner *bufio.Scanner, output source.ParquetFil
 		articleRaw = NewsArticleRaw{}
 		err = json.Unmarshal(line, &articleRaw)
 		if err != nil {
-			return fmt.Errorf("error parsing line: " + string(line) + ", " + err.Error())
+			log.Printf("Skipping invalid JSON: %s, error: %v", string(line), err)
+			continue
 		}
 		s := articleRaw.ToArticle()
 		// Add to builders
