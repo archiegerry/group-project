@@ -57,6 +57,41 @@ func (s *NewsArticleRaw) ToArticle() NewsArticle {
 	}
 }
 
+// Read input json stream and output to csv file (can later be parquet)
+func ProcessNewsArticles(scanner *bufio.Scanner, output *os.File) error {
+	// Write column names
+	writer := csv.NewWriter(output)
+	writer.Write([]string{"title", "description", "body", "url", "dt", "domain"})
+
+	// Loop through each line from stdin
+	var err error
+	var articleRaw NewsArticleRaw
+	i := 0
+	for scanner.Scan() {
+		if i%10000 == 0 {
+			log.Println(i)
+		}
+		i += 1
+		line := scanner.Bytes()
+		articleRaw = NewsArticleRaw{}
+		err = json.Unmarshal(line, &articleRaw)
+		if err != nil {
+			return fmt.Errorf("error parsing line: " + string(line) + ", " + err.Error())
+		}
+		article := articleRaw.ToArticle()
+		writer.Write([]string{article.Title, article.Description, article.Body, article.Url, strconv.FormatInt(article.DateTime, 10), article.Domain})
+	}
+	writer.Flush()
+	output.Close()
+
+	// Check for errors that may have occurred during scanning
+	if err := scanner.Err(); err != nil {
+		return fmt.Errorf("error reading from stdin: " + err.Error())
+	}
+	log.Println("Done.")
+	return nil
+}
+
 // Read input json stream and output to parquet file, have to manually write columns
 func ProcessNewsArticlesParquet(scanner *bufio.Scanner, output source.ParquetFile, minScore int64) error {
 	// Create parquet writer
