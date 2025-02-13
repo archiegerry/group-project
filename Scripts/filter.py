@@ -1,3 +1,7 @@
+
+# CHECKING FOR STOCK/SLANG OVERLAPS IN REDDIT DATA
+
+
 import csv
 
 # Open CSV files
