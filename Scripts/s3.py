@@ -91,10 +91,10 @@ def list(s3_prefix):
 def download_all(s3_prefix, overwrite=False):
     paths = list(s3_prefix)
     for path in tqdm(paths):
-        try:
-            download(path, overwrite=overwrite)
-        except:
+        # Skip directories
+        if str(path).endswith("/"):
             continue
+        download(path, overwrite=overwrite)
     return paths
 
 # Upload everything for a given prefix

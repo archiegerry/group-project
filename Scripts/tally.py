@@ -11,50 +11,33 @@ def read_tickers(path):
     return tickers_df
 
 # read in reddit submission parquet file as dataframe
-def read_reddit_parq(path):
+def read_reddit_parquet(path):
     df = pd.read_parquet(path) 
     df['text'] = df['title'].fillna('') + " " + df['body'].fillna('')  
-    return df['text'].tolist()
-
+    return df
 
 # read in news article parquet file as dataframe
-def read_news_parq(path):
+def read_news_parquet(path):
     df = pd.read_parquet(path)
-    df['text'] = df['title'].fillna('') + " " +df['description'].fillna('') + " " + df['body'].fillna('') 
-    return df['text'].tolist()
-
-
-# write dataframe to parquet file
-def write_parq(df, path):
-    df.to_parquet(path)
-    return
-
+    df['text'] = df['title'].fillna('') + " " + df['description'].fillna('') + " " + df['body'].fillna('') 
+    return df
 
 # tally mentions of each stock ticker in reddit posts
-def count_tickers(texts, tickers):
-    # list of counts
-    counts_list = []
+def count_tickers(df, tickers):
+    counts = {}
+
+    # iterate through each ticker
+    for _, row in tickers.iterrows():
+        symbol, search_terms = row['symbol'], row['search_terms']
+
+        # Sum up occurrences of each term
+        ticker_counts = df['text'].str.count(search_terms[0])
+        for term in search_terms[1:]:
+            ticker_counts += df['text'].str.count(term)
+
+        counts[symbol] = ticker_counts
     
-    for text in texts:        
-        # set counts to 0 for all tickers
-        ticker_counts = {ticker: 0 for ticker in tickers['symbol']}
-        
-        # iterate through each ticker
-        for _, row in tickers.iterrows():
-            total_count = 0
-            symbol, search_terms = row['symbol'], row['search_terms']
-
-            # Check for additional search terms
-           # if isinstance(search_terms, list):  
-            for term in search_terms:
-                total_count += len(re.findall(rf'\b{re.escape(term)}\b', text))
-
-            ticker_counts[symbol] = total_count
-        
-        counts_list.append(ticker_counts)
-        
-    counts_df = pd.DataFrame(counts_list)
-    return counts_df
+    return pd.DataFrame(counts)
 
 def news_all(tickers): 
     #s3_to_local_path("processed/news/gnews").mkdir(parents=True, exist_ok=True)
@@ -74,10 +57,14 @@ def news_all(tickers):
             with open(output_path, 'w') as file:
                 upload(f"processed/news/tally/{path.stem}_tally.parquet")
 
-            print(f'Procesing: {output_path}')
-            text = read_news_parq(path)
-            counts = count_tickers(text, tickers)
-            write_parq(counts, output_path)
+            print(f'Proce sing: {output_path}')
+            try:
+                df = read_news_parquet(path)
+            except:
+                print(f"Couldn't process {path}")
+                continue
+            counts = count_tickers(df, tickers)
+            counts.to_parquet(output_path)
 
             print('Completed processing, uploading...')
             upload(f"processed/news/tally/{path.stem}_tally.parquet")
@@ -94,20 +81,20 @@ def main():
     if sys.argv[2] == "news":
         input_file = sys.argv[3]
         output_file = sys.argv[4]
-        texts = read_news_parq(input_file)
+        df = read_news_parquet(input_file)
         # count mentions of each stock ticker in news articles
-        counts = count_tickers(texts, tickers)
+        counts = count_tickers(df, tickers)
         # write counts to parquet file
-        write_parq(counts, output_file)
+        counts.to_parquet(output_file)
 
     elif sys.argv[2] == "reddit":
         input_file = sys.argv[3]
         output_file = sys.argv[4]
-        texts = read_reddit_parq(input_file)
+        df = read_reddit_parquet(input_file)
         # count mentions of each stock ticker in news articles
-        counts = count_tickers(texts, tickers)
+        counts = count_tickers(df, tickers)
         # write counts to parquet file
-        write_parq(counts, output_file)
+        counts.to_parquet(output_file)
 
     elif sys.argv[2] == "reddit-all":
         print("Unfinished")
