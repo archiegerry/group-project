@@ -35,6 +35,9 @@ type RedditCommentRaw struct {
 	CreatedUTC json.Number `json:"created_utc"`
 	Score      int64       `json:"score"`
 
+	Id string `json:"id"`
+	// Link ID starts with t3_..., the ... is ID of the submission
+	LinkId string `json:"link_id"`
 	// If it's a string, use parent_id.split("_")[-1], otherwise use permalink.split("/")[4]
 	ParentId  interface{} `json:"parent_id"`
 	Permalink string      `json:"permalink"`
@@ -52,6 +55,8 @@ type RedditSubmission struct {
 
 type RedditComment struct {
 	Body     string `parquet:"name=body, type=BYTE_ARRAY, convertedtype=UTF8"`
+	Id       string `parquet:"name=id, type=BYTE_ARRAY, convertedtype=UTF8, encoding=PLAIN_DICTIONARY"`
+	PostId   string `parquet:"name=post_id, type=BYTE_ARRAY, convertedtype=UTF8, encoding=PLAIN_DICTIONARY"`
 	ParentId string `parquet:"name=parent_id, type=BYTE_ARRAY, convertedtype=UTF8, encoding=PLAIN_DICTIONARY"`
 	Datetime int64  `parquet:"name=dt, type=INT64, logicaltype=TIMESTAMP, logicaltype.isadjustedtoutc=true, logicaltype.unit=MILLIS"`
 	Score    int64  `parquet:"name=score, type=INT32, convertedtype=UTF8"`
@@ -102,6 +107,8 @@ func (s *RedditCommentRaw) ToComment() RedditComment {
 		Body:     s.Body,
 		Datetime: int64(1000 * timestamp),
 		Score:    s.Score,
+		Id:       s.Id,
+		PostId:   strings.Replace(s.LinkId, "t3_", "", 1),
 		ParentId: parentId,
 	}
 }
@@ -243,7 +250,7 @@ func ProcessRedditSubmissionsParquet(scanner *bufio.Scanner, output source.Parqu
 func ProcessRedditComments(scanner *bufio.Scanner, output *os.File) error {
 	// Write column names
 	writer := csv.NewWriter(output)
-	writer.Write([]string{"body", "dt", "score", "parent_id"})
+	writer.Write([]string{"body", "dt", "score", "id", "post_id", "parent_id"})
 
 	// Loop through each line from stdin
 	var err error
@@ -279,7 +286,7 @@ func ProcessRedditCommentsParquet(scanner *bufio.Scanner, output source.ParquetF
 	// Create parquet writer
 	// Initialize column builders
 	pool := memory.NewGoAllocator()
-	stringBuilders := make([]*array.StringBuilder, 2)
+	stringBuilders := make([]*array.StringBuilder, 4)
 	for i := range stringBuilders {
 		stringBuilders[i] = array.NewStringBuilder(pool)
 	}
@@ -291,6 +298,8 @@ func ProcessRedditCommentsParquet(scanner *bufio.Scanner, output source.ParquetF
 	// Define the schema for Arrow
 	fields := []arrow.Field{
 		{Name: "body", Type: arrow.BinaryTypes.String},
+		{Name: "id", Type: arrow.BinaryTypes.String},
+		{Name: "post_id", Type: arrow.BinaryTypes.String},
 		{Name: "parent_id", Type: arrow.BinaryTypes.String},
 		// Epoch milliseconds
 		{Name: "dt", Type: arrow.PrimitiveTypes.Int64},
@@ -342,7 +351,9 @@ func ProcessRedditCommentsParquet(scanner *bufio.Scanner, output source.ParquetF
 		c := commentRaw.ToComment()
 		// Add to builders
 		stringBuilders[0].Append(c.Body)
-		stringBuilders[1].Append(c.ParentId)
+		stringBuilders[1].Append(c.Id)
+		stringBuilders[2].Append(c.PostId)
+		stringBuilders[3].Append(c.ParentId)
 		intBuilders[0].Append(c.Datetime)
 		intBuilders[1].Append(c.Score)
 
