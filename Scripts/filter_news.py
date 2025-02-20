@@ -18,12 +18,16 @@ def get_symbol(filename, tickers):
 
 def main():
     # run below line if you dont have local gnews filtered folder
+    s3_to_local_path("processed/news/tally_filtered").mkdir(parents=True, exist_ok=True)
     # s3_to_local_path("processed/news/gnews_filtered").mkdir(parents=True, exist_ok=True)
+    # s3_to_local_path("processed/news/gnews").mkdir(parents=True, exist_ok=True)
 
     # get updated S3 files
-    download_all("processed/news", overwrite=False)
+    #download_all("processed/news", overwrite=False)
 
     submission_paths = s3_to_local_path("processed/news/gnews/").glob("*.parquet")
+
+    print(str(submission_paths))
 
     # get search terms from csv
     tickers = pd.read_csv("filter_terms.csv")
@@ -42,16 +46,21 @@ def main():
         news = pd.read_parquet(path)
         # get tallies
         tally = pd.read_parquet(s3_to_local_path(f"processed/news/tally/{path.stem}_tally.parquet"))
+
+        print(str(tally.head))
         
         # filter news articles
         if symbol in tally.columns:
             valid_rows = tally[symbol] >= 3
 
-            # rows where no other symbol has count >= 1.5x the current symbol count
+            # rows where no other symbol has count > 2x the current symbol count
             other_symbols = [col for col in tally.columns if col != symbol]
             for other_symbol in other_symbols:
-                valid_rows &= ~(tally[other_symbol] >= 2 * tally[symbol])
+                valid_rows &= ~(tally[other_symbol] > tally[symbol])
 
+            # remove tally row as well
+            tally = tally[valid_rows]
+            
             # apply filtering to news
             news = news[valid_rows]
         else:
@@ -60,6 +69,7 @@ def main():
         
         # Save filtered news
         news.to_parquet(output_path, index=False)
+        tally.to_parquet(s3_to_local_path(f"processed/news/tally_filtered/{path.stem}_tally.parquet"), index=False)
         print(f"Saved filtered file: {output_path}")
 
 
