@@ -65,8 +65,5 @@ def main():
         
     
 if __name__ == "__main__":
-    #main()
-    paths = s3_to_local_path('processed/news/gnews_filtered').glob("*.parquet")
-    sortedpaths = sorted(paths)
-    for path in sortedpaths:
-        print(path)
+    main()
+
