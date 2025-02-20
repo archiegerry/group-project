@@ -51,7 +51,8 @@ def main():
         news_contro = news_contro.reset_index(drop=True)
         tally_contro = tally_contro.reset_index(drop=True)
 
-        s3_to_local_path("processed/news/contro").mkdir(parents=True, exist_ok=True)
+        s3_to_local_path("processed/news/contro/tally").mkdir(parents=True, exist_ok=True)
+        s3_to_local_path("processed/news/contro/articles").mkdir(parents=True, exist_ok=True)
 
         # Overwrite old parquets with clean files
         os.remove(s3_to_local_path(f'processed/news/gnews_filtered/{path.stem}.parquet'))
@@ -60,8 +61,8 @@ def main():
         tally_cleaned.to_parquet(s3_to_local_path(f'processed/news/tally_filtered/{path.stem}_tally.parquet'))
 
         # Save controversial articles to new path
-        news_contro.to_parquet(s3_to_local_path(f'processed/news/contro/{path.stem}_contro.parquet'))
-        tally_contro.to_parquet(s3_to_local_path(f'processed/news/contro/{path.stem}_tally_contro.parquet'))
+        news_contro.to_parquet(s3_to_local_path(f'processed/news/contro/articles/{path.stem}.parquet'))
+        tally_contro.to_parquet(s3_to_local_path(f'processed/news/contro/tally/{path.stem}.parquet'))
         
     
 if __name__ == "__main__":
