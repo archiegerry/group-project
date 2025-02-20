@@ -56,8 +56,8 @@ def main():
         # Overwrite old parquets with clean files
         os.remove(s3_to_local_path(f'processed/news/gnews_filtered/{path.stem}.parquet'))
         os.remove(s3_to_local_path(f'processed/news/tally_filtered/{path.stem}_tally.parquet'))
-        news_cleaned.to_parquet(s3_to_local_path(f'processed/news/gnews_filtered{path.stem}.parquet'))
-        tally_cleaned.to_parquet(s3_to_local_path(f'processed/news/tally_filtered{path.stem}_tally.parquet'))
+        news_cleaned.to_parquet(s3_to_local_path(f'processed/news/gnews_filtered/{path.stem}.parquet'))
+        tally_cleaned.to_parquet(s3_to_local_path(f'processed/news/tally_filtered/{path.stem}_tally.parquet'))
 
         # Save controversial articles to new path
         news_contro.to_parquet(s3_to_local_path(f'processed/news/contro/{path.stem}_contro.parquet'))
