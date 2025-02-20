@@ -23,9 +23,11 @@ def main():
     # s3_to_local_path("processed/news/gnews").mkdir(parents=True, exist_ok=True)
 
     # get updated S3 files
-    download_all("processed/news", overwrite=False)
+    #download_all("processed/news", overwrite=False)
 
     submission_paths = s3_to_local_path("processed/news/gnews/").glob("*.parquet")
+
+    print(str(submission_paths))
 
     # get search terms from csv
     tickers = pd.read_csv("filter_terms.csv")
@@ -44,6 +46,8 @@ def main():
         news = pd.read_parquet(path)
         # get tallies
         tally = pd.read_parquet(s3_to_local_path(f"processed/news/tally/{path.stem}_tally.parquet"))
+
+        print(str(tally.head))
         
         # filter news articles
         if symbol in tally.columns:
