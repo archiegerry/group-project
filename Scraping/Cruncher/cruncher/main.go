@@ -16,7 +16,7 @@ zstdcat wallstreetbets_submissions.zst | ./cruncher reddit-submissions output.cs
 
 zstdcat wallstreetbets_comments.zst | ./cruncher reddit-comments output.parquet
 
-OR 
+OR
 
 zstdcat Accenture.jsonl.zst | ./cruncher news-articles output.parqet
 
@@ -75,6 +75,12 @@ func main() {
 			panic("error processing news articles: " + err.Error())
 		}
 
+	} else if cmd == "split-news" {
+		// Next arg is input file, followed by path (including trailing slash) of output
+		parquetPath := os.Args[2]
+		outputPath := os.Args[3]
+		mapping := BuildSearchTermMapping("Scraping/Tally/search_terms_reduced.csv")
+		SplitNewsParquet(parquetPath, outputPath, mapping)
 	} else {
 		panic("invalid command: " + cmd + ", expected reddit-submissions, reddit-comments, or news-articles")
 	}
