@@ -81,6 +81,12 @@ func main() {
 		outputPath := os.Args[3]
 		mapping := BuildSearchTermMapping("Scraping/Tally/search_terms_reduced.csv")
 		SplitNewsParquet(parquetPath, outputPath, mapping)
+	} else if cmd == "split-reddit" {
+		// Next arg is input file, followed by path (including trailing slash) of output
+		parquetPath := os.Args[2]
+		outputPath := os.Args[3]
+		mapping := BuildSearchTermMapping("Scraping/Tally/search_terms_reduced.csv")
+		SplitRedditParquet(parquetPath, outputPath, mapping)
 	} else {
 		panic("invalid command: " + cmd + ", expected reddit-submissions, reddit-comments, or news-articles")
 	}
