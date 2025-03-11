@@ -121,7 +121,7 @@ COP,conocophillips|CONOCOPHILLIPS|$COPs|ConocoPhillips|$COP
 ED,Consolidated Edison|consolidated edison|ED|consolidated edisons|EDs|CONSOLIDATED EDISON|$ED|Consolidated Edisons|$EDs|CONSOLIDATED EDISONS
 STZ,STZs|$STZs|STZ|constellation brands|CONSTELLATION BRANDS|$STZ|Constellation Brands
 CEG,Constellation Energys|CEGs|$CEGs|CONSTELLATION ENERGY|$CEG|constellation energy|CEG|constellation energys|CONSTELLATION ENERGYS|Constellation Energy
-COO,COOPER COMPANIES (THE)S|COOPER|Cooper Companies (The)s|Coopers|cooper companies (the)|$COO|Cooper Companies (The)|coopers|COOPERS|Cooper|cooper|$COOs|COOPER COMPANIES (THE)|cooper companies (the)s
+COO,COOPER COMPANIES (THE)S|COOPER|Cooper Companies (The)s|cooper companies (the)|$COO|Cooper Companies (The)|$COOs|COOPER COMPANIES (THE)|cooper companies (the)s
 CPRT,Copart|$CPRTs|copart|CPRT|COPART|CPRTs|$CPRT|COPARTS|coparts|Coparts
 GLW,CORNING INC.|$GLW|Corning Inc.|corning inc.s|CORNING|GLW|CORNING INC.S|Corning|cornings|$GLWs|Cornings|GLWs|CORNINGS|Corning Inc.s|corning inc.|corning
 CPAY,Corpays|CORPAYS|CPAYs|CPAY|Corpay|$CPAYs|corpay|corpays|$CPAY|CORPAY
@@ -301,7 +301,7 @@ MMC,marsh mclennan|MARSH MCLENNANS|marsh mclennans|$MMC|$MMCs|MMCs|MMC|MARSH MCL
 MLM,Martin Mariettas|MARTIN MARIETTAS|MARTIN MARIETTA|MLM|martin mariettas|MARTIN MARIETTA MATERIALS|Martin Marietta Materials|Martin Marietta|$MLM|$MLMs|martin marietta materials|martin marietta|MLMs
 MAS,$MAS|$MASs|MASCO|Masco|Mascos|mascos|MASCOS|masco
 MA,$MAs|MASTERCARD|MASTERCARDS|mastercards|Mastercard|MA|MAs|$MA|Mastercards|mastercard
-MTCH,$MTCHs|Matchs|Match Group|Match Groups|MATCH GROUP|match groups|MTCH|match|MATCH|$MTCH|MTCHs|matchs|match group|Match|MATCHS|MATCH GROUPS
+MTCH,$MTCHs|Match Group|Match Groups|MATCH GROUP|match groups|MTCH|MATCH|$MTCH|MTCHs|match group|MATCHS|MATCH GROUPS
 MKC,mccormick|MCCORMICK|MKC|$MKCs|MCCORMICK & COMPANY|MCCORMICK & COMPANYS|McCormick & Companys|McCormicks|McCormick|McCormick & Company|MCCORMICKS|mccormick & company|mccormicks|mccormick & companys|MKCs|$MKC
 MCD,mcdonald's|MCDONALD'S|MCD|mcdonalds|McDonald's|$MCDs|MCDONALDS|$MCD|MCDs|McDonalds
 MCK,mckessons|McKesson Corporations|McKessons|MCKs|McKesson Corporation|McKesson|MCKESSON CORPORATION|MCKESSONS|mckesson corporations|MCKESSON CORPORATIONS|MCKESSON|MCK|$MCK|mckesson corporation|$MCKs|mckesson
@@ -389,7 +389,7 @@ QCOM,QUALCOMM|Qualcomms|Qualcomm|qualcomms|QUALCOMMS|$QCOM|QCOMs|$QCOMs|qualcomm
 DGX,DGX|quest diagnostics|DGXs|QUEST DIAGNOSTICS|$DGXs|$DGX|Quest Diagnostics
 RL,RALPH LAUREN CORPORATIONS|RALPH LAUREN|Ralph Lauren Corporation|Ralph Lauren Corporations|RALPH LAURENS|RLs|ralph lauren|RALPH LAUREN CORPORATION|Ralph Lauren|RL|$RLs|Ralph Laurens|ralph laurens|$RL|ralph lauren corporations|ralph lauren corporation
 RJF,RJFs|Raymond James Financial|$RJFs|raymond james financial|RAYMOND JAMES FINANCIAL|$RJF|Raymond James Financials|RJF|RAYMOND JAMES FINANCIALS|RAYMOND JAMES|raymond james|raymond james financials|Raymond James
-RTX,RTX|RTXs|$RTX|$RTXs|RTX Corporation|rtx corporation|RTX CORPORATION|RTX Corporations|rtx corporations|RTX CORPORATIONS
+RTX,$RTX|$RTXs|RTX Corporation|rtx corporation|RTX CORPORATION|RTX Corporations|rtx corporations|RTX CORPORATIONS
 O,Realty Incomes|REALTY INCOME|realty income|REALTY INCOMES|$O|realty incomes|Realty Income|$Os
 REG,REGENCY CENTERS|Regency Centers|$REG|REG|$REGs|regency centers|REGs
 REGN,Regeneron Pharmaceuticals|REGN|regenerons|regeneron|$REGNs|Regenerons|REGENERON|$REGN|regeneron pharmaceuticals|REGNs|REGENERON PHARMACEUTICALS|Regeneron|REGENERONS
@@ -433,7 +433,7 @@ TROW,t. rowe prices|$TROW|T. ROWE PRICE|T. ROWE PRICES|t. rowe price|TROWs|T. Ro
 TTWO,TAKE-TWO INTERACTIVE|TTWO|Take-Two Interactives|Take Two|TAKE TWOS|TAKE-TWO INTERACTIVES|take-two interactive|take twos|Take-Two Interactive|$TTWOs|TAKE TWO|TTWOs|take two|Take Twos|$TTWO|take-two interactives
 TPR,"$TPRs|Tapestrys|TAPESTRY, INC.S|tapestry, inc.s|TAPESTRYS|TPR|tapestry|Tapestry, Inc.s|Tapestry, Inc.|Tapestry|tapestry, inc.|tapestrys|TAPESTRY, INC.|$TPR|TAPESTRY|TPRs"
 TRGP,$TRGPs|Targa Resources|$TRGP|TARGA RESOURCES|targa resources|TRGPs|TRGP
-TGT,TGT|Target Corporations|TGTs|TARGET|target corporations|target|targets|TARGETS|TARGET CORPORATION|TARGET CORPORATIONS|Target|Targets|target corporation|$TGT|Target Corporation|$TGTs
+TGT,TGT|Target Corporations|TGTs|TARGET|target corporations|TARGETS|TARGET CORPORATION|TARGET CORPORATIONS|target corporation|$TGT|Target Corporation|$TGTs
 TEL,TEL|TELs|TE CONNECTIVITYS|te connectivitys|TE CONNECTIVITY|$TEL|te connectivity|TE Connectivity|$TELs|TE Connectivitys
 TDY,TDY|TELEDYNE TECHNOLOGIES|$TDYs|teledyne technologies|TDYs|$TDY|Teledyne Technologies
 TFX,teleflexs|$TFX|TFXs|teleflex|Teleflexs|$TFXs|TFX|Teleflex|TELEFLEX|TELEFLEXS

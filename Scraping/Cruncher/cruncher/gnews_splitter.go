@@ -186,6 +186,9 @@ func SplitNewsParquet(path, gnewsPath string, mapping SearchTermNode) error {
 			// timestamp := time.Unix(0, article.DateTime*int64(time.Millisecond))
 			tagged := TagText(article.Title+"\n"+string(article.Body), "", mapping)
 			for _, t := range tagged {
+				if t.Ticker == "" {
+					continue
+				}
 				if _, ok := csvWriters[t.Ticker]; !ok {
 					// Add artifact writer
 					f, err := os.OpenFile(gnewsPath+t.Ticker+".csv", os.O_APPEND|os.O_WRONLY|os.O_CREATE, 0600)
