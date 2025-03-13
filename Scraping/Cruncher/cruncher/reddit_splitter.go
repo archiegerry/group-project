@@ -20,9 +20,9 @@ We read one file at a time and stream to ~500 ticker files (mapped by the reduce
 */
 
 // Read parquet, split articles, maintain file pointers
-func SplitRedditParquet(submissionsPath, redditPath string, mapping SearchTermNode) error {
+func SplitRedditParquet(submissionsPath, outputPath string, mapping SearchTermNode) error {
 	commentsPath := strings.Replace(submissionsPath, "submissions", "comments", 1)
-
+	outputCommentsPath := strings.Replace(outputPath, "submissions", "comments", 1)
 	// Start with submissions, build map of post_id -> ticker, then do comments
 	fr, err := local.NewLocalFileReader(submissionsPath)
 	if err != nil {
@@ -64,7 +64,7 @@ func SplitRedditParquet(submissionsPath, redditPath string, mapping SearchTermNo
 
 				if _, ok := csvWriters[t.Ticker]; !ok {
 					// Add artifact writer
-					f, err := os.OpenFile(redditPath+t.Ticker+".csv", os.O_APPEND|os.O_WRONLY|os.O_CREATE, 0600)
+					f, err := os.OpenFile(outputPath+t.Ticker+".csv", os.O_APPEND|os.O_WRONLY|os.O_CREATE, 0600)
 					if err != nil {
 						panic(err)
 					}
@@ -110,6 +110,10 @@ func SplitRedditParquet(submissionsPath, redditPath string, mapping SearchTermNo
 	fr.Close()
 	pr.ReadStop()
 
+	// New files and writers
+	files = map[string]*os.File{}
+	csvWriters = map[string]*csv.Writer{}
+
 	// Now comments, we need to sort by datetime and construct a map of comment_id -> ticker to ensure
 	// child comments can see ticker of parent comment
 	fr, err = local.NewLocalFileReader(commentsPath)
@@ -136,13 +140,20 @@ func SplitRedditParquet(submissionsPath, redditPath string, mapping SearchTermNo
 	}
 
 	// Sort comments by datetime
+	log.Println("sorting", len(comments), "comments")
 	sort.Slice(comments, func(i, j int) bool {
 		return comments[i].Datetime < comments[j].Datetime
 	})
 
+	matches := 0
 	for _, comment := range comments {
 		startTicker := mapToTicker[comment.ParentId]
 		post := allPosts[comment.PostId]
+		if startTicker != "" {
+			matches += 1
+		}
+		// log.Println(startTicker, comment.ParentId)
+		// panic("")
 
 		// Convert timestamp to readable time
 		tagged := TagText(comment.Body, startTicker, mapping)
@@ -155,7 +166,7 @@ func SplitRedditParquet(submissionsPath, redditPath string, mapping SearchTermNo
 
 			if _, ok := csvWriters[t.Ticker]; !ok {
 				// Add artifact writer
-				f, err := os.OpenFile(redditPath+t.Ticker+".csv", os.O_APPEND|os.O_WRONLY|os.O_CREATE, 0600)
+				f, err := os.OpenFile(outputCommentsPath+t.Ticker+".csv", os.O_APPEND|os.O_WRONLY|os.O_CREATE, 0600)
 				if err != nil {
 					panic(err)
 				}
@@ -197,7 +208,11 @@ func SplitRedditParquet(submissionsPath, redditPath string, mapping SearchTermNo
 		}
 		mapToTicker[comment.Id] = maxTicker
 	}
-
+	log.Println(matches, "matches of", len(comments), " comments")
+	for ticker, file := range files {
+		csvWriters[ticker].Flush()
+		file.Close()
+	}
 	fr.Close()
 	pr.ReadStop()
 
