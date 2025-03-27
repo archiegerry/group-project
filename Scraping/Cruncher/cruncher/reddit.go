@@ -54,7 +54,7 @@ type RedditSubmission struct {
 	Score     int64  `parquet:"name=score, type=INT32, convertedtype=UTF8"`
 	Downs     int64  `parquet:"name=downs, type=INT32, convertedtype=UTF8"`
 	Body      string `parquet:"name=body, type=BYTE_ARRAY, convertedtype=UTF8, encoding=PLAIN_DICTIONARY"`
-	Flair     string `parquet:"name=Flair, type=BYTE_ARRAY, convertedtype=UTF8, encoding=PLAIN_DICTIONARY"`
+	Flair     string `parquet:"name=flair, type=BYTE_ARRAY, convertedtype=UTF8, encoding=PLAIN_DICTIONARY"`
 }
 
 type RedditComment struct {
