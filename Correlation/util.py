@@ -87,7 +87,7 @@ def load_dataset(
     # Abs features (in future could look at number of posts instead)
     df["ft_abs_news"] = df.news_sentiment.fillna(0).abs()
     df["ft_abs_submissions"] = df.submissions_sentiment.fillna(0).abs()
-    df["ft_abs_comments"] = df.news_sentiment.fillna(0).abs()
+    df["ft_abs_comments"] = df.comments_sentiment.fillna(0).abs()
     df["ft_combined_abs"] = df.ft_abs_news + df.ft_abs_submissions + df.ft_abs_comments
 
 
