@@ -62,6 +62,10 @@ def load_dataset(
         df[f"tgt_forward_returns_{horizon}"] = df[f"tgt_forward_returns_{horizon}"].fillna(0)
         df.drop(columns=f"forward_close_{horizon}", inplace=True)
 
+        # Add volatility targets (shift back so we are using future data - maybe center instead?)
+        df[f"vol_tgt_{horizon}"] = df.groupby("symbol")[f"tgt_forward_returns_{horizon}"].shift(-horizon).rolling(window=horizon).std().reset_index(0, drop=True)
+        df[f"vol_tgt_{horizon}"] = df[f"vol_tgt_{horizon}"].ffill()
+
         # Add future returns for SP500 as well, for normalizing
         df[f"sp_forward_close_{horizon}"] = df.groupby("symbol").sp500_close.shift(-horizon)
         df[f"sp_forward_close_{horizon}"] = df.groupby("symbol")[f"sp_forward_close_{horizon}"].ffill()
@@ -91,11 +95,12 @@ def load_dataset(
     df["ft_combined_abs"] = df.ft_abs_news + df.ft_abs_submissions + df.ft_abs_comments
 
 
-    # Add rolling features (look at last N days)
+    # Add rolling features and volatility of features (look at last N days)
     fts = [c for c in df.columns if c.startswith("ft_")]
     for lookback in lookback_periods:
         for col in fts:
             df[f"{col}_{lookback}"] = df.groupby("symbol")[col].rolling(lookback, min_periods=0).mean().reset_index(0, drop=True)
+            df[f"vol_{col}_{lookback}"] = df.groupby("symbol")[col].rolling(lookback, min_periods=0).std().reset_index(0, drop=True)
 
     return df
 
