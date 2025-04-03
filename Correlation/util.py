@@ -51,6 +51,9 @@ def load_dataset(
     df["tradeable_price"] = df.groupby("symbol").close.shift(-1)
     df["sp_tradeable_price"] = df.groupby("symbol").sp500_close.shift(-1)
 
+    # 1 day forward returns
+    df["forward_returns_1"] = df.groupby("symbol")["tradeable_price"].pct_change(-1)
+
     # Add future returns
     if residualise_returns:
         print("Adding future returns (residualizing takes ~60s, so 60s * number of returns added)")
@@ -62,8 +65,8 @@ def load_dataset(
         df[f"tgt_forward_returns_{horizon}"] = df[f"tgt_forward_returns_{horizon}"].fillna(0)
         df.drop(columns=f"forward_close_{horizon}", inplace=True)
 
-        # Add volatility targets (shift back so we are using future data - maybe center instead?)
-        df[f"vol_tgt_{horizon}"] = df.groupby("symbol")[f"tgt_forward_returns_{horizon}"].shift(-horizon).rolling(window=horizon).std().reset_index(0, drop=True)
+        # Add volatility targets (shifts back horizon days and calculates std of returns over horizon period)
+        df[f"vol_tgt_{horizon}"] = df.groupby("symbol")["forward_returns_1"].shift(-horizon).rolling(window=horizon).std().reset_index(0, drop=True)
         df[f"vol_tgt_{horizon}"] = df[f"vol_tgt_{horizon}"].ffill()
 
         # Add future returns for SP500 as well, for normalizing
