@@ -134,7 +134,7 @@ def main():
     working_dir.mkdir(exist_ok=True, parents=True)
 
     # Load base 
-    stocks = pd.read_csv("Scraping/stock_list.csv")
+    stocks = pd.read_csv("Scraping/stock_list.csv") # TODO: change path
 
     # Load number of articles for each stock
     article_counts_path = Path("working/gnews/article_counts.csv")

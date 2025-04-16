@@ -28,9 +28,9 @@ def download_symbol(symbol):
     sleep(1)
     return df
  
-# Download all symbols from 
+# Download all symbols from stock list 
 def main():
-    stock_list = pd.read_csv("Scraping/stock_list.csv")
+    stock_list = pd.read_csv("Scraping/stock_list.csv") # TODO: take as parameter (location has changed)
     symbols = stock_list.symbol.unique()
     dfs = []
     for symbol in tqdm(symbols):
@@ -38,5 +38,7 @@ def main():
         dfs.append(df)
     df = pd.concat(dfs, ignore_index=True).reset_index()
     df.to_parquet("Scraping/MarketData/daily_prices.parquet")
+
+    
 if __name__ == "__main__":
     main()
