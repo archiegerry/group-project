@@ -2,10 +2,7 @@
 
 Contains general-purpose scripts for automating data processing, organization, and uploads.
 
----
----
----
----
+
 ---
 ## S3 Utils file
 Custom library file used throughout the project.
@@ -19,19 +16,12 @@ Provides utilities for working with an S3 storage bucket using the boto3 SDK. In
 Must have a `.env` file with the required keys saved in this folder (must include S3_KEY, S3_SECRET, and S3_REGION).
 
 ---
----
----
----
----
 ## Symbol to Filename Mapping 
 `symbol_to_filename.py` contains a python data structure that can be used to map a stock ticker to a standardised filename. Eg. `'AMD': 'Advanced_Micro_Devices_AMD'`.
 
 Used internally when saving processed files for individual stocks or search terms.
 
----
----
----
----
+
 ---
 ## Data Processing
 Contains scripts to process raw `.zst` data files from news and Reddit, converting them into clean, usable `.parquet` format files for further analysis.
@@ -48,10 +38,7 @@ python3 process_reddit.py comments         # Just comments
 python3 process_reddit.py all              # Both
 ```
 
----
----
----
----
+
 ---
 ## Data Splitting
 After initial processing, data is split by mentioned company, producing smaller, company-specific artifacts.
@@ -68,10 +55,7 @@ After initial processing, data is split by mentioned company, producing smaller,
 #### Reddit Usage
 `python split_reddit.py`
 
----
----
----
----
+
 ---
 ## Dataset Organisation
 ### `dataset_join.py`

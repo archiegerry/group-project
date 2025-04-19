@@ -7,7 +7,7 @@ import sys
 import os
 
 """
-Downloads historical stock prices from the NASDAQ API for all symbols in the stock list.
+Downloads historical stock prices from the Nasdaq API for all symbols in the stock list.
 The data is saved to a parquet file in the specified location.
 
 USAGE:

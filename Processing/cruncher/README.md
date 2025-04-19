@@ -15,7 +15,6 @@ Inside the `cruncher` directory: `go build`
 This will produce a `cruncher` executable.
 
 ---
----
 ## Processing
 ### Description
 Converts JSONL files (can be raw `.zst` compressed JSONL) of Reddit or GNews data into Parquet files with only the required columns.
@@ -36,7 +35,6 @@ Supported modes:
 - `news-articles`
 
 
----
 ---
 ## Splitting
 ### Description

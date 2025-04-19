@@ -52,10 +52,10 @@ A module for downloading historical stock data and generating search terms for d
 Based on the S&P 500 as of 2024-12-24, and stored in `data/constituents.csv`. (Retrieved from [here](https://github.com/datasets/s-and-p-500-companies/blob/main/data/constituents.csv))
 
 ### Individual Stock Closing Prices
-Downloaded from the NASDAQ API and stored in `data/daily_prices.parquet`, using the `nasdaq_download.py` script (below).
+Downloaded from the Nasdaq API and stored in `data/daily_prices.parquet`, using the `nasdaq_download.py` script (below).
 
 ### S&P 500 Index Closing Prices
-Downloaded from [investing.com](https://www.investing.com/indices/us-spx-500) (not NASDAQ due to too little history), and stored in `data/sp500_daily_prices.parquet`.
+Downloaded from [investing.com](https://www.investing.com/indices/us-spx-500) (not Nasdaq due to too little history), and stored in `data/sp500_daily_prices.parquet`.
 
 ### Stock Terms
 The `stock_list.csv` file is generated from `constituents.csv`, with an added `search_terms` column - a forward slash sepearated list of keywords.
@@ -97,7 +97,7 @@ After that, some exploratory data analysis (EDA), using the `search_terms` file 
 ## Scripts
 ### `nasdaq_download.py`
 #### Description
-- Downloads daily historical stock prices using the NASDAQ API, as described above.
+- Downloads daily historical stock prices using the Nasdaq API, as described above.
 - Converts and stores the data in Parquet format.
 - Supports batch download using a list of symbols.
 - Automatically skips symbols with unavailable data.
