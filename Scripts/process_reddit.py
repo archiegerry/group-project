@@ -1,3 +1,5 @@
+scripts_folder = os.path.join(os.getcwd(), 'Scripts')
+sys.path.append(scripts_folder)
 from s3 import *
 import sys, os
 from tqdm import tqdm

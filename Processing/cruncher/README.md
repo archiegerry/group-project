@@ -1,12 +1,49 @@
-# A Go method for crunching a large JSON dataset into a smaller size with fewer column headings
+# Cruncher
 
-## Installing GO on WSL:
-https://dev.to/deadwin19/how-to-install-golang-on-wslwsl2-2880
+A Go module for processing and splitting large datasets of GNews articles and Reddit content. 
 
-## Building the cruncher application
-go build
+**Note:** There are python scripts in the `Scripts/` folder which automate this process for large numbers of files.
 
-## Running the cruncher
-cat file.json | ./cruncher mode output.csv
+## Go Setup
+#### Installing Go for WSL:
 
-mode : reddit-submissions, reddit-comments, or news-articles
+Instructions to install Go on WSL can be found [here](https://dev.to/deadwin19/how-to-install-golang-on-wslwsl2-2880).
+
+#### Building the Application
+Inside the `cruncher` directory: `go build`
+
+This will produce a `cruncher` executable.
+
+---
+---
+## Processing
+### Description
+Converts JSONL files (can be raw `.zst` compressed JSONL) of Reddit or GNews data into Parquet files with only the required columns.
+
+### Usage
+JSONL files:
+
+`cat <input_file.json> | ./cruncher <mode> <output_file.parquet>`
+
+`.zst` compressed JSONL files:
+
+`zstdcat <input_file.zst> | ./cruncher <mode> <output_file.parquet>`
+
+
+Supported modes:
+- `reddit-submissions`
+- `reddit-comments`
+- `news-articles`
+
+
+---
+---
+## Splitting
+### Description
+Cruncher can also split processed Parquet files (Reddit or GNews) into multiple files by search terms, using a predefined mapping from:
+`../../DataRetrieval/Stocks/data/search_terms_reduced.csv`
+
+Each output file corresponds to a matched search term, helping isolate content related to specific stocks or entities.
+
+### Usage
+`./cruncher split-[news|reddit] <input.parquet> <output_folder/>`

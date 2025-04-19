@@ -1,3 +1,5 @@
+scripts_folder = os.path.join(os.getcwd(), 'Scripts')
+sys.path.append(scripts_folder)
 from s3 import s3_to_local_path, download_all, upload, download, upload_all
 import sys, os
 from pathlib import Path

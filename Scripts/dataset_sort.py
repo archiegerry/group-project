@@ -1,5 +1,7 @@
 import sys
 from pathlib import Path
+scripts_folder = os.path.join(os.getcwd(), 'Scripts')
+sys.path.append(scripts_folder)
 from s3 import *
 import pandas as pd
 
