@@ -3,7 +3,7 @@ Code repository for our COMP5530M Group Project. A modular pipeline for gatherin
 
 ## Process Overview
 
-1. **Data Retrieval:** Collects raw data from the web and APIs. News data from the GNews API, Reddit data from XXXX, and stock data from XXXX.
+1. **Data Retrieval:** Collects news data from the [GNews API](https://gnews.io/), Reddit data from [Academic Torrents](https://academictorrents.com/details/56aa49f9653ba545f48df2e33679f014d2829c10), and [S&P 500](https://github.com/datasets/s-and-p-500-companies/blob/main/data/constituents.csv) stock data from the [Nasdaq API](https://www.nasdaq.com/solutions/data/nasdaq-data-link/api) and [investing.com](https://www.investing.com/indices/us-spx-500).
 
 2. **Data Processing:** Transforms raw news and reddit files into structured `.parquet` datasets.
 
@@ -31,11 +31,7 @@ Code repository for our COMP5530M Group Project. A modular pipeline for gatherin
 **Each module has a corresponding `README.md` file with specific setup and usage instructions.**
 
 ---
----
----
----
----
----
+
 ## Example Pipeline
 While parts of this pipeline can be automated, the end-to-end flow involves manual steps due to varying data formats, processing requirements, and storage setups. However, the Sentiment Analysis and Statistical Analysis modules are fully automatable — see the example notebooks in their respective folders for reproducible pipelines.
 
@@ -49,7 +45,7 @@ Scrape and upload data to S3:
 `python3 DataRetrieval/NewsReddit/gnews_download.py`
 
 #### 1.2 Reddit Data:
-Use a torrent client to download some files from the data dump: (https://academictorrents.com/details/56aa49f9653ba545f48df2e33679f014d2829c10)
+Use a torrent client to download some files from the [Academic Torrent data dump](https://academictorrents.com/details/56aa49f9653ba545f48df2e33679f014d2829c10)
 
 Upload downloaded data to S3:
 
