@@ -11,3 +11,4 @@ Scraping/Cruncher/cruncher/sample/*
 Scraping/Tally/sample/*
 project-venv
 catboost_info
+temp/*

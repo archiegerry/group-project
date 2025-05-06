@@ -1,3 +1,5 @@
+scripts_folder = os.path.join(os.getcwd(), 'Scripts')
+sys.path.append(scripts_folder)
 from s3 import *
 import sys, os
 from tqdm import tqdm
@@ -11,6 +13,7 @@ Must be invoked from group-project dir.
 
 USAGE:
 python3 Scripts/process_reddit.py submissions        FOR JUST POSTS
+python3 Scripts/process_reddit.py comments           FOR JUST COMMENTS
 python3 Scripts/process_reddit.py all                FOR EVERYTHING
 
 
@@ -30,7 +33,7 @@ def process_reddit_submissions():
         output_path = s3_to_local_path(f"processed/reddit/submissions/{path.stem}.parquet")
         if not output_path.exists():
             print(f"{path.stem}...")
-            os.system(f"zstdcat {path} | ./Scraping/Cruncher/cruncher/cruncher reddit-submissions {output_path}")
+            os.system(f"zstdcat {path} | ./Processing/cruncher/cruncher reddit-submissions {output_path}")
             upload(f"processed/reddit/submissions/{path.stem}.parquet")
             print(f"{path.stem} Uploaded.")
 
@@ -49,7 +52,7 @@ def process_reddit_comments():
         output_path = s3_to_local_path(f"processed/reddit/comments/{path.stem}.parquet")
         if not output_path.exists():
             print(f"{path.stem}...")
-            os.system(f"zstdcat {path} | ./Scraping/Cruncher/cruncher/cruncher reddit-comments {output_path}")
+            os.system(f"zstdcat {path} | ./Processing/cruncher/cruncher reddit-comments {output_path}")
             upload(f"processed/reddit/comments/{path.stem}.parquet")
             print(f"{path.stem} Uploaded.")
 
@@ -60,6 +63,9 @@ def process_reddit_comments():
 
 
 if __name__ == "__main__":
+    if len(sys.argv) != 2:
+        print("Usage: python3 Scripts/process_reddit.py <submissions/comments/all>")
+        sys.exit(1)
     processing_choice = sys.argv[1]
     if processing_choice == "all":
         print("Processing everything")
@@ -69,7 +75,8 @@ if __name__ == "__main__":
         process_reddit_submissions()
     elif processing_choice == 'comments':
         print("Processing just comments")
-        process_reddit_comments()
+        process_reddit_comments()\
+    
 
 
     

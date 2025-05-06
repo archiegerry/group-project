@@ -1,3 +1,5 @@
+scripts_folder = os.path.join(os.getcwd(), 'Scripts')
+sys.path.append(scripts_folder)
 from s3 import *
 import sys, os
 from tqdm import tqdm
@@ -5,11 +7,13 @@ from pathlib import Path
 import re
 
 """
-
 Process news zst files into parquet format.
 Downloads zst files, processes locally and uploads parquets.
 
+USAGE:
+    python process_news.py
 """
+
 # Uploaded zsts have a .jsonl at the end of the file name
 def remove_jsonl_suffix(path):
     jsonl_removed = str(path).replace(".jsonl", "")
@@ -28,7 +32,7 @@ def process_news():
         output_path = s3_to_local_path(f"processed/news/gnews/{stem.group(1)}.parquet")
         if not output_path.exists():
             print(f"{stem.group(1)}...")
-            os.system(f"zstdcat {local_path} | ./Scraping/Cruncher/cruncher/cruncher news-articles {output_path}")
+            os.system(f"zstdcat {local_path} | ./Processing/cruncher/cruncher news-articles {output_path}")
             upload(f"processed/news/gnews/{stem.group(1)}.parquet")
             print(f"{stem.group(1)} Uploaded.")    
 

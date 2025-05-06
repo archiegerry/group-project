@@ -78,8 +78,8 @@ def move_s3_object(old_key, new_key):
     # Delete the original object
     s3.delete_object(Bucket=BUCKET, Key=old_key)
 
-# List all paths for a given prefix
-def list(s3_prefix):
+# List all paths for a given prefix (causing problems with default list function)
+def s3_list(s3_prefix):
     paginator = s3.get_paginator("list_objects")
     paths = []
     for result in paginator.paginate(Bucket=BUCKET, Prefix=s3_prefix):
@@ -89,7 +89,7 @@ def list(s3_prefix):
 
 # Download everything for a given prefix
 def download_all(s3_prefix, overwrite=False):
-    paths = list(s3_prefix)
+    paths = s3_list(s3_prefix)
     for path in tqdm(paths):
         # Skip directories
         if str(path).endswith("/"):
