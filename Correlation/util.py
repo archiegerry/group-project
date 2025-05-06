@@ -170,7 +170,7 @@ import numpy as np
 
 
 # Simulate a trading portfolio with capital allocation based on signal values.
-def simulate_portfolio_vectorized(df, initial_capital=10000.0, tc_rate=0.001):
+def simulate_portfolio_vectorized(df, initial_capital=10000.0, tc_rate=0.001):# def simulate_portfolio_vectorized(df, initial_capital=10000.0, tc_rate=0.001):
     # Convert input dataframe to a pivot table format for vectorized operations
     # This creates a multi-indexed DataFrame with dates as index and symbols as columns
     pivot_close = df.pivot_table(index='dt', columns='symbol', values='close')
@@ -191,6 +191,7 @@ def simulate_portfolio_vectorized(df, initial_capital=10000.0, tc_rate=0.001):
     position_values = np.zeros(n_dates)
     transaction_costs = np.zeros(n_dates)
     positions_array = np.zeros((n_dates, n_symbols))
+    notional_positions_array = np.zeros((n_dates, n_symbols))
     
     # Initial cash
     cash_values[0] = initial_capital
@@ -282,13 +283,23 @@ def simulate_portfolio_vectorized(df, initial_capital=10000.0, tc_rate=0.001):
                 # Recalculate transaction costs
                 total_cost = np.sum(actual_buy_costs) + np.sum(sell_costs)
         else:
-            # No signals, keep positions the same
-            new_positions = prev_positions
-            new_cash = cash_values[t-1]
-            total_cost = 0
+            # No signals, sell all positions
+            # Calculate sell values and costs for liquidating all positions
+            sell_values = prev_positions * curr_prices
+            sell_costs = sell_values * tc_rate
+            
+            # Update cash with proceeds from sells
+            new_cash = cash_values[t-1] + np.sum(sell_values) - np.sum(sell_costs)
+            
+            # Set new positions to zero (liquidate everything)
+            new_positions = np.zeros_like(prev_positions)
+            
+            # Total transaction cost is the sum of sell costs
+            total_cost = np.sum(sell_costs)
         
         # Update state
         positions_array[t] = new_positions
+        notional_positions_array[t] = new_positions * curr_prices
         cash_values[t] = new_cash
         position_values[t] = np.sum(new_positions * curr_prices)
         portfolio_values[t] = cash_values[t] + position_values[t]
@@ -313,5 +324,6 @@ def simulate_portfolio_vectorized(df, initial_capital=10000.0, tc_rate=0.001):
     
     # Create positions DataFrame if needed
     positions_df = pd.DataFrame(positions_array, index=dates, columns=symbols)
+    notional_positions_df = pd.DataFrame(notional_positions_array, index=dates, columns=symbols)
     
-    return portfolio_df, positions_df
+    return portfolio_df, positions_df, notional_positions_df
