@@ -36,7 +36,7 @@ Supported modes:
 
 
 ---
-## Splitting
+## Segmentation
 ### Description
 Cruncher can also split processed Parquet files (Reddit or GNews) into multiple files by search terms, using a predefined mapping from:
 `../../DataRetrieval/Stocks/data/search_terms_reduced.csv`
