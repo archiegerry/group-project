@@ -290,19 +290,10 @@ def simulate_portfolio_vectorized(df, initial_capital=10000.0, tc_rate=0.001):# 
                 # Recalculate transaction costs
                 total_cost = np.sum(actual_buy_costs) + np.sum(sell_costs)
         else:
-            # No signals, sell all positions
-            # Calculate sell values and costs for liquidating all positions
-            sell_values = prev_positions * curr_prices
-            sell_costs = sell_values * tc_rate
-            
-            # Update cash with proceeds from sells
-            new_cash = cash_values[t-1] + np.sum(sell_values) - np.sum(sell_costs)
-            
-            # Set new positions to zero (liquidate everything)
-            new_positions = np.zeros_like(prev_positions)
-            
-            # Total transaction cost is the sum of sell costs
-            total_cost = np.sum(sell_costs)
+            # No signals, keep positions
+            new_positions = prev_positions
+            new_cash = cash_values[t-1]
+            total_cost = 0
         
         # Update state
         positions_array[t] = new_positions
